@@ -157,6 +157,7 @@
     <Content Include="Content\CSS\3rd Party\flickity.css" />
     <Content Include="Content\CSS\flipcard.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
+    <Content Include="Content\CSS\home.css" />
     <Content Include="Content\CSS\main.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />

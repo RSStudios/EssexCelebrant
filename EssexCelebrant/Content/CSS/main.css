@@ -63,7 +63,7 @@
 		margin-right: auto;
 	}
 
-	.container.\31 25\25 {
+	/*.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
 		min-width: 80em;
@@ -83,7 +83,7 @@
 
 	.container {
 		width: 80em;
-	}
+	}*/
 
 	@media screen and (max-width: 1680px) {
 
@@ -110,7 +110,7 @@
 		}
 
 	}
-
+    /*
 	@media screen and (max-width: 1280px) {
 
 		.container.\31 25\25 {
@@ -213,7 +213,7 @@
 			width: 90% !important;
 		}
 
-	}
+	}*/
 
 /* Grid */
 
@@ -1118,7 +1118,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	/*@media screen and (max-width: 736px) {
 
 		.row > * {
 			padding: 0 0 0 1.25em;
@@ -1331,7 +1331,7 @@
 			margin-left: 8.33333%;
 		}
 
-	}
+	}*/
 
 	@media screen and (max-width: 480px) {
 

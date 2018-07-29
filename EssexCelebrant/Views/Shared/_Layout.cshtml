@@ -11,12 +11,13 @@
     <title>Essex Celebrant - @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
 </head>
 <body>
     <!-- Header -->
     <header id="header">
         <div class="inner">
-            <a href="index.html" class="logo">introspect</a>
+            <a href="index.html" class="logo">Essex Celebrant</a>
             <nav id="nav">
                 <a href="Home.html">Home</a>
                 <a href="generic.html">Generic</a>
@@ -25,23 +26,7 @@
         </div>
     </header>
 
-    <!-- Banner -->
-    <section id="banner">
-        <div class="inner">
-            <h1>
-                Introspect: <span>
-                    A free + fully responsive<br />
-                    site template by TEMPLATED
-                </span>
-            </h1>
-            <ul class="actions">
-                <li><a href="#" class="button alt">Get Started</a></li>
-            </ul>
-        </div>
-    </section>
-    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
-    <div class="container body-content">
+    <div class="container">
         @RenderBody()
         <hr />
         <footer>
@@ -73,8 +58,7 @@
             </section>
         </footer>
     </div>
-
-    @Scripts.Render("~/bundles/jquery")
+   
     @Scripts.Render("~/bundles/Introspect")
 
     @RenderSection("scripts", required: false)
