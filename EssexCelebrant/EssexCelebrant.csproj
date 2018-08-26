@@ -149,6 +149,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CelebrantController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
+    <Compile Include="Controllers\FuneralsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
     <Compile Include="Controllers\VenuesController.cs" />
@@ -160,10 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\CSS\3rd Party\flickity.css" />
+    <Content Include="Content\CSS\FAQ.css" />
     <Content Include="Content\CSS\flipcard.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\home.css" />
     <Content Include="Content\CSS\main.css" />
+    <Content Include="Content\CSS\Weddings.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
@@ -221,6 +224,7 @@
     <Content Include="Views\Venues\Venues.cshtml" />
     <Content Include="Views\FAQ\FAQ.cshtml" />
     <Content Include="Views\Celebrant\Index.cshtml" />
+    <Content Include="Views\Funerals\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1773,7 +1773,8 @@ strong, b {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #e5474b;
+    /*color: #e5474b;*/
+    color: hsl(356, 39%, 56%);
 }
 
 blockquote {
