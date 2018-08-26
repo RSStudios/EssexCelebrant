@@ -15,6 +15,7 @@ namespace EssexCelebrant
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Content/Scripts/3rdParty/modernizr-*"));
 
+            // This is who the HTML template is from
             bundles.Add(new ScriptBundle("~/bundles/Introspect")
                 .Include("~/Content/Scripts/3rdParty/Introspect/skel.min.js")
                 .Include("~/Content/Scripts/3rdParty/Introspect/util.js")

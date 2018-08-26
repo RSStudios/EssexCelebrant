@@ -1,29 +1,47 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
-@*<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
-<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>*@
+
+<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
+<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
 <link href="~/Content/CSS/home.css" rel="stylesheet" />
 
 <!-- Banner -->
-@*<div class="main-carousel">
+<div class="main-carousel">
     <div class="carousel-cell">
-        <img src="~/Content/Images/Glenn-Headshot1.jpg" />
+        <img src="~/Content/Images/Temp/One.jpg" style="width: 75%;" />
+        this is a test
     </div>
     <div class="carousel-cell">
-        <img src="~/Content/Images/Pimms on ice.jpg" />
+        <img src="~/Content/Images/Temp/Two.jpg" style="width: 75%" />
     </div>
-</div>*@
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Temp/Three.jpg" style="width: 75%" />
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Temp/Four.jpg" style="width: 75%" />
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Temp/Five.jpg" style="width: 75%" />
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Temp/Six.jpg" style="width: 75%" />
+    </div>
+</div>
 
 <!-- One -->
 <section id="one">
     <div class="inner">
         <header>
-            <h2>Magna Etiam Lorem</h2>
+            <h2>Glenn's Services Here</h2>
         </header>
-        <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
+        <section>
+            <article>
+                Based near Maldon in Essex, all venues through Essex, Suffolk, Cambridgeshire and Hertfordshire are well served, with many venues being familiar.
+            </article>
+        </section>
         <ul class="actions">
-            <li><a href="#" class="button alt">Learn More</a></li>
+            <li><a href="Home/About" class="button alt">Learn More</a></li>
         </ul>
     </div>
 </section>
@@ -34,23 +52,23 @@
         <article>
             <div class="content">
                 <header>
-                    <h3>Pellentesque adipis</h3>
+                    <h3>Promote a service here</h3>
                 </header>
                 <div class="image fit">
-                    <img src="~/Content/Images/pic01.jpg" />
+                    <img src="~/Content/Images/Glenn-Headshot1.jpg" style="height: 250px;" />
                 </div>
-                <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                <p><i>We can link to another page for more detail. </i>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
             </div>
         </article>
         <article class="alt">
             <div class="content">
                 <header>
-                    <h3>Morbi interdum mol</h3>
+                    <h3>Promote a service here</h3>
                 </header>
                 <div class="image fit">
-                    <img src="~/Content/Images/pic02.jpg" />
+                    <img src="~/Content/Images/Toastmasterx.jpg" style="height: 250px;" />
                 </div>
-                <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+                <p><i>We can link to another page for more detail. </i>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
             </div>
         </article>
     </div>
@@ -98,11 +116,11 @@
     </div>
 </section>
 
-@*<script>
+<script>
     var elem = document.querySelector('.main-carousel');
     var flkty = new Flickity(elem, {
         // options
         cellAlign: 'left',
         contain: true
     });
-</script>*@
+</script>

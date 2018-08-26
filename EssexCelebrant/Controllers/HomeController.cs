@@ -22,7 +22,7 @@ namespace EssexCelebrant.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "contact Me";
+            ViewBag.Message = "Contact Me";
 
             return View();
         }

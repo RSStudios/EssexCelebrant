@@ -1,5 +1,13 @@
-﻿.carousel-cell {
-    width: 100%; /* full width */
-    height: 400px; /* height of carousel */
-    margin-right: 10px;
+﻿.main-carousel {
+    background-color: hsl(11, 35%, 41%);
+}
+
+    .main-carousel .carousel-cell {
+        width: 100%; /* full width */
+        height: 400px; /* height of carousel */
+        margin-right: 10px;
+    }
+
+.inner article {
+    margin-bottom: 20px;
 }

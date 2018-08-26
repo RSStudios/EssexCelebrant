@@ -105,9 +105,9 @@ body {
         width: 20em;
     }
 
-    .container {
+    /*.container {
         width: 80em;
-    }
+    }*/
 }
 
 @media screen and (max-width: 1280px) {
@@ -3074,12 +3074,13 @@ table {
 body {
     position: relative;
     padding-top: 5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #header {
     color: #d5d5d5;
     cursor: default;
-    height: 7em;
+    /*height: 7em;*/
     left: 0;
     line-height: 3em;
     position: fixed;
@@ -3087,7 +3088,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #1c1c1c;
+    background: hsl(11, 83%, 28%);
 }
 
     #header .inner {
