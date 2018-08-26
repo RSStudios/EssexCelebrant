@@ -160,8 +160,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\3rd Party\bootstrap-theme.css" />
+    <Content Include="Content\CSS\3rd Party\bootstrap-theme.min.css" />
+    <Content Include="Content\CSS\3rd Party\bootstrap.css" />
     <Content Include="Content\CSS\3rd Party\flickity.css" />
     <Content Include="Content\CSS\FAQ.css" />
+    <Content Include="Content\CSS\Testimonials.css" />
     <Content Include="Content\CSS\flipcard.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\home.css" />
@@ -183,6 +187,8 @@
     <Content Include="Content\Images\pic09.jpg" />
     <Content Include="Content\Images\pic10.jpg" />
     <Content Include="Content\Images\pic11.jpg" />
+    <Content Include="Content\Scripts\3rdParty\Bootstrap\bootstrap.js" />
+    <Content Include="Content\Scripts\3rdParty\Bootstrap\bootstrap.min.js" />
     <Content Include="Content\Scripts\3rdParty\Flickity\flickity.pkgd.min.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\main.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\skel.min.js" />
@@ -225,6 +231,7 @@
     <Content Include="Views\FAQ\FAQ.cshtml" />
     <Content Include="Views\Celebrant\Index.cshtml" />
     <Content Include="Views\Funerals\Index.cshtml" />
+    <Content Include="Views\Home\Testimonials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1917,7 +1917,7 @@ input[type="button"],
 button,
 .button {
     background-color: #5a5a5a;
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
     input[type="submit"]:hover,
