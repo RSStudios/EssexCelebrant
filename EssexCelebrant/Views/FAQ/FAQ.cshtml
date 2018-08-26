@@ -3,12 +3,6 @@
     ViewBag.Title = "FAQ";
 }
 
-@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
-<link href="~/Content/CSS/3rd Party/bootstrap-theme.css" rel="stylesheet" />
-<link href="~/Content/CSS/3rd Party/bootstrap-theme.min.css" rel="stylesheet" />
-<link href="~/Content/CSS/3rd Party/bootstrap.css" rel="stylesheet" />
-<script src="~/Content/Scripts/3rdParty/Bootstrap/bootstrap.min.js"></script>
 <link href="~/Content/CSS/FAQ.css" rel="stylesheet" />
 
 <section>
@@ -159,32 +153,69 @@
 </script>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+@*<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">*@
 
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <label class="modal-title">Modal Header</label>
-            </div>
-            <div class="modal-body">
-                <p>Some text in the modal.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
+<!-- Modal content-->
+@*<div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <label class="modal-title">Modal Header</label>
         </div>
+        <div class="modal-body">
+            <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>*@
 
+@*</div>
+    </div>*@
+<!-- The Modal -->
+<div class="modal-overlay closed" id="modal-overlay"></div>
+
+<div class="modal closed" id="modal">
+    <button class="close-button" id="close-button">X</button>
+    <div class="modal-content">
+        <div class="modal-title"></div>
+        <div class="modal-body"></div>
     </div>
 </div>
 
 <script>
+    //var modal = document.getElementById('myModal');
+    //// Get the <span> element that closes the modal
+    //var span = document.getElementsByClassName("close")[0];
+
+    //// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modalOverlay) {
+            modal.classList.toggle("closed");
+            modalOverlay.classList.toggle("closed");
+        }
+    };
+
+    //// When the user clicks on <span> (x), close the modal
+    //span.onclick = function () {
+    //    modal.style.display = "none";
+    //};
+
     $('.click').off('click').on('click', function () {
         var quHtml = $(this).text();
         var quId = $(this).data().questionId;
         var ansHtml = $('.answer' + quId).html();
         $('.modal-title').html(quHtml);
         $('.modal-body').html(ansHtml);
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
+    });
+    var modal = document.querySelector("#modal");
+    var modalOverlay = document.querySelector("#modal-overlay");
+    var closeButton = document.querySelector("#close-button");
+
+    closeButton.addEventListener("click", function () {
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
     });
 </script>
