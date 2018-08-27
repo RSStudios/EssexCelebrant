@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essex Celebrant - @ViewBag.Title</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
@@ -17,29 +18,38 @@
 <body>
     <!-- Header -->
     <header id="header">
-        <div class="inner">
-            <div style="">
+        <div style="clear: both;">
+            @*<div>
                 <a style="padding-left: 5px;" href="index.html" class="logo">
                     <div style="text-align: left;">Glenn Mayes</div>
                     <div style="text-align: left;">Essex Celebrant</div>
                 </a>
-            </div>
-            <div style="">
-                <nav id="nav" style="margin-top: 25px; padding-right: 5px;">
-                    <a href="@Url.Action("Index", "Home")">Home</a>
-                    <a href="@Url.Action("About", "Home")">About me</a>
-                    <a href="@Url.Action("Index", "Weddings")">Weddings</a>
-                    <a href="elements.html">Gallery</a>
-                    <a href="@Url.Action("Testimonials", "Home")">Testimonials</a>
-                    <a href="@Url.Action("Contact", "Home")">Contact me</a>
-                    <a href="@Url.Action("Index", "Links")">Links</a>
-                    <a href="@Url.Action("FAQ", "FAQ")">FAQs</a>
-                    <a href="elements.html">Venues</a>
-                    <a href="@Url.Action("Index", "Celebrant")">Independent Celebrant</a>
-                </nav>
-            </div>
+            </div>*@
+            <nav>
+                <ul class="nav">
+                    <li class="submenu">
+                        <a class="dropbtn" href="@Url.Action("Index", "Home")">Home</a>
+                        <div class="submenu-content">
+                            <a href="@Url.Action("About", "Home")">About me</a>
+                            <a href="@Url.Action("Contact", "Home")">Contact me</a>
+                        </div>
+                    </li>
+                    <li><a href="@Url.Action("Index", "Weddings")">Weddings</a></li>
+                    <li><a href="elements.html">Gallery</a></li>
+                    <li><a href="@Url.Action("Testimonials", "Home")">Testimonials</a></li>
+                    <li class="submenu">
+                        <a class="dropbtn">More</a>
+                        <div class="submenu-content">
+                            <a href="@Url.Action("Index", "Links")">Links</a>
+                            <a href="@Url.Action("Index", "FAQ")">FAQs</a>
+                        </div>
+                    </li>
+                    <li><a href="elements.html">Venues</a></li>
+                    <li><a href="@Url.Action("Index", "Celebrant")">Independent Celebrant</a></li>
+                </ul>
+            </nav>
         </div>
-        <div style="left: 35%; position: absolute; color: #fff; font-weight: bold;">
+        <div style="float: left; color: #fff; font-weight: bold;">
             Toastmaster, Master of Ceremonies &
             Independent Celebrant
         </div>
