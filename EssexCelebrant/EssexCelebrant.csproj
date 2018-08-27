@@ -161,7 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\CSS\3rd Party\flickity.css" />
-    <Content Include="Content\CSS\FAQ.css" />
+    <Content Include="Content\CSS\FAQ.css">
+      <DependentUpon>FAQ.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\FAQ.min.css">
+      <DependentUpon>FAQ.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Links.css" />
     <Content Include="Content\CSS\Menu.css">
       <DependentUpon>Menu.scss</DependentUpon>
@@ -181,6 +186,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\CSS\FAQ.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
     <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
