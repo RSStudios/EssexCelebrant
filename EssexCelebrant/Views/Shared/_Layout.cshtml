@@ -10,22 +10,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essex Celebrant - @ViewBag.Title</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
+
+    <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
     <header id="header">
         <div style="clear: both;">
             @*<div>
-                <a style="padding-left: 5px;" href="index.html" class="logo">
-                    <div style="text-align: left;">Glenn Mayes</div>
-                    <div style="text-align: left;">Essex Celebrant</div>
-                </a>
-            </div>*@
-            <nav style="margin-top: 30px;">
+                    <a style="padding-left: 5px;" href="index.html" class="logo">
+                        <div style="text-align: left;">Glenn Mayes</div>
+                        <div style="text-align: left;">Essex Celebrant</div>
+                    </a>
+                </div>*@
+            <nav>
                 <ul class="nav">
                     <li class="submenu">
                         <a class="dropbtn" href="@Url.Action("Index", "Home")">Home</a>
@@ -49,9 +50,9 @@
                 </ul>
             </nav>
         </div>
-        <div style="float: left; color: #fff; font-weight: bold; width: 50%;">
-            <p style="margin: 0 0 0 77%; padding: 0; font-size: 135%; color: #fff; font-family: 'Pacifico', cursive; font-weight: normal;">Glenn Mayes</p>
-             <p style="margin: 0; padding: 0; font-size: 80%; color: #fff;">Toastmaster, Master of Ceremonies & Independent Celebrant</p>
+        <div class="glenn-title">Glenn Mayes</div>
+        <div class="toastmaster-logo">
+            Toastmaster, Master of Ceremonies & Independent Celebrant
         </div>
     </header>
 
