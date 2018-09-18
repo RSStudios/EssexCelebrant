@@ -159,6 +159,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -184,11 +185,13 @@
     <Content Include="Content\CSS\Weddings.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\CSS\Menu.scss" />
+    <Content Include="Assets\JSON\Venues.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="Content\CSS\FAQ.scss" />
+    <Content Include="Config\app_home.config" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
     <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
@@ -255,6 +258,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EssexCelebrant.Business\EssexCelebrant.Business.csproj">
+      <Project>{deb3310a-aa62-4f54-9d49-8573ba38b312}</Project>
+      <Name>EssexCelebrant.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

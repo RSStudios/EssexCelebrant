@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using EssexCelebrant.Business;
+using EssexCelebrant.Models;
+using System.Web.Mvc;
 
 namespace EssexCelebrant.Controllers
 {
@@ -6,7 +8,10 @@ namespace EssexCelebrant.Controllers
     {
         public ActionResult Index()
         {
-            return View("Venues");
+            var url = Helper.AppSetting("JSON.Venues");
+            var results = Venues.GetVenues(url);
+
+            return View("Venues", results);
         }
     }
 }

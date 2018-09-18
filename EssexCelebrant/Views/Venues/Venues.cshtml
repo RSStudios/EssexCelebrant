@@ -1,7 +1,19 @@
-﻿
+﻿@model List<EssexCelebrant.Business.VenuesPoco>
 @{
     ViewBag.Title = "Venues";
 }
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
+
 <h3>Venues</h3>
 
+@foreach (var m in Model)
+{
+    <label>@m.Venue</label>
+}
+@*
+        Model must contain the json data
+
+    1. show all venues on page load: comes from JSON file? and put that into knockout?
+        2. have a search input box
+        3. using Knockout showing venues as they type*@

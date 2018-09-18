@@ -1,0 +1,12 @@
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\bin\Debug\netstandard2.0\EssexCelebrant.Business.deps.json
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\bin\Debug\netstandard2.0\EssexCelebrant.Business.dll
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\bin\Debug\netstandard2.0\EssexCelebrant.Business.pdb
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.csprojAssemblyReference.cache
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.csproj.CoreCompileInputs.cache
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.AssemblyInfoInputs.cache
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.AssemblyInfo.cs
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.dll
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.pdb
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\bin\Debug\netstandard2.0\EssexCelebrant.DataAccess.dll
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\bin\Debug\netstandard2.0\EssexCelebrant.DataAccess.pdb
+C:\Projects\EssexCelebrant\EssexCelebrant.Business\obj\Debug\netstandard2.0\EssexCelebrant.Business.csproj.CopyComplete
