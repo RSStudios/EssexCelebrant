@@ -1,7 +1,8 @@
 ﻿nav {
-    float: right;
+    position: absolute;
+    right: 5px;
+    top: 23px;
     padding-right: 5px;
-    padding-top: 30px;
 
     ul {
         list-style-type: none;
@@ -57,7 +58,7 @@
 }
 
 .glenn-title {
-    position: relative;
+    position: absolute;
     top: 15px;
     left: 35%;
     padding: 0;
@@ -72,4 +73,6 @@
     padding: 0;
     font-size: 100%;
     color: #fff;
+    position: absolute;
+    top: 48px;
 }

@@ -61,6 +61,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 /*.container.\31 25\25 {
@@ -3081,7 +3082,7 @@ body {
 #header {
     color: #d5d5d5;
     cursor: default;
-    /*height: 7em;*/
+    height: 5.5em;
     left: 0;
     line-height: 3em;
     position: fixed;
