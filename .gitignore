@@ -11,5 +11,6 @@ v15/
 .vs/EssexCelebrant/v15/Server/sqlite3/db.lock
 .vs/EssexCelebrant/DesignTimeBuild/.dtbcache
 .vs/config/applicationhost.config
-EssexCelebrant.Business\obj\*
-EssexCelebrant.Data\obj\*
+bin
+obj
+*.suo
