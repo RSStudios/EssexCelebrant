@@ -11,5 +11,4 @@ v15/
 .vs/config/applicationhost.config
 **/[Oo]bj/
 [Oo]bj/
-EssexCelebrant/**/bin/
-EssexCelebrant/bin/EssexCelebrant.Business.dll
+EssexCelebrant/bin/
