@@ -1,8 +1,9 @@
 
-*.suo
+**/v15
 obj/
 v15/
 **/bin
 **/obj
 **/sqlite3
 .vs/config/applicationhost.config
+EssexCelebrant.DataAccess\obj
