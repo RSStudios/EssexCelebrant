@@ -214,23 +214,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sally\\.nuget\\packages\\": {},
+    "C:\\Users\\Robert\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\EssexCelebrant.DataAccess.csproj",
+      "projectUniqueName": "C:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\EssexCelebrant.DataAccess.csproj",
       "projectName": "EssexCelebrant.DataAccess",
-      "projectPath": "D:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\EssexCelebrant.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Sally\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\obj\\",
+      "projectPath": "C:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\EssexCelebrant.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\EssexCelebrant\\EssexCelebrant.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sally\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
