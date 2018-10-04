@@ -192,6 +192,7 @@
     </None>
     <Content Include="Content\CSS\FAQ.scss" />
     <Content Include="Config\app_home.config" />
+    <Content Include="Config\app_home_sally.config" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
     <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
