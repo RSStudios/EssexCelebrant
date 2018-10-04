@@ -10,14 +10,6 @@ v15/
 .vs/EssexCelebrant/v15/Server/sqlite3/db.lock
 .vs/EssexCelebrant/DesignTimeBuild/.dtbcache
 .vs/config/applicationhost.config
-**/[Bb]in/
-**/[Oo]bj/
+
 *.suo
-EssexCelebrant.Business/[Bb]in/
-EssexCelebrant.Business/[Oo]bj/
-EssexCelebrant/[Bb]in/
-EssexCelebrant.Business\[Bb]in\
-EssexCelebrant.Business\[Oo]bj\
-EssexCelebrant\[Bb]in\
-EssexCelebrant/bin/*
-EssexCelebrant\bin\*
+
