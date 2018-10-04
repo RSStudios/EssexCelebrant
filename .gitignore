@@ -7,3 +7,9 @@ v15/
 **/sqlite3
 .vs/config/applicationhost.config
 EssexCelebrant.DataAccess\obj
+.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-wal
+.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-shm
+.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide
+.vs/EssexCelebrant/v15/Server/sqlite3/db.lock
+.vs/EssexCelebrant/DesignTimeBuild/.dtbcache
+.vs/config/applicationhost.config
