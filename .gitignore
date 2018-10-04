@@ -1,7 +1,8 @@
 
-.vs/EssexCelebrant/v15/.suo
-.vs/EssexCelebrant/v15/.suo
-.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-shm
+*.suo
+obj/
+v15/
+bin/
 .vs/config/applicationhost.config
 .vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-shm
 EssexCelebrant/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
@@ -28,21 +29,6 @@ EssexCelebrant/bin/EssexCelebrant.pdb
 EssexCelebrant/obj/Debug/EssexCelebrant.csprojAssemblyReference.cache
 EssexCelebrant/obj/Debug/EssexCelebrant.dll
 EssexCelebrant/obj/Debug/EssexCelebrant.pdb
-<<<<<<< HEAD
-EssexCelebrant/bin/EssexCelebrant.pdb
-EssexCelebrant/bin/EssexCelebrant.dll
-EssexCelebrant.DataAccess/obj/Debug/netstandard2.0/EssexCelebrant.DataAccess.csprojAssemblyReference.cache
-EssexCelebrant.Business/obj/Debug/netstandard2.0/EssexCelebrant.Business.csprojAssemblyReference.cache
-.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-wal
-.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-shm
-.vs/EssexCelebrant/v15/Server/sqlite3/storage.ide
-.vs/EssexCelebrant/v15/.suo
-.vs/EssexCelebrant/DesignTimeBuild/.dtbcache
-EssexCelebrant/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-EssexCelebrant/obj/Debug/EssexCelebrant.csprojAssemblyReference.cache
-EssexCelebrant/obj/Debug/EssexCelebrant.dll
-EssexCelebrant/obj/Debug/EssexCelebrant.pdb
-=======
 EssexCelebrant/obj/Debug/EssexCelebrant.csproj.CoreCompileInputs.cache
 EssexCelebrant/obj/Debug/EssexCelebrant.csprojAssemblyReference.cache
 EssexCelebrant.DataAccess/obj/EssexCelebrant.DataAccess.csproj.nuget.g.props
@@ -69,4 +55,3 @@ EssexCelebrant.Business/obj/Debug/netstandard2.0/EssexCelebrant.Business.csprojA
 EssexCelebrant.Business/obj/Debug/netstandard2.0/EssexCelebrant.Business.csproj.CoreCompileInputs.cache
 .vs/EssexCelebrant/v15/Server/sqlite3/storage.ide-shm
 .vs/config/applicationhost.config
->>>>>>> 3d2285232bc15398822bdab765a8ee4786a8165c
