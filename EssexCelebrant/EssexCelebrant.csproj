@@ -217,6 +217,7 @@
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.slim.min.js" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery.validate-vsdoc.js" />
     <Content Include="Content\Scripts\3rdParty\modernizr-2.8.3.js" />
+    <Content Include="Content\Scripts\App\vm.venue.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">

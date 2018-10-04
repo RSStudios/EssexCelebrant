@@ -1,19 +1,37 @@
-﻿@model List<EssexCelebrant.Business.VenuesPoco>
+﻿@using System.Web.Script.Serialization;
+
+@model List<EssexCelebrant.Business.VenuesPoco>
 @{
     ViewBag.Title = "Venues";
+    JavaScriptSerializer serialiser = new JavaScriptSerializer();
+
+    var data = Model.Select(c => new
+    {
+        county = c.County,
+        link = c.Link,
+        venue = c.Venue
+    });
+
+    string arrayForJs = serialiser.Serialize(data);
 }
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
+<script src="~/Content/Scripts/App/vm.venue.js"></script>
 
 <h3>Venues</h3>
 
-@foreach (var m in Model)
-{
-    <label>@m.Venue</label>
-}
-@*
-        Model must contain the json data
+<div data-bind="foreach: venues">
+    <p data-bind='text: venue'> </p>
+    </div>
+    @*
+            Model must contain the json data
 
-    1. show all venues on page load: comes from JSON file? and put that into knockout?
-        2. have a search input box
-        3. using Knockout showing venues as they type*@
+        1. show all venues on page load: comes from JSON file? and put that into knockout?
+            2. have a search input box
+            3. using Knockout showing venues as they type*@
+
+    <script>
+    var data = JSON.parse('@arrayForJs'.replace(/&quot;/g, '"'));
+    window.essexCelebrantVM = new EssexCelebrant.VenuesVM(data);
+    ko.applyBindings(window.essexCelebrantVM);
+    </script>
