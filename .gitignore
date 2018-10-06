@@ -54,3 +54,9 @@ Ankh.NoLoad
 !/packages/*/lib/*/*.dll
 EssexCelebrant/bin/
 EssexCelebrant/obj/Debug/
+
+EssexCelebrant.Business/obj/
+EssexCelebrant.Business/bin/
+
+EssexCelebrant.DataAccess/obj/
+EssexCelebrant.DataAccess/bin/

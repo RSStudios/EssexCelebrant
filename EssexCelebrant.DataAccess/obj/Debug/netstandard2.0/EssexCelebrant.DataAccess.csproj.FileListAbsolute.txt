@@ -1,9 +1,0 @@
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\bin\Debug\netstandard2.0\EssexCelebrant.DataAccess.deps.json
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\bin\Debug\netstandard2.0\EssexCelebrant.DataAccess.dll
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.csproj.CoreCompileInputs.cache
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.AssemblyInfoInputs.cache
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.AssemblyInfo.cs
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\bin\Debug\netstandard2.0\EssexCelebrant.DataAccess.pdb
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.csprojAssemblyReference.cache
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.dll
-C:\Projects\EssexCelebrant\EssexCelebrant.DataAccess\obj\Debug\netstandard2.0\EssexCelebrant.DataAccess.pdb
