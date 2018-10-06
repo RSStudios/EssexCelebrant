@@ -3,7 +3,7 @@
   margin: auto; }
 
 .venues--search {
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 label {
   color: #e5474b;
@@ -11,7 +11,21 @@ label {
   font-weight: normal;
   text-transform: initial;
   text-decoration: underline;
-  display: block; }
+  display: block;
+  cursor: pointer; }
 
 p {
   margin: 0; }
+
+h2 {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 30px; }
+
+h3 {
+  font-weight: 700;
+  margin: 1em 0 0.1em 0;
+  color: #bb6369;
+  text-transform: initial; }
+  h3:first-child {
+    margin-top: 0; }

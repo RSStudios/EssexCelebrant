@@ -12,6 +12,7 @@ namespace EssexCelebrant.Controllers
             XmlReader reader = XmlReader.Create(url);
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
+
             foreach (SyndicationItem item in feed.Items)
             {
                 string subject = item.Title.Text;

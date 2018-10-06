@@ -1,11 +1,34 @@
 ﻿(function () {
+    ko.observableArray.fn.distinct = function (prop) {
+        var target = this;
+        target.index = {};
+        target.index[prop] = ko.observable({});
+
+        ko.computed(function () {
+            //rebuild index
+            var propIndex = {};
+
+            ko.utils.arrayForEach(target(), function (item) {
+                var key = ko.utils.unwrapObservable(item[prop]);
+                if (key) {
+                    propIndex[key] = propIndex[key] || [];
+                    propIndex[key].push(item);
+                }
+            });
+
+            target.index[prop](propIndex);
+        });
+
+        return target;
+    };    
 
     var EssexCelebrant = window.EssexCelebrant = window.EssexCelebrant || {};
 
-    EssexCelebrant.VenuesVM = function (venueData) {
+    EssexCelebrant.VenuesVM = function (venueData, counties) {
         var self = this;
         self.masterVenues = ko.observableArray(venueData);
-        self.filteredVenues = ko.observableArray(venueData);
+        self.filteredVenues = ko.observableArray(venueData).distinct('county');
+        self.allCounties = ko.observableArray(counties);
 
         self.clearSearchFilters = function () {
 

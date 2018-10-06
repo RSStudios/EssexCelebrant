@@ -12,21 +12,41 @@
         venue = c.Venue
     });
 
+    var groupedCounties = Model.GroupBy(g => g.County).Select(s => new
+    {
+        county = s.Key
+    });
+
     string arrayForJs = serialiser.Serialize(data);
+    string counties = serialiser.Serialize(groupedCounties);
 }
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
 <script src="~/Content/Scripts/App/vm.venue.js"></script>
+<link href="~/Content/CSS/Venues.css" rel="stylesheet" />
 
-<h3>Venues</h3>
+<h2>Venues</h2>
 
-<input id="search-text" type="text" />
-<div data-bind="foreach: filteredVenues">
-    <p data-bind='text: venue'> </p>
-</div>
+<article class="venues" style="margin-bottom: 40px;">
+    <input id="search-text" type="text" placeholder="Search for a venue" class="venues--search" />
 
+    <section data-bind="foreach: allCounties">
+        <h3 data-bind="text: county"></h3>
+        <section data-bind="foreach: $root.filteredVenues.index.county()[county]">
+            <!-- ko if: link === '' -->
+            <p data-bind='text: venue'> </p>
+            <!-- /ko -->
+            <!-- ko if: link !== '' -->
+            <a data-bind="attr: { href: link }" target="_blank">
+                <label data-bind="text: venue"></label>
+            </a>
+            <!-- /ko -->
+        </section>
+    </section>
+</article>
 <script>
     var data = JSON.parse('@arrayForJs'.replace(/&quot;/g, '"'));
-    window.essexCelebrantVM = new EssexCelebrant.VenuesVM(data);
+    var counties = JSON.parse('@counties'.replace(/&quot;/g, '"'));
+    window.essexCelebrantVM = new EssexCelebrant.VenuesVM(data, counties);
     ko.applyBindings(window.essexCelebrantVM);
 </script>
