@@ -52,12 +52,17 @@ Ankh.NoLoad
 # Include DLLs if they're in the NuGet packages directory
 !/packages/*/lib/*.dll
 !/packages/*/lib/*/*.dll
+
+# Note the backslash to escape dot between t and b and between the 2 and zero.
+#EssexCelebrant\.Business/bin/Debug/netstandard2\.0/
+
+# Essex Celebrant
 EssexCelebrant/bin/
 EssexCelebrant/obj/Debug/
 
-
+# Essex Celebrant Data Access
 EssexCelebrant\.DataAccess/bin/
-
 EssexCelebrant\.DataAccess/obj/
 
-#EssexCelebrant\.Business/bin/Debug/netstandard2\.0/
+# Essex Celebrant Business
+EssexCelebrant\.Business/bin/
