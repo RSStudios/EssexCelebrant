@@ -1,6 +1,7 @@
 #Junk Files
 *.DS_Store
 [Tt]humbs.db
+applicationhost.config
 
 #Visual Studio Files
 [Oo]bj
@@ -25,6 +26,8 @@
 *.lib
 *.sbr
 *.sdf
+[Vv]15
+[Dd]esignTimeBuild
 ipch/ 
 *.dbmdl
 *.csproj.user
