@@ -152,6 +152,7 @@
     <Compile Include="Controllers\FuneralsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
+    <Compile Include="Controllers\TestimonialsController.cs" />
     <Compile Include="Controllers\VenuesController.cs" />
     <Compile Include="Controllers\WeddingsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -175,7 +176,12 @@
     <Content Include="Content\CSS\Menu.min.css">
       <DependentUpon>Menu.css</DependentUpon>
     </Content>
-    <Content Include="Content\CSS\Testimonials.css" />
+    <Content Include="Content\CSS\Testimonials.css">
+      <DependentUpon>Testimonials.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Testimonials.min.css">
+      <DependentUpon>Testimonials.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\flipcard.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\home.css" />
@@ -198,6 +204,7 @@
     <Content Include="Config\app_home.config" />
     <Content Include="Config\app_home_sally.config" />
     <Content Include="Content\CSS\Venues.scss" />
+    <Content Include="Content\CSS\Testimonials.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
     <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
@@ -257,6 +264,7 @@
     <Content Include="Views\Celebrant\Index.cshtml" />
     <Content Include="Views\Funerals\Index.cshtml" />
     <Content Include="Views\Home\Testimonials.cshtml" />
+    <Content Include="Views\Testimonials\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -22,10 +22,5 @@ namespace EssexCelebrant.Controllers
 
             return View();
         }
-
-        public ActionResult Testimonials()
-        {
-            return View();
-        }
     }
 }
