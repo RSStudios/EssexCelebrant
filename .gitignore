@@ -55,8 +55,9 @@ Ankh.NoLoad
 EssexCelebrant/bin/
 EssexCelebrant/obj/Debug/
 
-EssexCelebrant.Business/obj/
-EssexCelebrant.Business/bin/
 
-EssexCelebrant.DataAccess/obj/
-EssexCelebrant.DataAccess/bin/
+EssexCelebrant\.DataAccess/bin/
+
+EssexCelebrant\.DataAccess/obj/
+
+#EssexCelebrant\.Business/bin/Debug/netstandard2\.0/
