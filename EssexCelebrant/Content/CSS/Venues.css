@@ -1,0 +1,17 @@
+﻿.venues {
+  width: 50%;
+  margin: auto; }
+
+.venues--search {
+  margin-bottom: 40px; }
+
+label {
+  color: #e5474b;
+  margin: 0;
+  font-weight: normal;
+  text-transform: initial;
+  text-decoration: underline;
+  display: block; }
+
+p {
+  margin: 0; }

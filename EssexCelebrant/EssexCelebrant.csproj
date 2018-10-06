@@ -180,6 +180,12 @@
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\home.css" />
     <Content Include="Content\CSS\main.css" />
+    <Content Include="Content\CSS\Venues.css">
+      <DependentUpon>Venues.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Venues.min.css">
+      <DependentUpon>Venues.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Weddings.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\CSS\Menu.scss" />
@@ -191,6 +197,7 @@
     <Content Include="Content\CSS\FAQ.scss" />
     <Content Include="Config\app_home.config" />
     <Content Include="Config\app_home_sally.config" />
+    <Content Include="Content\CSS\Venues.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\banner.jpg" />
     <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
