@@ -12,7 +12,8 @@ label {
   text-transform: initial;
   text-decoration: underline;
   display: block;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 100%; }
 
 p {
   margin: 0; }
