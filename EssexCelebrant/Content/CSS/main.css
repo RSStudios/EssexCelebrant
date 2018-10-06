@@ -30,14 +30,14 @@ ol, ul {
     list-style: none;
 }
 
-blockquote, q {
+/*blockquote, q {
     quotes: none;
 }
 
     blockquote:before, blockquote:after, q:before, q:after {
         content: '';
         content: none;
-    }
+    }*/
 
 table {
     border-collapse: collapse;
@@ -1709,12 +1709,12 @@ sup {
     top: -0.5em;
 }
 
-blockquote {
+/*blockquote {
     border-left: solid 4px;
     font-style: italic;
     margin: 0 0 2em 0;
     padding: 0.5em 0 0.5em 2em;
-}
+}*/
 
 code {
     border-radius: 0;
@@ -1778,9 +1778,9 @@ h1, h2, h3, h4, h5, h6 {
     color: hsl(356, 39%, 56%);
 }
 
-blockquote {
+/*blockquote {
     border-left-color: #e5474b;
-}
+}*/
 
 code {
     background: none;

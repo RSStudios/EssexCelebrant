@@ -1,36 +1,57 @@
-﻿/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000px; }
+﻿.testimonials-header {
+  background-image: url("../Images/Testimonial.jpg");
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-position: 50% 70%;
+  height: 350px;
+  margin-bottom: 50px; }
 
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg); }
-
-.flip-container, .front, .back {
-  /*width: 320px;*/
-  width: 20px;
-  height: 20px;
-  /*height: 480px;*/ }
-
-/* flip speed goes here */
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative; }
-
-/* hide back of pane during swap */
-.front, .back {
-  backface-visibility: hidden;
+.testimonial-header--text {
   position: absolute;
-  top: 0;
-  left: 0; }
+  color: #fff;
+  top: 18%;
+  left: 38%;
+  font-size: 265%;
+  letter-spacing: 8px; }
 
-/* front pane, placed above back */
-.front {
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg); }
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg); }
+.testimonials {
+  margin: 0 10% 40px 10%; }
+  .testimonials .testimonials-content .testimonial {
+    position: relative;
+    float: left; }
+    .testimonials .testimonials-content .testimonial.small {
+      width: 10%; }
+    .testimonials .testimonials-content .testimonial.medium {
+      width: 30%;
+      margin: 0 4% 4% 0; }
+    .testimonials .testimonials-content .testimonial.large {
+      width: 50%;
+      margin: 0 4% 4% 0; }
+    .testimonials .testimonials-content .testimonial blockquote {
+      quotes: none;
+      padding: 10px;
+      border: none;
+      font-size: 95%;
+      background-color: #f6f6f6;
+      font-style: italic; }
+      .testimonials .testimonials-content .testimonial blockquote q {
+        background-color: #f6f6f6; }
+    .testimonials .testimonials-content .testimonial blockquote:after {
+      content: "";
+      display: block;
+      /* reduce the damage in FF3.0 */
+      position: absolute;
+      bottom: -13px;
+      left: 50px;
+      width: 0;
+      border-width: 15px 15px 0;
+      border-style: solid;
+      border-color: #f6f6f6 transparent; }
+  .testimonials .green {
+    color: #86a8a5; }
+    .testimonials .green.bold {
+      font-weight: bold; }
+  .testimonials .purple {
+    color: #9061a5; }
+    .testimonials .purple.bold {
+      font-weight: bold; }
