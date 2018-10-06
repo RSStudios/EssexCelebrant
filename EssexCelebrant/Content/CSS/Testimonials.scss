@@ -51,12 +51,17 @@
                 }
             }
 
-            blockquote:after {
+            .client {
+                position: relative;
+                margin-top: 10px;
+            }
+
+            .client:before {
                 content: "";
                 display: block; /* reduce the damage in FF3.0 */
                 position: absolute;
-                bottom: -13px;
                 left: 50px;
+                top: -10px;
                 width: 0;
                 border-width: 15px 15px 0;
                 border-style: solid;
