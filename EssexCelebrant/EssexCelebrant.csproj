@@ -153,6 +153,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
     <Compile Include="Controllers\TestimonialsController.cs" />
+    <Compile Include="Controllers\ToastmasterController.cs" />
     <Compile Include="Controllers\VenuesController.cs" />
     <Compile Include="Controllers\WeddingsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -265,11 +266,13 @@
     <Content Include="Views\Celebrant\Index.cshtml" />
     <Content Include="Views\Funerals\Index.cshtml" />
     <Content Include="Views\Testimonials\Index.cshtml" />
+    <Content Include="Views\Testimonials\Toastmaster.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\Blog\" />
     <Folder Include="Views\Blog\" />
+    <Folder Include="Views\Toastmaster\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
