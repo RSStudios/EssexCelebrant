@@ -21,8 +21,10 @@ namespace EssexCelebrant
                 .Include("~/Content/Scripts/3rdParty/Introspect/util.js")
                 .Include("~/Content/Scripts/3rdParty/Introspect/main.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/Content/the-css").Include(
                       "~/Content/CSS/main.css"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
