@@ -2,12 +2,12 @@
   {
     "County": "Essex",
     "Venue": "Ashwells Sport and Country Club, Brentwood",
-    "Link": ""
+    "Link": "http://www.ashwells.co.uk"
   },
   {
     "County": "Essex",
     "Venue": "Braxted Park",
-    "Link": "http://www.google.co.uk"
+    "Link": "http://www.braxtedpark.co.uk"
   },
   {
     "County": "Essex",
@@ -67,7 +67,7 @@
   {
     "County": "Essex",
     "Venue": "Forrester Park Golf and Tennis Country Club, Gt Totham, Maldon",
-    "Link": ""
+    "Link": "https://www.forrester-park.co.uk"
   },
   {
     "County": "Essex",
@@ -112,17 +112,17 @@
   {
     "County": "Essex",
     "Venue": "Ivy Hill Hotel, Margaretting",
-    "Link": ""
+    "Link": "https://www.bestwestern.co.uk/hotels/best-western-ivy-hill-hotel-83852"
   },
   {
     "County": "Essex",
     "Venue": "Layer Marney Tower, Layer Marney",
-    "Link": ""
+    "Link": "https://www.layermarneytower.co.uk/"
   },
   {
     "County": "Essex",
     "Venue": "Leez Priory, Great Leighs",
-    "Link": ""
+    "Link": "https://www.leez-priory.co.uk/"
   },
   {
     "County": "Essex",
@@ -132,7 +132,7 @@
   {
     "County": "Essex",
     "Venue": "Maidens Barn, High Easter",
-    "Link": ""
+    "Link": "https://www.weddingbarnessex.co.uk/"
   },
   {
     "County": "Essex",
@@ -303,5 +303,275 @@
     "County": "Essex",
     "Venue": "Village Hall, Stoke by Nayland",
     "Link": ""
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Anstey Hall, Trumpington",
+    "Link": "https://ansteyhall.com/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Dolphin Hotel, St Ives",
+    "Link": ""
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Girton College,Cambridge",
+    "Link": "https://www.girton.cam.ac.uk/conferences/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Hinchingbrooke House, Hinchingbrooke",
+    "Link": "http://www.hhpac.co.uk/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Holiday Inn, Impington, Cambridge",
+    "Link": "https://www.holidayinn.com/hotels/gb/en/cambridge/cbgim/hoteldetail"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Kimboltan Castle, Kimbolton, St Neots",
+    "Link": "https://www.kimbolton.cambs.sch.uk/castle"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Kings College, Cambridge",
+    "Link": "http://www.kings.cam.ac.uk/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Marriott Hotel, Huntingdon and Peterborough",
+    "Link": "https://www.marriott.co.uk/hotels/travel/cbghd-huntingdon-marriott-hotel/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "Sidney Suffolk College, Cambridge",
+    "Link": "https://www.sid.cam.ac.uk/"
+  },
+  {
+    "County": "Cambridgeshire",
+    "Venue": "University Arms Hotel, Cambridge",
+    "Link": "https://universityarms.com/"
+  },
+  {
+    "County": "Bedfordshire",
+    "Venue": "Barns Hotel, Bedford",
+    "Link": "https://www.galahotels.com/en/Hotel/united_kingdom_1/bedford_21085/the_barns_hotel_78062"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Bedford Lodge Hotel, Newmarket",
+    "Link": "https://bedfordlodgehotel.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Bedford Lodge Hotel, Newmarket",
+    "Link": "https://bedfordlodgehotel.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Claydon Country House Hotel, Claydon, Ipswich",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Culford Hall, Culford",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Culford Hall School, Bury St Edmunds",
+    "Link": "http://www.culford.co.uk/Facilities-Hire-Facilities"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Dove Barn, Gronton, Sudbury",
+    "Link": "http://www.dovebarn.com/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Elizabeth Orwell Hotel, Felixstowe",
+    "Link": "http://theorwellhotel.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Glemham Hall, Glemham",
+    "Link": "https://www.glemhamhall.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Gosbeck Rectory Hall, Ipswich",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Gt Finborough School, Stowmarket",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Haughley Park Barn, Bury St Edmunds",
+    "Link": "http://www.haughleypark.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Hintlesham Hall, Ipswich",
+    "Link": "https://hintleshamhall.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Hungarian Hall, Woodbridge",
+    "Link": "https://www.hungarianhallevents.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Ipswich School, Ipswich",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Manor Farm, Henley, Ipswich",
+    "Link": "http://www.allmanorofevents.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Milden Hall, Lavenham",
+    "Link": "https://thehall-milden.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Millennium Grandstand, Rowley Mile Race Course, Newmarket Racecourse",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Moreves Barn, Gt Waldingfield, Sudbury",
+    "Link": "http://morevesbarn.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Ramada Encore, Ipswich",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Seckford Hall Woodbridge",
+    "Link": "https://www.seckford.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Smoke House Hotel, Mildenhall",
+    "Link": "https://hintleshamhall.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Suffolk Barn, Hawstead, Bury St Edmunds",
+    "Link": "http://www.suffolkbarn.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "The Swan Hotel, Lavenham",
+    "Link": "https://theswanatlavenham.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Ufford Park, Woodbridge",
+    "Link": "https://www.uffordpark.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Village Hall, Lavenham",
+    "Link": ""
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Wherstead Park, Wherstead, Ipswich",
+    "Link": "http://whersteadpark.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Woolvestone Hall, Ipswich",
+    "Link": "http://www.woolverstonehall.co.uk/"
+  },
+  {
+    "County": "Suffolk",
+    "Venue": "Woodhall Manor, Stutton",
+    "Link": "https://www.woodhallmanor.com/"
+  },
+  {
+    "County": "Herts",
+    "Venue": "Barley Town House, Barley, Royston",
+    "Link": "https://www.barley-village.co.uk/town-house"
+  },
+  {
+    "County": "Herts",
+    "Venue": "Edworth Manor Barn, Edworth",
+    "Link": ""
+  },
+  {
+    "County": "Herts",
+    "Venue": "Fanhams Hall, Ware",
+    "Link": "https://www.exclusive.co.uk/fanhams-hall/"
+  },
+  {
+    "County": "Herts",
+    "Venue": "Hitchin Priory Barn, Hitchin",
+    "Link": "https://www.thepriory.net/"
+  },
+  {
+    "County": "Herts",
+    "Venue": "Metropolitan Police Club, Bushey",
+    "Link": ""
+  },
+  {
+    "County": "Norfolk",
+    "Venue": "Elm Farm Country House, Horsham St Faith",
+    "Link": "http://www.elmfarmcountryhouse.co.uk/"
+  },
+  {
+    "County": "Kent",
+    "Venue": "Westerham Golf Club, Westerham",
+    "Link": "https://www.westerhamgc.co.uk/index.html"
+  },
+  {
+    "County": "London",
+    "Venue": "Andaz Hotel, City of London",
+    "Link": "https://www.galahotels.com/en/Hotel/UNITED_KINGDOM_1/LONDON_21765/ANDAZ_LIVERPOOL_STREET_BY_HYATT_80880"
+  },
+  {
+    "County": "London",
+    "Venue": "Guildhall, City of London",
+    "Link": "http://www.guildhall.cityoflondon.gov.uk/"
+  },
+  {
+    "County": "London",
+    "Venue": "Mansion House, City of London",
+    "Link": ""
+  },
+  {
+    "County": "London",
+    "Venue": "Middle Temple, Middle Temple Lane, EC4",
+    "Link": "https://www.middletemple.org.uk/"
+  },
+  {
+    "County": "London",
+    "Venue": "RAF Club, Piccadilly, W1",
+    "Link": ""
+  },
+  {
+    "County": "London",
+    "Venue": "Town Hall Hotel, Patriot Square, Bethnal Green E2",
+    "Link": "https://www.townhallhotel.com/"
+  },
+  {
+    "County": "Oxfordshire",
+    "Venue": "MacDonald Randolph Hotel, Oxford",
+    "Link": "http://macdonald-randolph.hotel-rn.com/"
+  },
+  {
+    "County": "Surrey",
+    "Venue": "Brooklands Museum, Weybridge",
+    "Link": "https://www.brooklandsmuseum.com/"
   }
 ]
