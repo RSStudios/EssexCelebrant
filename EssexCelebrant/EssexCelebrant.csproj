@@ -208,8 +208,10 @@
     <Content Include="Content\Images\Four.jpg" />
     <Content Include="Content\Images\Glenn-Headshot1.jpg" />
     <Content Include="Content\Images\one.jpg" />
+    <Content Include="Content\Images\Six.jpg" />
     <Content Include="Content\Images\Testimonial.jpg" />
     <Content Include="Content\Images\ReleasingOfDoves.jpg" />
+    <Content Include="Content\Images\Three.jpg" />
     <Content Include="Content\Images\Two.jpg" />
     <Content Include="Content\Scripts\3rdParty\Flickity\flickity.pkgd.min.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\main.js" />
@@ -298,6 +300,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EssexCelebrant.Business\EssexCelebrant.Business.csproj">
+      <Project>{66b8f8df-a132-4d14-9e21-14d5f73c25ef}</Project>
+      <Name>EssexCelebrant.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
