@@ -3,9 +3,66 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Funerals</h2>
+<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
+<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
+<link href="~/Content/CSS/home.css" rel="stylesheet" />
+
+<div class="main-carousel">
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/One.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                You could put text here to promote best man speech writing.
+            </div>
+        </div>
+        <div style="clear: left;"></div>
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Two.jpg" style="width: 100%" />
+    </div>
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/Three.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                Promote one of Glenn's services here
+            </div>
+        </div>
+        <div class="clear: left;"></div>
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Four.jpg" style="width: 100%" />
+    </div>
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/Five.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                Any promotional text can go here
+            </div>
+        </div>
+        <div style="clear: left;"></div>
+    </div>
+    <div class="carousel-cell">
+        <img src="~/Content/Images/Six.jpg" style="width: 100%" />
+    </div>
+</div>
+
 <section>
     <section class="inner">
         Lorem ipsum dolor sit amet, vel putent dolorem dissentiunt te. Est vitae affert ei, sed id ornatus civibus, eripuit posidonium ad vim. Enim illum graecis cum et, maluisset cotidieque vel ea. Nominati delicata nec cu, et sit iusto eripuit appetere. Detracto efficiendi scriptorem ut eos, at option qualisque deterruisset duo.
     </section>
 </section>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
