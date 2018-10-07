@@ -59,6 +59,7 @@ Ankh.NoLoad
 # Essex Celebrant
 EssexCelebrant/bin/
 EssexCelebrant/obj/Debug/
+EssexCelebrant/Content/Images/Keep for a little while
 
 # Essex Celebrant Data Access
 EssexCelebrant\.DataAccess/bin/
@@ -66,3 +67,5 @@ EssexCelebrant\.DataAccess/obj/
 
 # Essex Celebrant Business
 EssexCelebrant\.Business/bin/
+
+packages/
