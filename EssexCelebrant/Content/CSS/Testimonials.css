@@ -22,10 +22,10 @@
     .testimonials .testimonials-content .testimonial.small {
       width: 10%; }
     .testimonials .testimonials-content .testimonial.medium {
-      width: 30%;
+      width: 25%;
       margin: 0 4% 4% 0; }
     .testimonials .testimonials-content .testimonial.large {
-      width: 50%;
+      width: 45%;
       margin: 0 4% 4% 0; }
     .testimonials .testimonials-content .testimonial blockquote {
       quotes: none;
@@ -33,7 +33,8 @@
       border: none;
       font-size: 95%;
       background-color: #f6f6f6;
-      font-style: italic; }
+      font-style: italic;
+      padding: 20px; }
       .testimonials .testimonials-content .testimonial blockquote q {
         background-color: #f6f6f6; }
     .testimonials .testimonials-content .testimonial .client {
@@ -45,7 +46,7 @@
       /* reduce the damage in FF3.0 */
       position: absolute;
       left: 50px;
-      top: -10px;
+      top: -16px;
       width: 0;
       border-width: 15px 15px 0;
       border-style: solid;
@@ -57,4 +58,12 @@
   .testimonials .purple {
     color: #9061a5; }
     .testimonials .purple.bold {
+      font-weight: bold; }
+  .testimonials .coral {
+    color: #eb6547; }
+    .testimonials .coral.bold {
+      font-weight: bold; }
+  .testimonials .burnt-orange {
+    color: #83220c; }
+    .testimonials .burnt-orange.bold {
       font-weight: bold; }

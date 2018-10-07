@@ -29,12 +29,12 @@
             }
 
             &.medium {
-                width: 30%;
+                width: 25%;
                 margin: 0 4% 4% 0;
             }
 
             &.large {
-                width: 50%;
+                width: 45%;
                 margin: 0 4% 4% 0;
             }
 
@@ -45,6 +45,7 @@
                 font-size: 95%;
                 background-color: #f6f6f6;
                 font-style: italic;
+                padding: 20px;
 
                 q {
                     background-color: #f6f6f6;
@@ -61,7 +62,7 @@
                 display: block; /* reduce the damage in FF3.0 */
                 position: absolute;
                 left: 50px;
-                top: -10px;
+                top: -16px;
                 width: 0;
                 border-width: 15px 15px 0;
                 border-style: solid;
@@ -80,6 +81,23 @@
 
     .purple {
         color: #9061a5;
+
+        &.bold {
+            font-weight: bold;
+        }
+    }
+
+    .coral {
+        color: hsl(11, 80%, 60%);
+
+        &.bold {
+            font-weight: bold;
+        }
+    }
+
+    .burnt-orange {
+        color: hsl(11,83%,28%);
+
 
         &.bold {
             font-weight: bold;
