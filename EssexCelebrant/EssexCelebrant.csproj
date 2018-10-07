@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EssexCelebrant</RootNamespace>
     <AssemblyName>EssexCelebrant</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -26,6 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,6 +76,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
@@ -84,8 +86,7 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -104,9 +105,7 @@
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -124,6 +123,7 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -159,12 +159,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CSS\3rd Party\flickity.css" />
     <Content Include="Content\CSS\FAQ.css">
       <DependentUpon>FAQ.scss</DependentUpon>
@@ -209,28 +203,14 @@
     <Content Include="Content\CSS\Venues.scss" />
     <Content Include="Content\CSS\Testimonials.scss" />
     <Content Include="Config\app_live.config" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-reboot.min.css.map" />
-    <Content Include="Content\bootstrap-reboot.css.map" />
-    <Content Include="Content\bootstrap-grid.min.css.map" />
-    <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
-    <Content Include="Content\Images\banner.jpg" />
-    <Content Include="Content\Images\Celebrant Leaflet images - GJM %281%29.JPG" />
+    <Content Include="Content\Images\Five.jpg" />
+    <Content Include="Content\Images\Four.jpg" />
     <Content Include="Content\Images\Glenn-Headshot1.jpg" />
-    <Content Include="Content\Images\pic01.jpg" />
-    <Content Include="Content\Images\pic02.jpg" />
-    <Content Include="Content\Images\pic03.jpg" />
-    <Content Include="Content\Images\pic04.jpg" />
-    <Content Include="Content\Images\pic05.jpg" />
-    <Content Include="Content\Images\pic06.jpg" />
-    <Content Include="Content\Images\pic07.jpg" />
-    <Content Include="Content\Images\pic08.jpg" />
-    <Content Include="Content\Images\pic09.jpg" />
-    <Content Include="Content\Images\pic10.jpg" />
-    <Content Include="Content\Images\pic11.jpg" />
+    <Content Include="Content\Images\one.jpg" />
     <Content Include="Content\Images\Testimonial.jpg" />
+    <Content Include="Content\Images\ReleasingOfDoves.jpg" />
+    <Content Include="Content\Images\Two.jpg" />
     <Content Include="Content\Scripts\3rdParty\Flickity\flickity.pkgd.min.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\main.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\skel.min.js" />
@@ -254,10 +234,6 @@
     <Content Include="Content\Fonts\FontAwesome.otf" />
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.min.map" />
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
@@ -306,10 +282,6 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
-    <Content Include="Scripts\bootstrap.min.js.map" />
-    <Content Include="Scripts\bootstrap.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Views\Testimonials\Toastmaster.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -320,12 +292,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EssexCelebrant.Business\EssexCelebrant.Business.csproj">
-      <Project>{deb3310a-aa62-4f54-9d49-8573ba38b312}</Project>
-      <Name>EssexCelebrant.Business</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
