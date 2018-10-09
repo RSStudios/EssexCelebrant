@@ -1,0 +1,163 @@
+﻿
+@{
+    ViewBag.Title = "FAQ Funerals";
+}
+
+
+<link href="~/Content/CSS/FAQ.css" rel="stylesheet" />
+
+<section>
+    <article class="inner">
+        <h2>Funeral Celebrant</h2>
+        <article class="click" data-question-id="1" data-toggle="modal" data-target="#myModal">
+            <a href="#">What are my options when organising a funeral?</a>
+        </article>
+        <article class="click" data-question-id="2" data-toggle="modal" data-target="#myModal">
+            <a href="#">Who organises a funeral?</a>
+        </article>
+        <article class="click" data-question-id="3" data-toggle="modal" data-target="#myModal">
+            <a href="#"> Who chooses whether to use a minister, Humanist or Independent Celebrant?</a>
+        </article>
+        <article class="click" data-question-id="4" data-toggle="modal" data-target="#myModal">
+            <a href="#">I want a religious service but not in church – do I have to have a minister?</a>
+        </article>
+        <article class="click" data-question-id="5" data-toggle="modal" data-target="#myModal">
+            <a href="#">What is the difference between a Humanist Celebrant and an Independent Celebrant?</a>
+        </article>
+        <article class="click" data-question-id="6" data-toggle="modal" data-target="#myModal">
+            <a href="#">Why choose an Independent Celebrant?</a>
+        </article>
+    </article>
+</section>
+
+<script class="answer answer1" type="text/template">
+    <p>
+        There are many different options – here are a few
+    </p>
+    <p>Funeral conducted by </p>
+    <ul>
+        <li>a minister in a church</li>
+        <li>a minister at the local Crematorium</li>
+        <li> a humanist celebrant at the local Crematorium </li>
+        <li> an independent celebrant at the local Crematorium </li>
+        <li> a relative at the local Crematorium </li>
+         <li> a special person to the family of the deceased at the local Crematorium </li>
+
+</ul>
+</script>
+<script class="answer answer2" type="text/template">
+    <p>
+        A local Funeral Director will guide you in organising a funeral for a loved one.
+    </p>
+    <p>
+        They will ensure that all the legal paperwork is completed and anything else you require.
+    </p>
+    <p>
+        You can organise everything yourself – however, this can be difficult as you too are grieving.
+    </p>
+
+</script>
+<script class="answer answer3" type="text/template">
+    <p>
+        You do.
+    </p>
+    <p>
+        Your Funeral Director should give you the names of those who can conduct your funeral, whether that is a minister, Humanist or Independent Celebrant.
+    </p>
+    <p>
+        If you want a particular person, you can – just ask.
+    </p>
+    <p>
+        Search of google if you are not sure.
+    </p>
+</script>
+<script class="answer answer4" type="text/template">
+    <p>
+        No.
+    </p>
+    <p>
+        You can have who you would like.  Minister, Humanist or Independent Celebrant.
+    </p>
+</script>
+<script class="answer answer5" type="text/template">
+    <p>
+        A Humanist Celebrant cannot include anything in your service that is of a religious nature.  This includes hymns, songs, poems or prayers.
+    </p>
+    <p>
+        An Independent Celebrant is able to include whatever you and your family want for the funeral celebration.  If you wish to include any religious aspects such as songs, hymns, poems and prayers, you can.
+    </p>
+    <p>
+        Neither a Humanist or Independent Celebrant can conduct a funeral ceremony in a place of worship and do any religious blessing as they are not ordained in any church.
+    </p>
+    <p>
+        If you have any doubts, please ask.
+    </p>
+</script>
+<script class="answer answer6" type="text/template">
+    <p>
+        An Independent Celebrant can provide you with a unique celebration of your relative’s life.
+    </p>
+    <p>
+        The only bias they have will be yours.
+    </p>
+    <p>
+        They only work for you.  No one else.
+    </p>
+    <p>
+        This is your celebration – your way.
+    </p>
+    <p>
+        An Independent Celebrant aims to capture the life of your loved one in a unique way.  They were unique – their funeral is unique.
+    </p>
+    <p>
+        Your ceremony.  Your way.
+    </p>
+</script>
+<!-- The Modal -->
+<div class="modal-overlay closed" id="modal-overlay"></div>
+
+<div class="modal closed" id="modal">
+    <button class="close-button" id="close-button">X</button>
+    <div class="modal-content">
+        <div class="modal-title"></div>
+        <div class="modal-body"></div>
+    </div>
+</div>
+
+<script>
+    //var modal = document.getElementById('myModal');
+    //// Get the <span> element that closes the modal
+    //var span = document.getElementsByClassName("close")[0];
+
+    //// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modalOverlay) {
+            modal.classList.toggle("closed");
+            modalOverlay.classList.toggle("closed");
+        }
+    };
+
+    //// When the user clicks on <span> (x), close the modal
+    //span.onclick = function () {
+    //    modal.style.display = "none";
+    //};
+
+    $('.click').off('click').on('click', function () {
+        var quHtml = $(this).text();
+        var quId = $(this).data().questionId;
+        var ansHtml = $('.answer' + quId).html();
+        $('.modal-title').html(quHtml);
+        $('.modal-body').html(ansHtml);
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
+    });
+    var modal = document.querySelector("#modal");
+    var modalOverlay = document.querySelector("#modal-overlay");
+    var closeButton = document.querySelector("#close-button");
+
+    closeButton.addEventListener("click", function () {
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
+    });
+</script>
+

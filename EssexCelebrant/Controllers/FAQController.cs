@@ -4,9 +4,18 @@ namespace EssexCelebrant.Controllers
 {
     public class FAQController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(string faqType)
         {
-            return View("FAQ");
+            switch (faqType)
+            {
+                case ("Funerals"):
+                    return View("FAQFunerals");
+                case "Celebrant":
+                    return View("FAQCelebrant");
+                default:
+                    return View("FAQ");
+            }
+            
         }
     }
 }

@@ -313,6 +313,8 @@
     <Content Include="Views\OtherCelebrations\OtherCelebrations.cshtml" />
     <Content Include="Views\Dinners\Dinners.cshtml" />
     <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\FAQ\FAQFunerals.cshtml" />
+    <Content Include="Views\FAQ\FAQCelebrant.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

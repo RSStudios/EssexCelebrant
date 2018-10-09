@@ -1,0 +1,174 @@
+﻿
+@{
+    ViewBag.Title = "FAQ Celebrant";
+}
+
+<link href="~/Content/CSS/FAQ.css" rel="stylesheet" />
+
+<section>
+    <article class="inner">
+        <h2>Wedding Celebrant</h2>
+        <article class="click" data-question-id="1" data-toggle="modal" data-target="#myModal">
+            <a href="#">Why should I use a Celebrant?</a>
+        </article>
+        <article class="click" data-question-id="2" data-toggle="modal" data-target="#myModal">
+            <a href="#"> Is it a Humanist Ceremony?</a>
+        </article>
+        <article class="click" data-question-id="3" data-toggle="modal" data-target="#myModal">
+            <a href="#"> Is a Celebrant led Ceremony Legal?</a>
+        </article>
+        <article class="click" data-question-id="4" data-toggle="modal" data-target="#myModal">
+            <a href="#">Can a ceremony have traditional elements?</a>
+        </article>
+        <article class="click" data-question-id="5" data-toggle="modal" data-target="#myModal">
+            <a href="#"> What do you allow in an Independent Celebrant led Ceremony?</a>
+        </article>
+        <article class="click" data-question-id="6" data-toggle="modal" data-target="#myModal">
+            <a href="#"> Can an Independent Celebrant do handfastings?</a>
+        </article>
+        <article class="click" data-question-id="7" data-toggle="modal" data-target="#myModal">
+            <a href="#">Is an Independent Celebrant Wedding service unique to us?  </a>
+        </article>
+    </article>
+</section>
+
+<script class="answer answer1" type="text/template">
+    <p>
+        An independent celebrant can make your day personal to you and your partner in the place or venue that is special to you.
+    </p>
+    <p>The legal aspect can be done earlier and is not necessary to make your day how you have dreamed it to be. </p>
+    
+</script>
+<script class="answer answer2" type="text/template">
+    <p>
+        No.  Your ceremony can be secular, atheist, religious, modern or traditional - combinations where you wish.   The ceremony is yours to determine.  A humanist ceremony does not allow anything religious within the ceremony, such as songs, hymns or prayers.
+    </p>
+</script>
+<script class="answer answer3" type="text/template">
+    <p>
+        No.
+    </p>
+    <p>
+        For a celebrant led ceremony the legal registering of your marriage would be done separately.  Guidance can be given with this element.
+    </p>
+    <p>
+        A wedding is split into two main parts. .
+    </p>
+    <p>
+        The legal and the ceremonial or traditional.
+    </p>
+    <p> In england this would be</p>
+    <ul>
+        <li>In a church – signing of the church register (2 witnesses)</li>
+        <li>At the civil registry office – signing of the civil register (2 witnesses)</li>
+        <li>At a wedding venue – signing the civil register with a Registrar present (2 witnesses) </li>
+    </ul>
+    <p>
+        The legal aspect of the wedding ceremony is often substituted for the traditional elements many want and provides the focus of the ceremony rather than what its true meaning is.
+    </p>
+    <p>
+        There is also a legal requirement a civil wedding at a venue MUST be held under a permanent structure.  This means that outdoor weddings are often with your guests in the sunshine and you under a canopy of some description.
+    </p>
+</script>
+<script class="answer answer4" type="text/template">
+    <p>
+        The ceremonial or traditional elements are whatever you want.
+    </p>
+    <p>
+        This could be
+    </p>
+    <ul>
+        <li>  vows personal to you.</li>
+        <li> wearing of traditional ceremonial regalia</li>
+        <li> following certain ceremonial rituals</li>
+        <li> donning a beautiful white gown</li>
+
+    </ul>
+    <p>
+        This is the symbolic part of a ceremony that is personal to you and your partner.
+    </p>
+    <p>
+        This is the essence of who you are as a couple and the start of your life together.
+    </p>
+</script>
+<script class="answer answer5" type="text/template">
+    <p>
+        You can have anything that you feel would make your day special.  You can do your own personal vows, have modern readings alongside traditional hymns.  This is your ceremony.
+    </p>
+    
+</script>
+<script class="answer answer6" type="text/template">
+    <p>
+        Yes.
+    </p>
+    <p>
+        There are many different types of rituals that couples ask for.
+        These can vary from religious in nature to pagan.
+        Let me know what you are looking for.
+    </p>
+</script>
+<script class="answer answer7" type="text/template">
+    <p>
+        Yes.
+    </p>
+    <p>
+        The service is bespoke.
+    </p>
+    <p>
+        The vows will be yours.  The Ceremony will be yours.
+    </p>
+    <p>
+        It can include anything that you, as a couple, want to make it special and individual.
+    </p>
+    <p>
+        Your Ceremony.  Your Way.
+    </p>
+</script>
+<!-- The Modal -->
+<div class="modal-overlay closed" id="modal-overlay"></div>
+
+<div class="modal closed" id="modal">
+    <button class="close-button" id="close-button">X</button>
+    <div class="modal-content">
+        <div class="modal-title"></div>
+        <div class="modal-body"></div>
+    </div>
+</div>
+
+<script>
+    //var modal = document.getElementById('myModal');
+    //// Get the <span> element that closes the modal
+    //var span = document.getElementsByClassName("close")[0];
+
+    //// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modalOverlay) {
+            modal.classList.toggle("closed");
+            modalOverlay.classList.toggle("closed");
+        }
+    };
+
+    //// When the user clicks on <span> (x), close the modal
+    //span.onclick = function () {
+    //    modal.style.display = "none";
+    //};
+
+    $('.click').off('click').on('click', function () {
+        var quHtml = $(this).text();
+        var quId = $(this).data().questionId;
+        var ansHtml = $('.answer' + quId).html();
+        $('.modal-title').html(quHtml);
+        $('.modal-body').html(ansHtml);
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
+    });
+    var modal = document.querySelector("#modal");
+    var modalOverlay = document.querySelector("#modal-overlay");
+    var closeButton = document.querySelector("#close-button");
+
+    closeButton.addEventListener("click", function () {
+        modal.classList.toggle("closed");
+        modalOverlay.classList.toggle("closed");
+    });
+</script>
+
