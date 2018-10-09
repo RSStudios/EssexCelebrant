@@ -14,7 +14,7 @@
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
 
-    <link href="~/Content/CSS/Menu.min.css" rel="stylesheet" />
+    <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
@@ -25,34 +25,48 @@
                     <li class="submenu">
                         <a class="dropbtn" href="@Url.Action("Index", "Home")">Home</a>
                         <div class="submenu-content">
-                            <a href="@Url.Action("About", "Home")">About me</a>
                             <a href="@Url.Action("Contact", "Home")">Contact me</a>
                         </div>
                     </li>
-                    <li><a href="@Url.Action("Index", "Testimonials")">Testimonials</a></li>
-                    <li><a href="@Url.Action("Index", "Toastmaster")">Toastmaster</a></li>
                     <li class="submenu">
-                        <a class="dropbtn">More</a>
+                        <a class="dropbtn" href="@Url.Action("Index", "Toastmaster")">Professional Toastmaster</a>
                         <div class="submenu-content">
-                            <a href="@Url.Action("Index", "Links")">Links</a>
+                            <a href="@Url.Action("Index", "Weddings")">Weddings</a>
+                            <a href="@Url.Action("Contact", "Home")">Other celebrations</a>
+                            <a href="@Url.Action("Contact", "Home")">Dinners</a>
+                            <a href="@Url.Action("Contact", "Home")">Corporate events</a>
                             <a href="@Url.Action("Index", "FAQ")">FAQs</a>
-                            <a href="@Url.Action("Index", "Blog")">Blog</a>
+                            <a href="@Url.Action("Index", "Venues")">Venues</a>
                         </div>
                     </li>
-                    <li><a href="@Url.Action("Index", "Venues")">Venues</a></li>
                     <li class="submenu">
                         <a class="dropbtn" href="@Url.Action("Index", "Celebrant")">Independent Celebrant</a>
                         <div class="submenu-content">
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "Funerals")">Funerals</a>
+                            <a href="@Url.Action("Index", "FAQ")">Other celebrations</a>
+                            <a href="@Url.Action("Index", "FAQ")">FAQs</a>
+                            <a href="@Url.Action("Index", "Venues")">Venues</a>
                         </div>
                     </li>
+                    <li class="submenu">
+                        <a class="dropbtn">More</a>
+                        <div class="submenu-content">
+                            <a href="@Url.Action("About", "Home")">About me</a>
+                            <a href="@Url.Action("Index", "Blog")">Blog</a>
+                            <a href="@Url.Action("Index", "Testimonials")">Testimonials</a>
+                            <a href="@Url.Action("Index", "Testimonials")">Speech writing</a>
+                            <a href="@Url.Action("Index", "Testimonials")">Favours</a>
+                            <a href="@Url.Action("Index", "Links")">Links</a>
+                        </div>
+                    </li>
+
                 </ul>
             </nav>
         </div>
-        <div class="glenn-title">Glenn Mayes</div>
+        <div class="glenn-title"><a class="dropbtn" href="@Url.Action("Index", "Home")">Glenn Mayes</a></div>
         <div class="toastmaster-logo">
-            Toastmaster, Master of Ceremonies & Independent Celebrant
+          Professional Toastmaster and Independent Celebrant
         </div>
     </header>
 
