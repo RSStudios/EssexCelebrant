@@ -1,0 +1,24 @@
+﻿
+@using EssexCelebrant.Models.Blog
+
+@model List<BlogPost>
+
+@{
+    ViewBag.Title = "Blog";
+}
+
+<link href="~/Content/CSS/Blog.min.css" rel="stylesheet" />
+
+<h2>Blog</h2>
+
+<article class="clearfix">
+    @foreach (var b in Model)
+    {
+        <section class="blog-container">
+            @{ 
+                var srcSet = b.Image + " 320w " + b.Image + " 490w " + b.Image + " 576w " + b.Image + " 1152w";
+            }
+            <img src="@b.Image" srcset="@srcSet" style="width:100%" sizes="(max-width: 576px) 100vw, (max-width: 1024px) 576px, 490px" >
+        </section>
+    }
+</article>

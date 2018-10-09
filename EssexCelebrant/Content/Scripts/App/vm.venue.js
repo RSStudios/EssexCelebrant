@@ -39,7 +39,7 @@
         };
 
         self.searchForText = function () {
-            var searchTerm = this.value;
+            var searchTerm = this.value.toLowerCase();
             if (searchTerm === "") {
                 self.filteredVenues(self.masterVenues());
             }
