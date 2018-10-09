@@ -13,7 +13,8 @@ namespace EssexCelebrant.Controllers
     {
         public ActionResult Index()
         {
-            XmlReader reader = XmlReader.Create(Helper.AppSetting("BlogUrl"));
+            var blogUrl = Helper.AppSetting("BlogUrl");
+            XmlReader reader = XmlReader.Create(Helper.AppSetting("BlogRssFeedUrl"));
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
 
@@ -23,6 +24,7 @@ namespace EssexCelebrant.Controllers
             {
                 var post = new BlogPost()
                 {
+                    Link = blogUrl + item.Links[1].Uri.AbsolutePath,
                     Title = item.Title.Text
                 };
 
