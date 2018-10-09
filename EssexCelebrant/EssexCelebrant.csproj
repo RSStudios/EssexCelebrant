@@ -157,11 +157,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Blog\BlogPost.cs" />
     <Compile Include="Models\Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\CSS\3rd Party\flickity.css" />
+    <Content Include="Content\CSS\Blog.css">
+      <DependentUpon>Blog.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Blog.min.css">
+      <DependentUpon>Blog.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\EssexCelebrant.css">
+      <DependentUpon>EssexCelebrant.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\EssexCelebrant.min.css">
+      <DependentUpon>EssexCelebrant.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\FAQ.css">
       <DependentUpon>FAQ.scss</DependentUpon>
     </Content>
@@ -169,6 +182,12 @@
       <DependentUpon>FAQ.css</DependentUpon>
     </Content>
     <Content Include="Content\CSS\Links.css" />
+    <Content Include="Content\CSS\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Menu.css">
       <DependentUpon>Menu.scss</DependentUpon>
     </Content>
@@ -181,10 +200,8 @@
     <Content Include="Content\CSS\Testimonials.min.css">
       <DependentUpon>Testimonials.css</DependentUpon>
     </Content>
-    <Content Include="Content\CSS\flipcard.css" />
     <Content Include="Content\CSS\font-awesome.min.css" />
     <Content Include="Content\CSS\home.css" />
-    <Content Include="Content\CSS\main.css" />
     <Content Include="Content\CSS\Venues.css">
       <DependentUpon>Venues.scss</DependentUpon>
     </Content>
@@ -208,6 +225,9 @@
     <Content Include="Config\app_live.config" />
     <Content Include="Content\CSS\OtherCelebrations.scss" />
     <Content Include="Content\CSS\Dinners.scss" />
+    <Content Include="Content\CSS\EssexCelebrant.scss" />
+    <Content Include="Content\CSS\main.scss" />
+    <Content Include="Content\CSS\Blog.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\Five.jpg" />
     <Content Include="Content\Images\Four.jpg" />
@@ -292,11 +312,10 @@
     <Content Include="Scripts\esm\popper-utils.js.map" />
     <Content Include="Views\OtherCelebrations\OtherCelebrations.cshtml" />
     <Content Include="Views\Dinners\Dinners.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Blog\" />
-    <Folder Include="Views\Blog\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -21,8 +21,13 @@ namespace EssexCelebrant
                 .Include("~/Content/Scripts/3rdParty/Introspect/util.js")
                 .Include("~/Content/Scripts/3rdParty/Introspect/main.js"));
 
-            bundles.Add(new StyleBundle("~/Content/the-css").Include(
-                      "~/Content/CSS/main.css"));
+            bundles.Add(new StyleBundle("~/Content/the-css")
+                .Include("~/Content/CSS/main.css")
+                .Include("~/Content/CSS/EssexCelebrant.css"));
+
+            bundles.Add(new StyleBundle("~/Content/minified-css")
+               .Include("~/Content/CSS/main.min.css")
+               .Include("~/Content/CSS/EssexCelebrant.min.css"));
 
             BundleTable.EnableOptimizations = true;
         }

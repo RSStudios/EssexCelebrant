@@ -1,6 +1,11 @@
-﻿using System.ServiceModel.Syndication;
+﻿using EssexCelebrant.Models;
+using EssexCelebrant.Models.Blog;
+using System.Collections.Generic;
+using System.Linq;
+using System.ServiceModel.Syndication;
 using System.Web.Mvc;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace EssexCelebrant.Controllers
 {
@@ -8,17 +13,29 @@ namespace EssexCelebrant.Controllers
     {
         public ActionResult Index()
         {
-            string url = "http://snowprints.blogspot.com/feeds/posts/default";
-            XmlReader reader = XmlReader.Create(url);
+            XmlReader reader = XmlReader.Create(Helper.AppSetting("BlogUrl"));
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
 
+            List<BlogPost> blogPosts = new List<BlogPost>();
+
             foreach (SyndicationItem item in feed.Items)
             {
-                string subject = item.Title.Text;
-                string summary = item.Summary.Text;
+                var post = new BlogPost()
+                {
+                    Title = item.Title.Text
+                };
+
+                if (item.ElementExtensions.Where(p => p.OuterName == "thumbnail").Count() != 0)
+                    post.Image = item.ElementExtensions.Where(p => p.OuterName == "thumbnail").First().GetObject<XElement>().Attribute("url").Value;
+
+                if (item.Summary != null)
+                    post.Summary = item.Summary.Text;
+
+                blogPosts.Add(post);
             }
-            return View();
+
+            return View(blogPosts);
         }
     }
 }

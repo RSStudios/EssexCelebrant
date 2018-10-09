@@ -14,5 +14,17 @@
   {
     "outputFile": "Content/CSS/Testimonials.css",
     "inputFile": "Content/CSS/Testimonials.scss"
+  },
+  {
+    "outputFile": "Content/CSS/EssexCelebrant.css",
+    "inputFile": "Content/CSS/EssexCelebrant.scss"
+  },
+  {
+    "outputFile": "Content/CSS/main.css",
+    "inputFile": "Content/CSS/main.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Blog.css",
+    "inputFile": "Content/CSS/Blog.scss"
   }
 ]
