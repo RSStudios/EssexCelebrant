@@ -1,5 +1,29 @@
 ﻿.blog-container {
+    margin: 0 100px;
+}
+
+.blog {
     float: left;
-    width: 33.33%;
+    width: 20%;
     padding: 5px;
+    border: 0.5px solid hsl(11, 15%, 66%);
+    margin: 0 20px 10px 0;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+        -moz-box-shadow: 3px 3px 5px 6px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow: 3px 3px 5px 6px #ccc;
+    }
+}
+
+.blog__title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.link {
+    color: #000;
 }
