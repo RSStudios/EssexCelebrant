@@ -1,0 +1,79 @@
+﻿<link href="~/Content/CSS/Dinners.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Dinners";
+}
+
+<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
+<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
+<link href="~/Content/CSS/home.css" rel="stylesheet" />
+
+<!-- Banner -->
+<div class="main-carousel">
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/Testimonial.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                Etiquette and tradition adhered to at a Ladies Festival
+            </div>
+        </div>
+        <div style="clear: left;"></div>
+    </div>
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/One.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                Ensure that the Charity event goes smoothly, a Professional Toastmaster watches the timing and compares with flair
+
+            </div>
+        </div>
+        <div class="clear: left;"></div>
+    </div>
+    <div class="carousel-cell">
+        <div style="float: left; width: 75%;">
+            <img src="~/Content/Images/Three.jpg" style="width: 100%;" />
+        </div>
+        <div style="float: left; color: #fff; width: 25%; padding: 50px 20px 0 20px;">
+            <div>
+                Passing the port is just one of many rituals the Professional Toastmaster can oversee.
+            </div>
+        </div>
+        <div class="clear: left;"></div>
+    </div>
+</div>
+
+<section>
+    <article class="inner">
+        <h3>
+            Dinners, Charities Balls and Receptions
+        </h3>
+        <div>
+            Glenn has a wealth of experience in running both formal and informal dinners.
+        </div>
+        <div>
+            From Masonic Ladies Festivals to White Table; Lions Ladies nights to Rotary dinners.
+        </div>
+        <div>
+            The Professional Toastmaster’s services can be formal, in red tail coat, or informal, in evening suit.
+        </div>
+        <div>
+            The Professional Toastmaster always has your back and ensures that the event is the success you want it to be.
+        </div>
+        <div>
+            As a retired Wing Commander with a wealth of knowledge and experience in military etiquette, Glenn will make sure your function goes according to plan.
+        </div>
+    </article>
+</section>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
+
