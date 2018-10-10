@@ -8,14 +8,13 @@ namespace EssexCelebrant.Controllers
         {
             switch (faqType)
             {
-                case ("Funerals"):
+                case "Funerals":
                     return View("FAQFunerals");
                 case "Celebrant":
                     return View("FAQCelebrant");
                 default:
                     return View("FAQ");
             }
-            
         }
     }
 }

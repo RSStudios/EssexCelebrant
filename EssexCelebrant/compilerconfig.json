@@ -26,5 +26,9 @@
   {
     "outputFile": "Content/CSS/Blog.css",
     "inputFile": "Content/CSS/Blog.scss"
+  },
+  {
+    "outputFile": "Content/CSS/OtherCelebrations.css",
+    "inputFile": "Content/CSS/OtherCelebrations.scss"
   }
 ]
