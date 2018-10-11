@@ -1,0 +1,172 @@
+﻿.get-in-touch {
+    background-color: #e5474b;
+    color: #f2a3a5;
+    background: #e5474b;
+
+    input, select, textarea {
+        color: #ffffff;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    strong, b {
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+
+    blockquote {
+        border-left-color: #fff;
+    }
+
+    code {
+        background: none;
+        border-color: #fff;
+    }
+
+    hr {
+        border-bottom-color: #fff;
+    }
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+        background-color: #5a5a5a;
+        color: #ffffff !important;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover,
+    button:hover,
+    .button:hover {
+        background-color: #676767;
+    }
+
+    input[type="submit"]:active,
+    input[type="reset"]:active,
+    input[type="button"]:active,
+    button:active,
+    .button:active {
+        background-color: #4d4d4d;
+    }
+
+    input[type="submit"].alt,
+    input[type="reset"].alt,
+    input[type="button"].alt,
+    button.alt,
+    .button.alt {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 2px #fff;
+        color: #ffffff !important;
+    }
+
+    input[type="submit"].alt:hover,
+    input[type="reset"].alt:hover,
+    input[type="button"].alt:hover,
+    button.alt:hover,
+    .button.alt:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    input[type="submit"].alt:active,
+    input[type="reset"].alt:active,
+    input[type="button"].alt:active,
+    button.alt:active,
+    .button.alt:active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    input[type="submit"].alt.icon:before,
+    input[type="reset"].alt.icon:before,
+    input[type="button"].alt.icon:before,
+    button.alt.icon:before,
+    .button.alt.icon:before {
+        color: #f8d1d2;
+    }
+
+    input[type="submit"].special,
+    input[type="reset"].special,
+    input[type="button"].special,
+    button.special,
+    .button.special {
+        background-color: #ffffff;
+        color: #e5474b !important;
+    }
+
+    label {
+        color: #fff;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    textarea {
+        background: none;
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="email"]:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #ffffff;
+        box-shadow: 0 0 0 1px #ffffff;
+    }
+
+    .select-wrapper:before {
+        color: #fff;
+    }
+
+    input[type="checkbox"] + label,
+    input[type="radio"] + label {
+        color: #f2a3a5;
+    }
+
+    input[type="checkbox"] + label:before,
+    input[type="radio"] + label:before {
+        background: none;
+        border-color: #fff;
+    }
+
+    input[type="checkbox"]:checked + label:before,
+    input[type="radio"]:checked + label:before {
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: #e5474b;
+    }
+
+    input[type="checkbox"]:focus + label:before,
+    input[type="radio"]:focus + label:before {
+        border-color: #ffffff;
+        box-shadow: 0 0 0 1px #ffffff;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #f8d1d2 !important;
+    }
+
+    :-moz-placeholder {
+        color: #f8d1d2 !important;
+    }
+
+    ::-moz-placeholder {
+        color: #f8d1d2 !important;
+    }
+
+    :-ms-input-placeholder {
+        color: #f8d1d2 !important;
+    }
+
+    .formerize-placeholder {
+        color: #f8d1d2 !important;
+    }
+}

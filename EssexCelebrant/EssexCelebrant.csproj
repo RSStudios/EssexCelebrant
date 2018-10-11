@@ -188,6 +188,12 @@
     <Content Include="Content\CSS\FAQ.min.css">
       <DependentUpon>FAQ.css</DependentUpon>
     </Content>
+    <Content Include="Content\CSS\GetInTouch.css">
+      <DependentUpon>GetInTouch.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\GetInTouch.min.css">
+      <DependentUpon>GetInTouch.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Links.css" />
     <Content Include="Content\CSS\main.css">
       <DependentUpon>main.scss</DependentUpon>
@@ -241,6 +247,7 @@
     <Content Include="Content\CSS\EssexCelebrant.scss" />
     <Content Include="Content\CSS\main.scss" />
     <Content Include="Content\CSS\Blog.scss" />
+    <Content Include="Content\CSS\GetInTouch.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\21st Birthday.jpg" />
     <Content Include="Content\Images\Anniversary.jpeg" />

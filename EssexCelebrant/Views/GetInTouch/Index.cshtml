@@ -3,5 +3,29 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<link href="~/Content/CSS/GetInTouch.min.css" rel="stylesheet" />
+
+<article class="get-in-touch">
+    <section class="inner-50em">
+        <h2>Get in touch</h2>
+
+        <form method="post" action="#">
+            <div class="field half first">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+            </div>
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="alt" /></li>
+            </ul>
+        </form>
+    </section>
+</article>
 
