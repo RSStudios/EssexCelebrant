@@ -2496,6 +2496,12 @@ section.special, article.special {
     text-align: center;
 }
 
+section .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+}
+
 .inner-6em {
     max-width: 65em;
     width: calc(100% - 6em);
@@ -3562,7 +3568,7 @@ body.is-loading #banner:after {
 }
 
 #one {
-    padding: 6em 0 4em 0;
+    padding: 0 0 4em 0;
 }
 
 @media screen and (max-width: 980px) {
@@ -3580,7 +3586,7 @@ body.is-loading #banner:after {
 }
 
 #two {
-    padding: 6em 0 4em 0;
+    padding: 20px 0 4em 0;
     background: #f3f3f3;
     background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
     background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
