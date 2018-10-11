@@ -25,9 +25,9 @@
 <script src="~/Content/Scripts/App/vm.venue.js"></script>
 <link href="~/Content/CSS/Venues.min.css" rel="stylesheet" />
 
-<h2>Venues</h2>
+<article class="inner-50em">
+    <h2>Venues</h2>
 
-<article class="venues" style="margin-bottom: 40px;">
     <input id="search-text" type="text" placeholder="Search for a venue" class="venues--search" />
 
     <section data-bind="foreach: allCounties">
@@ -44,6 +44,7 @@
         </section>
     </section>
 </article>
+
 <script>
     var data = JSON.parse('@arrayForJs'.replace(/&quot;/g, '"'));
     var counties = JSON.parse('@counties'.replace(/&quot;/g, '"'));

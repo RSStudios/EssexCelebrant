@@ -3,30 +3,27 @@
     ViewBag.Title = "FAQ Funerals";
 }
 
-
 <link href="~/Content/CSS/FAQ.css" rel="stylesheet" />
 
-<section>
-    <article class="inner">
-        <h2>Funeral Celebrant</h2>
-        <article class="click" data-question-id="1" data-toggle="modal" data-target="#myModal">
-            <a href="#">What are my options when organising a funeral?</a>
-        </article>
-        <article class="click" data-question-id="2" data-toggle="modal" data-target="#myModal">
-            <a href="#">Who organises a funeral?</a>
-        </article>
-        <article class="click" data-question-id="3" data-toggle="modal" data-target="#myModal">
-            <a href="#"> Who chooses whether to use a minister, Humanist or Independent Celebrant?</a>
-        </article>
-        <article class="click" data-question-id="4" data-toggle="modal" data-target="#myModal">
-            <a href="#">I want a religious service but not in church – do I have to have a minister?</a>
-        </article>
-        <article class="click" data-question-id="5" data-toggle="modal" data-target="#myModal">
-            <a href="#">What is the difference between a Humanist Celebrant and an Independent Celebrant?</a>
-        </article>
-        <article class="click" data-question-id="6" data-toggle="modal" data-target="#myModal">
-            <a href="#">Why choose an Independent Celebrant?</a>
-        </article>
+<section class="inner-50em">
+    <h2>Funeral Celebrant</h2>
+    <article class="click" data-question-id="1" data-toggle="modal" data-target="#myModal">
+        <a href="#">What are my options when organising a funeral?</a>
+    </article>
+    <article class="click" data-question-id="2" data-toggle="modal" data-target="#myModal">
+        <a href="#">Who organises a funeral?</a>
+    </article>
+    <article class="click" data-question-id="3" data-toggle="modal" data-target="#myModal">
+        <a href="#"> Who chooses whether to use a minister, Humanist or Independent Celebrant?</a>
+    </article>
+    <article class="click" data-question-id="4" data-toggle="modal" data-target="#myModal">
+        <a href="#">I want a religious service but not in church – do I have to have a minister?</a>
+    </article>
+    <article class="click" data-question-id="5" data-toggle="modal" data-target="#myModal">
+        <a href="#">What is the difference between a Humanist Celebrant and an Independent Celebrant?</a>
+    </article>
+    <article class="click" data-question-id="6" data-toggle="modal" data-target="#myModal">
+        <a href="#">Why choose an Independent Celebrant?</a>
     </article>
 </section>
 
@@ -41,10 +38,10 @@
         <li> a humanist celebrant at the local Crematorium </li>
         <li> an independent celebrant at the local Crematorium </li>
         <li> a relative at the local Crematorium </li>
-         <li> a special person to the family of the deceased at the local Crematorium </li>
-
-</ul>
+        <li> a special person to the family of the deceased at the local Crematorium </li>
+    </ul>
 </script>
+
 <script class="answer answer2" type="text/template">
     <p>
         A local Funeral Director will guide you in organising a funeral for a loved one.
@@ -57,6 +54,7 @@
     </p>
 
 </script>
+
 <script class="answer answer3" type="text/template">
     <p>
         You do.
@@ -71,6 +69,7 @@
         Search of google if you are not sure.
     </p>
 </script>
+
 <script class="answer answer4" type="text/template">
     <p>
         No.
@@ -79,6 +78,7 @@
         You can have who you would like.  Minister, Humanist or Independent Celebrant.
     </p>
 </script>
+
 <script class="answer answer5" type="text/template">
     <p>
         A Humanist Celebrant cannot include anything in your service that is of a religious nature.  This includes hymns, songs, poems or prayers.
@@ -93,6 +93,7 @@
         If you have any doubts, please ask.
     </p>
 </script>
+
 <script class="answer answer6" type="text/template">
     <p>
         An Independent Celebrant can provide you with a unique celebration of your relative’s life.
@@ -113,6 +114,7 @@
         Your ceremony.  Your way.
     </p>
 </script>
+
 <!-- The Modal -->
 <div class="modal-overlay closed" id="modal-overlay"></div>
 
@@ -125,10 +127,6 @@
 </div>
 
 <script>
-    //var modal = document.getElementById('myModal');
-    //// Get the <span> element that closes the modal
-    //var span = document.getElementsByClassName("close")[0];
-
     //// When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
         if (event.target === modalOverlay) {
@@ -136,11 +134,6 @@
             modalOverlay.classList.toggle("closed");
         }
     };
-
-    //// When the user clicks on <span> (x), close the modal
-    //span.onclick = function () {
-    //    modal.style.display = "none";
-    //};
 
     $('.click').off('click').on('click', function () {
         var quHtml = $(this).text();

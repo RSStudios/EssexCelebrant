@@ -1,6 +1,7 @@
 ﻿.main-carousel {
     background-color: hsl(11, 35%, 41%);
     line-height: normal;
+    margin-bottom: 50px;
 }
 
     .main-carousel .carousel-cell {

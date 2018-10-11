@@ -147,6 +147,7 @@
     <Compile Include="Controllers\DinnersController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\FuneralsController.cs" />
+    <Compile Include="Controllers\GetInTouchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
     <Compile Include="Controllers\OtherCelebrationsController.cs" />
@@ -168,6 +169,12 @@
     </Content>
     <Content Include="Content\CSS\Blog.min.css">
       <DependentUpon>Blog.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Dinners.css">
+      <DependentUpon>Dinners.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Dinners.min.css">
+      <DependentUpon>Dinners.css</DependentUpon>
     </Content>
     <Content Include="Content\CSS\EssexCelebrant.css">
       <DependentUpon>EssexCelebrant.scss</DependentUpon>
@@ -330,6 +337,7 @@
     <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\FAQ\FAQFunerals.cshtml" />
     <Content Include="Views\FAQ\FAQCelebrant.cshtml" />
+    <Content Include="Views\GetInTouch\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
