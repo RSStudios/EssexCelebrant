@@ -13,3 +13,9 @@
 .inner article {
     margin-bottom: 20px;
 }
+
+section .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+}

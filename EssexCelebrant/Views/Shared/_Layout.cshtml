@@ -68,21 +68,29 @@
     <div class="container">
         @RenderBody()
     </div>
-
+   
     <footer>
-        <!-- Footer -->
-        <section id="footer">
-                <article class="inner-50em copyright">
-                    <section>
-                        &copy;@DateTime.Now.Year
-                        Web site design by <a href="http://www.rsstudios.co.uk">RS Studios</a> | 
-                        Tel: <a href="tel:07956487703">07956-487703</a>
-                    </section>
-                    <setion>
-                        Based on a template from &copy; Untitled Design: <a href="https://templated.co">TEMPLATED</a>.
-                    </setion>
-                </article>
-        </section>
+        <div class="get-in-touch">
+            <section>
+                Get in touch
+            </section>
+            <section>
+                <img src="~/Content/Images/Logo.png" style="width: 200px; height: 200px;" />
+            </section>
+            <section>
+                012345-56784532
+            </section>
+        </div>
+        <article class="copyright">
+            <section>
+                &copy;@DateTime.Now.Year
+                Web site design by <a href="http://www.rsstudios.co.uk">RS Studios</a> |
+                Tel: <a href="tel:07956487703">07956-487703</a>
+            </section>
+            <section>
+                Based on a template from &copy; Untitled Design: <a href="https://templated.co">TEMPLATED</a>
+            </section>
+        </article>
     </footer>
 
     @Scripts.Render("~/bundles/Introspect")
