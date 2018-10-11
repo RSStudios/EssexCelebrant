@@ -8,6 +8,7 @@ namespace EssexCelebrant.Controllers
 {
     public class DinnersController : Controller
     {
+        [OutputCache(CacheProfile = "DefaultCache")]
         // GET: Dinners
         public ActionResult Index()
         {
