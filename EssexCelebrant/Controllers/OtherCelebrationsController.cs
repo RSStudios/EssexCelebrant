@@ -9,6 +9,7 @@ namespace EssexCelebrant.Controllers
     public class OtherCelebrationsController : Controller
     {
         // GET: OtherCelebrations
+        [OutputCache(CacheProfile = "DefaultCache")]
         public ActionResult Index()
         {
             return View("OtherCelebrations");
