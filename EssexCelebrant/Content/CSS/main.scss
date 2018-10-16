@@ -88,7 +88,7 @@ body {
 		width: 80em;
 	}*/
 
-@media screen and (max-width: 1680px) {
+/*@media screen and (max-width: 1680px) {
 
     .container.\31 25\25 {
         width: 100%;
@@ -110,10 +110,10 @@ body {
 
     /*.container {
         width: 80em;
-    }*/
-}
+    }
+}*/
 
-@media screen and (max-width: 1280px) {
+/*@media screen and (max-width: 1280px) {
 
     .container.\31 25\25 {
         width: 100%;
@@ -136,9 +136,9 @@ body {
     .container {
         width: 65em;
     }
-}
+}*/
 
-@media screen and (max-width: 980px) {
+/*@media screen and (max-width: 980px) {
 
     .container.\31 25\25 {
         width: 100%;
@@ -161,34 +161,9 @@ body {
     .container {
         width: 90%;
     }
-}
+}*/
 
-@media screen and (max-width: 736px) {
-
-    .container.\31 25\25 {
-        width: 100%;
-        max-width: 112.5%;
-        min-width: 90%;
-    }
-
-    .container.\37 5\25 {
-        width: 67.5%;
-    }
-
-    .container.\35 0\25 {
-        width: 45%;
-    }
-
-    .container.\32 5\25 {
-        width: 22.5%;
-    }
-
-    .container {
-        width: 90% !important;
-    }
-}
-
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 736px) {
 
     .container.\31 25\25 {
         width: 100%;
@@ -211,7 +186,32 @@ body {
     .container {
         width: 90% !important;
     }
-}
+}*/
+
+/*@media screen and (max-width: 480px) {
+
+    .container.\31 25\25 {
+        width: 100%;
+        max-width: 112.5%;
+        min-width: 90%;
+    }
+
+    .container.\37 5\25 {
+        width: 67.5%;
+    }
+
+    .container.\35 0\25 {
+        width: 45%;
+    }
+
+    .container.\32 5\25 {
+        width: 22.5%;
+    }
+
+    .container {
+        width: 90% !important;
+    }
+}*/
 
 /* Grid */
 
@@ -2499,13 +2499,14 @@ section.special, article.special {
 .inner-6em {
     max-width: 65em;
     width: calc(100% - 6em);
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .inner-50em {
     max-width: 65em;
     width: calc(100% - 50em);
     margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 @media screen and (max-width: 480px) {

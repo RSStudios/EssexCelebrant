@@ -38,5 +38,9 @@
   {
     "outputFile": "Content/CSS/GetInTouch.css",
     "inputFile": "Content/CSS/GetInTouch.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Carousel.css",
+    "inputFile": "Content/CSS/Carousel.scss"
   }
 ]

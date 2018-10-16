@@ -1,0 +1,40 @@
+﻿.main-carousel {
+  background-color: #8d5144;
+  line-height: normal;
+  margin-bottom: 50px; }
+  .main-carousel .carousel-cell {
+    width: 100%;
+    /* full width */
+    height: 400px;
+    /* height of carousel */
+    margin-right: 10px; }
+    .main-carousel .carousel-cell .image {
+      float: left;
+      width: 75%; }
+    .main-carousel .carousel-cell .text {
+      float: left;
+      color: #fff;
+      width: 25%;
+      padding: 50px 20px 0 20px; }
+
+@media screen and (min-width: 300px) and (max-width: 591px) {
+  /* half-width cells for larger devices */
+  .main-carousel .carousel-cell {
+    height: 150px;
+    /* height of carousel */ }
+    .main-carousel .carousel-cell .text {
+      padding: 6px 19px 0 14px;
+      font-size: 0.75em;
+      width: 15%; } }
+
+@media screen and (min-width: 592px) and (max-width: 903px) {
+  /* half-width cells for larger devices */
+  .main-carousel .carousel-cell {
+    height: 300px;
+    /* height of carousel */ } }
+
+@media screen and (min-width: 903px) {
+  /* half-width cells for larger devices */
+  .main-carousel .carousel-cell {
+    height: 300px;
+    /* height of carousel */ } }
