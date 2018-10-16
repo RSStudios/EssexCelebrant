@@ -16,7 +16,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="bin/about.cshtml.a8d08dba.compiled">
-      <publishTime>10/11/2018 23:23:45</publishTime>
+      <publishTime>10/16/2018 22:20:28</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>10/07/2018 15:23:52</publishTime>
@@ -28,10 +28,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/11/2018 23:23:38</publishTime>
+      <publishTime>10/16/2018 22:20:23</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/11/2018 23:23:37</publishTime>
+      <publishTime>10/16/2018 22:20:23</publishTime>
     </File>
     <File Include="bin/App_Web_00zvm2s1.dll">
       <publishTime>10/07/2018 20:13:49</publishTime>
@@ -111,6 +111,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_3b1xlmph.dll">
       <publishTime>10/06/2018 21:32:45</publishTime>
     </File>
+    <File Include="bin/App_Web_3hkino05.dll">
+      <publishTime>10/16/2018 22:20:24</publishTime>
+    </File>
     <File Include="bin/App_Web_3m2cqpyf.dll">
       <publishTime>10/07/2018 17:16:36</publishTime>
     </File>
@@ -128,6 +131,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/App_Web_3zq4kcen.dll">
       <publishTime>10/07/2018 15:25:36</publishTime>
+    </File>
+    <File Include="bin/App_Web_4052rtc4.dll">
+      <publishTime>10/16/2018 22:20:25</publishTime>
+    </File>
+    <File Include="bin/App_Web_40yfhda3.dll">
+      <publishTime>10/16/2018 22:20:32</publishTime>
     </File>
     <File Include="bin/App_Web_41lzzbhc.dll">
       <publishTime>10/10/2018 22:32:23</publishTime>
@@ -198,6 +207,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_bzvhkjf5.dll">
       <publishTime>10/07/2018 17:54:09</publishTime>
     </File>
+    <File Include="bin/App_Web_cmapwa0x.dll">
+      <publishTime>10/16/2018 22:20:31</publishTime>
+    </File>
     <File Include="bin/App_Web_dgihfbp1.dll">
       <publishTime>10/11/2018 23:02:11</publishTime>
     </File>
@@ -227,6 +239,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/App_Web_eeeoe2kl.dll">
       <publishTime>10/11/2018 23:23:50</publishTime>
+    </File>
+    <File Include="bin/App_Web_eokhloho.dll">
+      <publishTime>10/16/2018 22:20:32</publishTime>
     </File>
     <File Include="bin/App_Web_epdwe0a2.dll">
       <publishTime>10/10/2018 22:32:20</publishTime>
@@ -420,6 +435,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_mkengdaa.dll">
       <publishTime>10/07/2018 15:56:39</publishTime>
     </File>
+    <File Include="bin/App_Web_mlxvyc3j.dll">
+      <publishTime>10/16/2018 22:20:26</publishTime>
+    </File>
     <File Include="bin/App_Web_mpnp0spv.dll">
       <publishTime>10/07/2018 17:29:53</publishTime>
     </File>
@@ -488,6 +506,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/App_Web_pjwd0ea3.dll">
       <publishTime>10/07/2018 15:56:37</publishTime>
+    </File>
+    <File Include="bin/App_Web_pk42rgtt.dll">
+      <publishTime>10/16/2018 22:20:31</publishTime>
     </File>
     <File Include="bin/App_Web_plpuy11o.dll">
       <publishTime>10/05/2018 00:05:00</publishTime>
@@ -564,6 +585,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_t1whzbvy.dll">
       <publishTime>10/07/2018 15:56:38</publishTime>
     </File>
+    <File Include="bin/App_Web_tatrkyao.dll">
+      <publishTime>10/16/2018 22:20:27</publishTime>
+    </File>
     <File Include="bin/App_Web_tcg2q4sa.dll">
       <publishTime>10/07/2018 20:13:50</publishTime>
     </File>
@@ -603,6 +627,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_uhhpiljk.dll">
       <publishTime>10/07/2018 17:54:09</publishTime>
     </File>
+    <File Include="bin/App_Web_ulzcrjng.dll">
+      <publishTime>10/16/2018 22:20:29</publishTime>
+    </File>
     <File Include="bin/App_Web_v1z1fxhw.dll">
       <publishTime>10/07/2018 17:29:55</publishTime>
     </File>
@@ -615,14 +642,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_vzhnbvvv.dll">
       <publishTime>10/07/2018 20:13:51</publishTime>
     </File>
+    <File Include="bin/App_Web_w2gufmb5.dll">
+      <publishTime>10/16/2018 22:20:25</publishTime>
+    </File>
     <File Include="bin/App_Web_wlqgllp1.dll">
       <publishTime>10/10/2018 22:32:22</publishTime>
     </File>
     <File Include="bin/App_Web_wm0urn1t.dll">
       <publishTime>10/11/2018 23:23:44</publishTime>
     </File>
+    <File Include="bin/App_Web_wn3id0wt.dll">
+      <publishTime>10/16/2018 22:20:30</publishTime>
+    </File>
     <File Include="bin/App_Web_wssb13sr.dll">
       <publishTime>10/11/2018 23:23:52</publishTime>
+    </File>
+    <File Include="bin/App_Web_wvsl0oal.dll">
+      <publishTime>10/16/2018 22:20:27</publishTime>
     </File>
     <File Include="bin/App_Web_wxyyhr30.dll">
       <publishTime>10/06/2018 21:32:39</publishTime>
@@ -663,6 +699,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_yoihfeh5.dll">
       <publishTime>10/09/2018 23:26:09</publishTime>
     </File>
+    <File Include="bin/App_Web_yu2jkkh3.dll">
+      <publishTime>10/16/2018 22:20:28</publishTime>
+    </File>
     <File Include="bin/App_Web_yuzomepy.dll">
       <publishTime>10/07/2018 17:41:00</publishTime>
     </File>
@@ -681,65 +720,71 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/App_Web_yz3go3ia.dll">
       <publishTime>10/05/2018 00:05:01</publishTime>
     </File>
+    <File Include="bin/App_Web_z2dntmjx.dll">
+      <publishTime>10/16/2018 22:20:33</publishTime>
+    </File>
+    <File Include="bin/App_Web_zlx3qne3.dll">
+      <publishTime>10/16/2018 22:20:29</publishTime>
+    </File>
     <File Include="bin/App_Web_zo2bodxb.dll">
       <publishTime>10/07/2018 17:41:02</publishTime>
     </File>
     <File Include="bin/contact.cshtml.a8d08dba.compiled">
-      <publishTime>10/11/2018 23:23:45</publishTime>
+      <publishTime>10/16/2018 22:20:28</publishTime>
     </File>
     <File Include="bin/dinners.cshtml.32d6c807.compiled">
-      <publishTime>10/11/2018 23:23:41</publishTime>
+      <publishTime>10/16/2018 22:20:25</publishTime>
     </File>
     <File Include="bin/error.cshtml.639c3968.compiled">
-      <publishTime>10/11/2018 23:23:48</publishTime>
+      <publishTime>10/16/2018 22:20:30</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.Business.dll">
-      <publishTime>10/11/2018 23:01:54</publishTime>
+      <publishTime>10/16/2018 22:20:17</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.Business.pdb">
       <publishTime>10/04/2018 23:41:33</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.DataAccess.dll">
-      <publishTime>10/11/2018 23:01:53</publishTime>
+      <publishTime>10/16/2018 22:20:17</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.DataAccess.pdb">
       <publishTime>10/04/2018 23:41:33</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.dll">
-      <publishTime>10/11/2018 23:23:33</publishTime>
+      <publishTime>10/16/2018 22:20:19</publishTime>
     </File>
     <File Include="bin/EssexCelebrant.pdb">
       <publishTime>10/05/2018 00:03:14</publishTime>
     </File>
     <File Include="bin/faq.cshtml.d1d7bb40.compiled">
-      <publishTime>10/11/2018 23:23:42</publishTime>
+      <publishTime>10/16/2018 22:20:26</publishTime>
     </File>
     <File Include="bin/faqcelebrant.cshtml.d1d7bb40.compiled">
-      <publishTime>10/11/2018 23:23:42</publishTime>
+      <publishTime>10/16/2018 22:20:26</publishTime>
     </File>
     <File Include="bin/faqfunerals.cshtml.d1d7bb40.compiled">
-      <publishTime>10/11/2018 23:23:42</publishTime>
+      <publishTime>10/16/2018 22:20:26</publishTime>
     </File>
     <File Include="bin/index.cshtml.3e1afb59.compiled">
-      <publishTime>10/11/2018 23:23:40</publishTime>
+      <publishTime>10/16/2018 22:20:25</publishTime>
     </File>
     <File Include="bin/index.cshtml.6a93f31d.compiled">
-      <publishTime>10/11/2018 23:23:43</publishTime>
+      <publishTime>10/16/2018 22:20:27</publishTime>
     </File>
     <File Include="bin/index.cshtml.7a4ca47a.compiled">
-      <publishTime>10/11/2018 23:23:39</publishTime>
+      <publishTime>10/16/2018 22:20:24</publishTime>
     </File>
     <File Include="bin/index.cshtml.7f8dd554.compiled">
-      <publishTime>10/11/2018 23:23:44</publishTime>
+      <publishTime>10/16/2018 22:20:27</publishTime>
     </File>
     <File Include="bin/index.cshtml.a8d08dba.compiled">
-      <publishTime>10/11/2018 23:23:45</publishTime>
+      <publishTime>10/16/2018 22:20:28</publishTime>
     </File>
     <File Include="bin/index.cshtml.c33c9b0f.compiled">
-      <publishTime>10/11/2018 23:23:49</publishTime>
+      <publishTime>10/16/2018 22:20:31</publishTime>
     </File>
     <File Include="bin/links.cshtml.c2de679c.compiled">
-      <publishTime>10/11/2018 23:23:46</publishTime>
+      <publishTime>10/16/2018 22:20:29</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>10/07/2018 15:23:52</publishTime>
@@ -781,7 +826,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/24/2018 17:44:14</publishTime>
     </File>
     <File Include="bin/othercelebrations.cshtml.61f30ec2.compiled">
-      <publishTime>10/11/2018 23:23:47</publishTime>
+      <publishTime>10/16/2018 22:20:29</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>10/04/2018 21:34:20</publishTime>
@@ -1231,25 +1276,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/05/2018 00:06:53</publishTime>
     </File>
     <File Include="bin/toastmaster.cshtml.7432b9cd.compiled">
-      <publishTime>10/11/2018 23:23:50</publishTime>
+      <publishTime>10/16/2018 22:20:31</publishTime>
     </File>
     <File Include="bin/toastmaster.cshtml.c33c9b0f.compiled">
       <publishTime>10/07/2018 18:12:16</publishTime>
     </File>
     <File Include="bin/venues.cshtml.7d6163f8.compiled">
-      <publishTime>10/11/2018 23:23:51</publishTime>
+      <publishTime>10/16/2018 22:20:32</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="bin/weddings.cshtml.ad2774ce.compiled">
-      <publishTime>10/11/2018 23:23:52</publishTime>
+      <publishTime>10/16/2018 22:20:33</publishTime>
     </File>
     <File Include="bin/_layout.cshtml.639c3968.compiled">
-      <publishTime>10/11/2018 23:23:48</publishTime>
+      <publishTime>10/16/2018 22:20:30</publishTime>
     </File>
     <File Include="bin/_viewstart.cshtml.65a2d1ee.compiled">
-      <publishTime>10/11/2018 23:23:53</publishTime>
+      <publishTime>10/16/2018 22:20:33</publishTime>
     </File>
     <File Include="Config/app_home.config">
       <publishTime>10/07/2018 15:23:52</publishTime>
@@ -1308,6 +1353,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/CSS/Blog.scss">
       <publishTime>10/09/2018 22:55:37</publishTime>
     </File>
+    <File Include="Content/CSS/Carousel.css">
+      <publishTime>10/16/2018 21:12:00</publishTime>
+    </File>
+    <File Include="Content/CSS/Carousel.min.css">
+      <publishTime>10/16/2018 21:12:00</publishTime>
+    </File>
+    <File Include="Content/CSS/Carousel.scss">
+      <publishTime>10/16/2018 21:12:00</publishTime>
+    </File>
     <File Include="Content/CSS/Dinners.css">
       <publishTime>10/10/2018 22:53:24</publishTime>
     </File>
@@ -1351,19 +1405,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/11/2018 21:55:35</publishTime>
     </File>
     <File Include="Content/CSS/home.css">
-      <publishTime>10/11/2018 23:00:25</publishTime>
+      <publishTime>10/16/2018 20:03:38</publishTime>
     </File>
     <File Include="Content/CSS/Links.css">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/CSS/main.css">
-      <publishTime>10/11/2018 23:20:57</publishTime>
+      <publishTime>10/16/2018 20:48:52</publishTime>
     </File>
     <File Include="Content/CSS/main.min.css">
-      <publishTime>10/11/2018 23:20:57</publishTime>
+      <publishTime>10/16/2018 20:48:52</publishTime>
     </File>
     <File Include="Content/CSS/main.scss">
-      <publishTime>10/11/2018 23:20:56</publishTime>
+      <publishTime>10/16/2018 20:48:52</publishTime>
     </File>
     <File Include="Content/CSS/Menu.css">
       <publishTime>10/09/2018 23:21:05</publishTime>
@@ -1384,13 +1438,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/09/2018 21:50:34</publishTime>
     </File>
     <File Include="Content/CSS/Testimonials.css">
-      <publishTime>10/07/2018 19:34:12</publishTime>
+      <publishTime>10/16/2018 21:57:06</publishTime>
     </File>
     <File Include="Content/CSS/Testimonials.min.css">
-      <publishTime>10/07/2018 19:34:12</publishTime>
+      <publishTime>10/16/2018 21:57:06</publishTime>
     </File>
     <File Include="Content/CSS/Testimonials.scss">
-      <publishTime>10/07/2018 19:34:12</publishTime>
+      <publishTime>10/16/2018 21:57:05</publishTime>
     </File>
     <File Include="Content/CSS/Toastmaster.scss">
       <publishTime>10/07/2018 19:11:22</publishTime>
@@ -1426,31 +1480,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/21st Birthday.jpg">
-      <publishTime>10/10/2018 20:17:40</publishTime>
+      <publishTime>10/16/2018 19:43:10</publishTime>
     </File>
     <File Include="Content/Images/Anniversary.jpeg">
-      <publishTime>10/10/2018 21:07:44</publishTime>
+      <publishTime>10/16/2018 19:35:48</publishTime>
     </File>
     <File Include="Content/Images/banner.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/Bar Mitzvah.jpeg">
-      <publishTime>10/10/2018 20:36:14</publishTime>
+      <publishTime>10/16/2018 21:09:56</publishTime>
     </File>
     <File Include="Content/Images/Casket.png">
-      <publishTime>10/10/2018 22:02:05</publishTime>
+      <publishTime>10/16/2018 21:16:13</publishTime>
     </File>
     <File Include="Content/Images/Celebrant Leaflet images - GJM %281%29.JPG">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/ChampagneGlasses.png">
-      <publishTime>10/10/2018 21:34:06</publishTime>
+      <publishTime>10/16/2018 21:24:44</publishTime>
     </File>
     <File Include="Content/Images/CorporateEvent.jpeg">
-      <publishTime>10/10/2018 19:47:33</publishTime>
+      <publishTime>10/16/2018 21:26:59</publishTime>
     </File>
     <File Include="Content/Images/Five.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
+    </File>
+    <File Include="Content/Images/FormalDinner.jpeg">
+      <publishTime>10/16/2018 21:30:47</publishTime>
     </File>
     <File Include="Content/Images/FormalDinner.jpg">
       <publishTime>10/10/2018 20:01:36</publishTime>
@@ -1459,27 +1516,75 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/FuneralDirector.png">
-      <publishTime>10/10/2018 21:50:36</publishTime>
+      <publishTime>10/16/2018 21:38:34</publishTime>
     </File>
     <File Include="Content/Images/Glenn-Headshot1.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/GreenBurial.png">
-      <publishTime>10/10/2018 21:45:52</publishTime>
+      <publishTime>10/16/2018 21:43:41</publishTime>
     </File>
     <File Include="Content/Images/Logo.png">
       <publishTime>10/11/2018 23:00:25</publishTime>
     </File>
+    <File Include="Content/Images/ManWithButtonHole.jpeg">
+      <publishTime>10/16/2018 21:51:19</publishTime>
+    </File>
     <File Include="Content/Images/Masonic.png">
-      <publishTime>10/10/2018 21:31:53</publishTime>
+      <publishTime>10/16/2018 21:44:42</publishTime>
     </File>
     <File Include="Content/Images/MilitaryDinner.png">
-      <publishTime>10/10/2018 21:21:42</publishTime>
+      <publishTime>10/16/2018 21:47:30</publishTime>
     </File>
     <File Include="Content/Images/MilitaryWedding.jpeg">
-      <publishTime>10/10/2018 19:43:10</publishTime>
+      <publishTime>10/16/2018 21:48:42</publishTime>
     </File>
     <File Include="Content/Images/one.jpg">
+      <publishTime>10/07/2018 15:23:52</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/Old21st Birthday.jpg">
+      <publishTime>10/10/2018 20:17:40</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldAnniversary.jpeg">
+      <publishTime>10/10/2018 21:07:44</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldBar Mitzvah.jpeg">
+      <publishTime>10/10/2018 20:36:14</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldCasket.png">
+      <publishTime>10/10/2018 22:02:05</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldChampagneGlasses.png">
+      <publishTime>10/10/2018 21:34:06</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldCorporateEvent.jpeg">
+      <publishTime>10/10/2018 19:47:33</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldFormalDinner.jpg">
+      <publishTime>10/10/2018 20:01:36</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldFuneralDirector.png">
+      <publishTime>10/10/2018 21:50:36</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldGreenBurial.png">
+      <publishTime>10/10/2018 21:45:52</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldManWithButtonHole.jpg">
+      <publishTime>10/07/2018 15:23:52</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldMasonic.png">
+      <publishTime>10/10/2018 21:31:53</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldMilitaryDinner.png">
+      <publishTime>10/10/2018 21:21:42</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldMilitaryWedding.jpeg">
+      <publishTime>10/10/2018 19:43:10</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldSchool Prom.jpeg">
+      <publishTime>10/10/2018 20:29:36</publishTime>
+    </File>
+    <File Include="Content/Images/Originals/OldTestimonial.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Content/Images/pic01.jpg">
@@ -1518,11 +1623,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/ReleasingOfDoves.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
+    <File Include="Content/Images/Rings.jpeg">
+      <publishTime>10/16/2018 22:01:14</publishTime>
+    </File>
     <File Include="Content/Images/School Prom.jpeg">
-      <publishTime>10/10/2018 20:29:36</publishTime>
+      <publishTime>10/16/2018 21:58:45</publishTime>
     </File>
     <File Include="Content/Images/Six.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
+    </File>
+    <File Include="Content/Images/Testimonial.jpeg">
+      <publishTime>10/16/2018 21:54:56</publishTime>
     </File>
     <File Include="Content/Images/Testimonial.jpg">
       <publishTime>10/07/2018 15:23:52</publishTime>
@@ -1573,7 +1684,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/11/2018 23:23:34</publishTime>
+      <publishTime>10/16/2018 22:20:20</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.js">
       <publishTime>10/07/2018 15:23:52</publishTime>
@@ -1681,76 +1792,76 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Views/Blog/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Celebrant/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Dinners/Dinners.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/FAQ/FAQ.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/FAQ/FAQCelebrant.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/FAQ/FAQFunerals.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Funerals/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/GetInTouch/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Home/Testimonials.cshtml">
       <publishTime>10/05/2018 00:06:57</publishTime>
     </File>
     <File Include="Views/Links/Links.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/OtherCelebrations/OtherCelebrations.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Testimonials/Index.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Testimonials/Toastmaster.cshtml">
       <publishTime>10/07/2018 18:12:18</publishTime>
     </File>
     <File Include="Views/Toastmaster/Toastmaster.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Venues/Venues.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>10/07/2018 15:23:52</publishTime>
     </File>
     <File Include="Views/Weddings/Weddings.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>10/11/2018 23:23:54</publishTime>
+      <publishTime>10/16/2018 22:20:35</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/11/2018 23:01:56</publishTime>
+      <publishTime>10/16/2018 22:20:19</publishTime>
     </File>
   </ItemGroup>
 </Project>
