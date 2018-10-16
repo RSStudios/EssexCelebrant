@@ -32,9 +32,3 @@
   .main-carousel .carousel-cell {
     height: 300px;
     /* height of carousel */ } }
-
-@media screen and (min-width: 903px) {
-  /* half-width cells for larger devices */
-  .main-carousel .carousel-cell {
-    height: 300px;
-    /* height of carousel */ } }
