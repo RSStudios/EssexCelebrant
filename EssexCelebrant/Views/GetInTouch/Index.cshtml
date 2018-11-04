@@ -1,31 +1,40 @@
 ﻿
+
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Get in Touch";
 }
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="~/Scripts/app/GetInTouch.js"></script>
 <link href="~/Content/CSS/GetInTouch.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
 <article class="get-in-touch">
     <section class="inner-50em">
         <h2>Get in touch</h2>
 
-        <form method="post" action="#">
+        <div class="form">
             <div class="field half first">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" />
             </div>
             <div class="field half">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+
+                <input type="email" name="email" id="email" />
             </div>
             <div class="field">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="6"></textarea>
             </div>
             <ul class="actions">
-                <li><input type="submit" value="Send Message" class="alt" /></li>
+                <li><input id="send-the-message" type="submit" value="Send Message" class="alt" /></li>
             </ul>
-        </form>
+        </div>
     </section>
 </article>
 
+<script>
+    window.EssexCelebrant.GetInTouch.init();
+</script>

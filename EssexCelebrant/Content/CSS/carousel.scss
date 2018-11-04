@@ -13,6 +13,11 @@
             width: 75%;
         }
 
+        .dinners {
+            background-image: url('../Images/ChampagneGlasses.png');
+            height: 100%;
+        }
+
         .text {
             float: left;
             color: #fff;
@@ -32,6 +37,10 @@
                 font-size: 0.75em;
                 width: 15%;
             }
+
+            &.dinners {
+
+            }
         }
     }
 }
@@ -41,6 +50,11 @@
     .main-carousel {
         .carousel-cell {
             height: 300px; /* height of carousel */
+
+            .dinners {
+                background-image: url('../Images/LargeChampagneGlasses.png');
+                height: 100%;
+            }
         }
     }
 }

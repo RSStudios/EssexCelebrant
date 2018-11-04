@@ -159,6 +159,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Blog\BlogPost.cs" />
+    <Compile Include="Models\GetInTouch\GetInTouch.cs" />
     <Compile Include="Models\Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -313,6 +314,7 @@
     <Content Include="Content\Fonts\FontAwesome.otf" />
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.min.map" />
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\app\GetInTouch.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />

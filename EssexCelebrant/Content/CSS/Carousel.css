@@ -11,6 +11,9 @@
     .main-carousel .carousel-cell .image {
       float: left;
       width: 75%; }
+    .main-carousel .carousel-cell .dinners {
+      background-image: url("../Images/ChampagneGlasses.png");
+      height: 100%; }
     .main-carousel .carousel-cell .text {
       float: left;
       color: #fff;
@@ -31,4 +34,7 @@
   /* half-width cells for larger devices */
   .main-carousel .carousel-cell {
     height: 300px;
-    /* height of carousel */ } }
+    /* height of carousel */ }
+    .main-carousel .carousel-cell .dinners {
+      background-image: url("../Images/LargeChampagneGlasses.png");
+      height: 100%; } }
