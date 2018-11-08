@@ -1,8 +1,14 @@
-﻿.get-in-touch {
+﻿.toast-message {
+    line-height: 1.5em
+}
+
+.get-in-touch {
     background-color: #e5474b;
     color: #f2a3a5;
     background: #e5474b;
     padding-bottom: 1px;
+    /*This will reduce the white gap between the header and the red "Get in touch"*/
+    margin-top: -20px;
 
     .form {
         margin: 0 0 2em 0;
@@ -291,7 +297,7 @@
         color: #717171 !important;
     }
 
-     
+
     .inner-50em {
         max-width: 65em;
         width: calc(100% - 50em);

@@ -17,7 +17,7 @@ namespace EssexCelebrant.Models
         /// <param name="toAddress"></param>
         /// <param name="subject"></param>
         /// <param name="emailBodyText"></param>
-        public static void SendEmail(string toAddress, string subject, string emailBodyText, string customerEmail)
+        public static string SendEmail(string toAddress, string subject, string emailBodyText, string customerEmail)
         {
             SmtpClient client = null;
             try
@@ -73,13 +73,16 @@ namespace EssexCelebrant.Models
             }
             catch (Exception ex)
             {
-                throw new ApplicationException("Email not sent.  Message: " + ex.Message + ".  InnerEx: " + ex.InnerException);
+                //throw new ApplicationException("Email not sent.  Message: " + ex.Message + ".  InnerEx: " + ex.InnerException);
+                return "Email not sent.  Message: " + ex.Message + ".  InnerEx: " + ex.InnerException;
             }
             finally
             {
                 if (null != client)
                     client = null;
             }
+
+            return string.Empty;
         }
     }
 }
