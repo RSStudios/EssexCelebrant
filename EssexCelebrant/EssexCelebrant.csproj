@@ -265,6 +265,8 @@
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\CSS\Menu.scss" />
     <Content Include="Assets\JSON\Venues.json" />
+    <Content Include="Assets\Files\Celebrancy Funeral information sheet back page.pdf" />
+    <Content Include="Assets\Files\Toastmaster Booking form with T&amp;C 2018-2020.pdf" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
