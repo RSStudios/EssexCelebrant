@@ -1,4 +1,8 @@
-﻿nav {
+﻿.menu-trigger {
+    display: none;
+}
+
+nav {
     position: absolute;
     right: 5px;
     top: 23px;
@@ -27,6 +31,11 @@
         text-decoration: none;
     }
 
+    li a:active, .submenu:active .dropbtn {
+        background-color: red;
+        text-decoration: none;
+    }
+
     li.submenu {
         display: inline-block;
     }
@@ -50,9 +59,17 @@
         &:hover {
             background-color: #f1f1f1
         }
+
+        &:active {
+            background-color: #f1f1f1
+        }
     }
 
     .submenu:hover .submenu-content {
+        display: block;
+    }
+
+    .submenu:active .submenu-content {
         display: block;
     }
 
@@ -85,4 +102,110 @@
     color: #fff;
     position: absolute;
     top: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+
+        &.show-menu {
+            display: block;
+            right: unset;
+            left: 250px;
+            top: 10px;
+        }
+    }
+
+    .glenn-title {
+        top: 4px;
+
+        &.show-menu {
+            left: 2%;
+        }
+    }
+
+    .toastmaster-logo {
+        font-size: 85%;
+        top: 52px;
+    }
+
+    .menu-trigger {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        background: 0 0;
+        right: 1em;
+        width: 4.5em;
+        z-index: 1;
+        margin-top: .3em;
+        white-space: nowrap;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+        border: 3px solid #fff;
+        font-size: calc(.9em + .1vw);
+        font-weight: 700;
+        color: #fff;
+        float: right;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 1px 10px 1px 10px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #header {
+        &.show-menu {
+            height: 7.5em;
+        }
+    }
+
+    .container {
+        &.show-menu {
+            margin-top: 40px;
+        }
+    }
+
+    nav {
+        display: none;
+
+        &.show-menu {
+            display: block;
+            right: unset;
+            left: -16px;
+            top: 81px;
+            font-size: 80%;
+        }
+    }
+
+    .glenn-title {
+        left: 2%;
+        top: 3%;
+        font-size: 250%;
+    }
+
+    .toastmaster-logo {
+        font-size: 85%;
+    }
+
+    .menu-trigger {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        background: 0 0;
+        right: 1em;
+        width: 4.5em;
+        z-index: 1;
+        margin-top: .3em;
+        white-space: nowrap;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+        border: 3px solid #fff;
+        font-size: calc(.9em + .1vw);
+        font-weight: 700;
+        color: #fff;
+        float: right;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 1px 10px 1px 10px;
+        text-decoration: none;
+    }
 }

@@ -2,9 +2,8 @@
 
 namespace EssexCelebrant.Controllers
 {
-    public class TestimonialsController : Controller
+    public class FavoursController : Controller
     {
-        [OutputCache(CacheProfile = "DefaultCache")]
         public ActionResult Index()
         {
             return View();

@@ -42,5 +42,21 @@
   {
     "outputFile": "Content/CSS/Carousel.css",
     "inputFile": "Content/CSS/Carousel.scss"
+  },
+  {
+    "outputFile": "Content/CSS/SpeechWriting.css",
+    "inputFile": "Content/CSS/SpeechWriting.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Favours.css",
+    "inputFile": "Content/CSS/Favours.scss"
+  },
+  {
+    "outputFile": "Content/CSS/CorporateEvents.css",
+    "inputFile": "Content/CSS/CorporateEvents.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Celebrant.css",
+    "inputFile": "Content/CSS/Celebrant.scss"
   }
 ]

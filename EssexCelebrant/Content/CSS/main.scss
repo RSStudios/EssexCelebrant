@@ -2829,6 +2829,11 @@ body {
     width: 100%;
     z-index: 10001;
     background: hsl(11, 83%, 28%);
+
+    .container {
+        clear: both;
+        position: relative;
+    }
 }
 
 #header .inner {
@@ -3295,6 +3300,9 @@ body.is-loading #banner:after {
 
 #two {
     padding: 20px 0 4em 0;
+    margin: 20px auto 0 auto;
+    max-width: 75%;
+    width: calc(100% - 6em);
     background: #f3f3f3;
     background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
     background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3439,6 +3447,10 @@ footer {
         display: flex;
         justify-content: center;
 
+        .telephone-number a {
+            color: #83220c
+        }
+
         section {
             align-self: center;
         }
@@ -3451,6 +3463,7 @@ footer {
     .copyright {
         display: flex;
         font-size: 0.85em;
+        font-size: 70%;
 
         a {
             color: #83220c;

@@ -2,12 +2,12 @@
 
 namespace EssexCelebrant.Controllers
 {
-    public class DinnersController : Controller
+    public class CorporateEventsController : Controller
     {
         [OutputCache(CacheProfile = "DefaultCache")]
         public ActionResult Index()
         {
-            return View("Dinners");
+            return View();
         }
     }
 }

@@ -144,13 +144,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\CelebrantController.cs" />
+    <Compile Include="Controllers\CorporateEventsController.cs" />
     <Compile Include="Controllers\DinnersController.cs" />
     <Compile Include="Controllers\FAQController.cs" />
+    <Compile Include="Controllers\FavoursController.cs" />
     <Compile Include="Controllers\FuneralsController.cs" />
     <Compile Include="Controllers\GetInTouchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
     <Compile Include="Controllers\OtherCelebrationsController.cs" />
+    <Compile Include="Controllers\SpeechWritingController.cs" />
     <Compile Include="Controllers\TestimonialsController.cs" />
     <Compile Include="Controllers\ToastmasterController.cs" />
     <Compile Include="Controllers\VenuesController.cs" />
@@ -177,6 +180,18 @@
     <Content Include="Content\CSS\Carousel.min.css">
       <DependentUpon>Carousel.css</DependentUpon>
     </Content>
+    <Content Include="Content\CSS\Celebrant.css">
+      <DependentUpon>Celebrant.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Celebrant.min.css">
+      <DependentUpon>Celebrant.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\CorporateEvents.css">
+      <DependentUpon>CorporateEvents.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\CorporateEvents.min.css">
+      <DependentUpon>CorporateEvents.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Dinners.css">
       <DependentUpon>Dinners.scss</DependentUpon>
     </Content>
@@ -194,6 +209,12 @@
     </Content>
     <Content Include="Content\CSS\FAQ.min.css">
       <DependentUpon>FAQ.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Favours.css">
+      <DependentUpon>Favours.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Favours.min.css">
+      <DependentUpon>Favours.css</DependentUpon>
     </Content>
     <Content Include="Content\CSS\GetInTouch.css">
       <DependentUpon>GetInTouch.scss</DependentUpon>
@@ -219,6 +240,12 @@
     </Content>
     <Content Include="Content\CSS\OtherCelebrations.min.css">
       <DependentUpon>OtherCelebrations.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\SpeechWriting.css">
+      <DependentUpon>SpeechWriting.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\SpeechWriting.min.css">
+      <DependentUpon>SpeechWriting.css</DependentUpon>
     </Content>
     <Content Include="Content\CSS\Testimonials.css">
       <DependentUpon>Testimonials.scss</DependentUpon>
@@ -256,6 +283,10 @@
     <Content Include="Content\CSS\Blog.scss" />
     <Content Include="Content\CSS\GetInTouch.scss" />
     <Content Include="Content\CSS\Carousel.scss" />
+    <Content Include="Content\CSS\SpeechWriting.scss" />
+    <Content Include="Content\CSS\Favours.scss" />
+    <Content Include="Content\CSS\CorporateEvents.scss" />
+    <Content Include="Content\CSS\Celebrant.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\21st Birthday.jpg" />
     <Content Include="Content\Images\Anniversary.jpeg" />
@@ -290,6 +321,7 @@
     <Content Include="Content\Images\Rings.jpeg" />
     <Content Include="Content\Images\School Prom.jpeg" />
     <Content Include="Content\Images\ReleasingOfDoves.jpg" />
+    <Content Include="Content\Images\SpeechWriting.jpeg" />
     <Content Include="Content\Images\Testimonial.jpeg" />
     <Content Include="Content\Scripts\3rdParty\Flickity\flickity.pkgd.min.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\main.js" />
@@ -301,6 +333,7 @@
     <Content Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.slim.min.js" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery.validate-vsdoc.js" />
     <Content Include="Content\Scripts\3rdParty\modernizr-2.8.3.js" />
+    <Content Include="Content\Scripts\App\Home.js" />
     <Content Include="Content\Scripts\App\vm.venue.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -343,6 +376,9 @@
     <Content Include="Views\FAQ\FAQFunerals.cshtml" />
     <Content Include="Views\FAQ\FAQCelebrant.cshtml" />
     <Content Include="Views\GetInTouch\Index.cshtml" />
+    <Content Include="Views\SpeechWriting\Index.cshtml" />
+    <Content Include="Views\Favours\Index.cshtml" />
+    <Content Include="Views\CorporateEvents\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

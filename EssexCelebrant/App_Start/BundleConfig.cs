@@ -10,6 +10,9 @@ namespace EssexCelebrant
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Content/Scripts/3rdParty/jQuery/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/home").Include(
+                        "~/Content/Scripts/App/Home.js"));
+
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(

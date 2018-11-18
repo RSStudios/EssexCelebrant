@@ -1,6 +1,10 @@
 ﻿
 <link href="~/Content/CSS/Weddings.css" rel="stylesheet" />
 
+@{
+    ViewBag.Title = "Weddings";
+}
+
 <section class="inner-6em">
     <article>
         <h3>
@@ -58,7 +62,7 @@
             <li> have a range of <a href="Testimonials">testimonials</a> from previous Brides and Bridegrooms</li>
         </ul>
         <div>
-            Please do not hesitate to <a href="Home/Contact">contact me</a> to discuss your specific requirements.
+            Please do not hesitate to <a href="@Url.Action("Index", "GetInTouch")">contact me</a> to discuss your specific requirements.
         </div>
     </article>
 </section>

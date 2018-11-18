@@ -2158,6 +2158,9 @@ body {
   width: 100%;
   z-index: 10001;
   background: #83220c; }
+  #header .container {
+    clear: both;
+    position: relative; }
 
 #header .inner {
   text-align: right;
@@ -2544,6 +2547,9 @@ body.is-loading #banner:after {
 
 #two {
   padding: 20px 0 4em 0;
+  margin: 20px auto 0 auto;
+  max-width: 75%;
+  width: calc(100% - 6em);
   background: #f3f3f3;
   background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
   background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -2652,13 +2658,16 @@ footer {
   footer .get-in-touch-section {
     display: flex;
     justify-content: center; }
+    footer .get-in-touch-section .telephone-number a {
+      color: #83220c; }
     footer .get-in-touch-section section {
       align-self: center; }
     footer .get-in-touch-section .get-in-touch-text {
       text-align: right; }
   footer .copyright {
     display: flex;
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    font-size: 70%; }
     footer .copyright a {
       color: #83220c; }
     footer .copyright section {

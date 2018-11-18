@@ -9,7 +9,7 @@
 .testimonial-header--text {
   position: absolute;
   color: #fff;
-  top: 18%;
+  top: 3%;
   left: 38%;
   font-size: 265%;
   letter-spacing: 8px; }
@@ -67,3 +67,7 @@
     color: #83220c; }
     .testimonials .burnt-orange.bold {
       font-weight: bold; }
+
+@media screen and (max-width: 736px) {
+  .testimonial-header--text {
+    top: 2%; } }

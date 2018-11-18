@@ -13,13 +13,18 @@
     @Styles.Render("~/Content/minified-css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
-
+    @Scripts.Render("~/bundles/home")
+    <script src="~/Content/Scripts/App/Home.js"></script>
     <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Header -->
     <header id="header">
-        <div style="clear: both; position: relative;">
+        <div class="container">
+            <a class="menu-trigger" id="menu-button" aria-controls="main-nav" role="button" aria-expanded="false">
+            Menu
+            </a>
+
             <nav>
                 <ul class="nav">
                     <li class="submenu">
@@ -28,7 +33,7 @@
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "OtherCelebrations")">Other celebrations</a>
                             <a href="@Url.Action("Index", "Dinners")">Dinners</a>
-                            <a href="@Url.Action("Contact", "Home")">Corporate events</a>
+                            <a href="@Url.Action("Index", "CorporateEvents")">Corporate events</a>
                             <a href="@Url.Action("Index", "FAQ", new { faqType = "Weddings" })">FAQs</a>
                             <a href="@Url.Action("Index", "Venues")">Venues</a>
                         </div>
@@ -45,13 +50,13 @@
                         </div>
                     </li>
                     <li class="submenu">
-                        <a class="dropbtn">More</a>
+                        <span onclick="" class="dropbtn">More</span>
                         <div class="submenu-content">
                             <a href="@Url.Action("About", "Home")">About me</a>
                             <a href="@Url.Action("Index", "Blog")">Blog</a>
                             <a href="@Url.Action("Index", "Testimonials")">Testimonials</a>
-                            <a href="@Url.Action("Index", "Testimonials")">Speech writing</a>
-                            <a href="@Url.Action("Index", "Testimonials")">Favours</a>
+                            <a href="@Url.Action("Index", "SpeechWriting")">Speech writing</a>
+                            <a href="@Url.Action("Index", "Favours")">Favours</a>
                             <a href="@Url.Action("Index", "Links")">Links</a>
                             <a href="@Url.Action("Index", "GetInTouch")">Get in touch</a>
                         </div>
@@ -69,7 +74,7 @@
     <div class="container">
         @RenderBody()
     </div>
-   
+
     <footer>
         <div class="get-in-touch-section">
             <section class="get-in-touch-text">
@@ -78,8 +83,8 @@
             <section>
                 <img src="~/Content/Images/Logo.png" style="width: 200px; height: 200px;" />
             </section>
-            <section>
-               07826-339498
+            <section class="telephone-number">
+                <a href="tel:07826339498">07826-339498</a>
             </section>
         </div>
         <article class="copyright">
@@ -97,5 +102,9 @@
     @Scripts.Render("~/bundles/Introspect")
 
     @RenderSection("scripts", required: false)
+
+    <script>
+        window.EssexCelebrant.Home.init();
+    </script>
 </body>
 </html>
