@@ -66,5 +66,9 @@
   {
     "outputFile": "Content/CSS/Funerals.css",
     "inputFile": "Content/CSS/Funerals.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Home.css",
+    "inputFile": "Content/CSS/Home.scss"
   }
 ]

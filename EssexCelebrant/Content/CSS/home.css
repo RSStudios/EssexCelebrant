@@ -1,17 +1,22 @@
 ﻿.inner article {
-    margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 section .inner {
-    max-width: 65em;
-    width: calc(100% - 6em);
-    margin: 0 auto;
-}
+  max-width: 65em;
+  width: calc(100% - 6em);
+  margin: 0 auto; }
 
 ul {
-    .actions
+  margin: 0 100px; }
+  ul.call-to-actions {
+    text-align: justify; }
+    ul.call-to-actions.actions {
+      margin-top: 20px;
+      cursor: default;
+      list-style: none;
+      padding-left: 0; }
 
-{
-    margin-top: 20px;
-}
-}
+ul:after {
+  content: '';
+  display: inline-block;
+  width: 100%; }

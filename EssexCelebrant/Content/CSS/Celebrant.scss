@@ -1,4 +1,22 @@
-﻿article {
-    line-height: 1.6em;
-    margin-bottom: 20px;
+﻿.celebrant {
+    article {
+        line-height: 1.6em;
+        margin-bottom: 80px;
+    }
+
+    .container {
+        .floated-image {
+            margin-top: 5px;
+
+            &.left {
+                float: left;
+                margin-right: 50px;
+            }
+
+            &.right {
+                float: right;
+                margin-left: 50px;
+            }
+        }
+    }
 }

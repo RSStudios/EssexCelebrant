@@ -2535,7 +2535,7 @@ body.is-loading #banner:after {
   padding: 4em 0 2em 0; }
 
 #one {
-  padding: 0 0 4em 0; }
+  padding: 0 0 2em 0; }
 
 @media screen and (max-width: 980px) {
   #one {
@@ -2828,3 +2828,11 @@ footer .inner {
 @media screen and (max-width: 736px) {
   footer {
     padding: 2em 0 0.1em 0; } }
+
+.clearfix {
+  overflow: auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }

@@ -1,3 +1,12 @@
-﻿article {
+﻿.celebrant article {
   line-height: 1.6em;
-  margin-bottom: 20px; }
+  margin-bottom: 80px; }
+
+.celebrant .container .floated-image {
+  margin-top: 5px; }
+  .celebrant .container .floated-image.left {
+    float: left;
+    margin-right: 50px; }
+  .celebrant .container .floated-image.right {
+    float: right;
+    margin-left: 50px; }
