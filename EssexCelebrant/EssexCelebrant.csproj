@@ -142,6 +142,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BabyController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\CelebrantController.cs" />
     <Compile Include="Controllers\CorporateEventsController.cs" />
@@ -168,6 +169,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\CSS\3rd Party\flickity.css" />
+    <Content Include="Content\CSS\Baby.css">
+      <DependentUpon>Baby.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Baby.min.css">
+      <DependentUpon>Baby.css</DependentUpon>
+    </Content>
     <Content Include="Content\CSS\Blog.css">
       <DependentUpon>Blog.scss</DependentUpon>
     </Content>
@@ -215,6 +222,12 @@
     </Content>
     <Content Include="Content\CSS\Favours.min.css">
       <DependentUpon>Favours.css</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Funerals.css">
+      <DependentUpon>Funerals.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\CSS\Funerals.min.css">
+      <DependentUpon>Funerals.css</DependentUpon>
     </Content>
     <Content Include="Content\CSS\GetInTouch.css">
       <DependentUpon>GetInTouch.scss</DependentUpon>
@@ -289,9 +302,12 @@
     <Content Include="Content\CSS\Favours.scss" />
     <Content Include="Content\CSS\CorporateEvents.scss" />
     <Content Include="Content\CSS\Celebrant.scss" />
+    <Content Include="Content\CSS\Baby.scss" />
+    <Content Include="Content\CSS\Funerals.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\21st Birthday.jpg" />
     <Content Include="Content\Images\Anniversary.jpeg" />
+    <Content Include="Content\Images\BabyNaming.jpg" />
     <Content Include="Content\Images\Bar Mitzvah.jpeg" />
     <Content Include="Content\Images\Casket.png" />
     <Content Include="Content\Images\ChampagneGlasses.png" />
@@ -320,6 +336,7 @@
     <Content Include="Content\Images\Originals\OldMilitaryWedding.jpeg" />
     <Content Include="Content\Images\Originals\OldSchool Prom.jpeg" />
     <Content Include="Content\Images\Originals\OldTestimonial.jpg" />
+    <Content Include="Content\Images\Photography.jpg" />
     <Content Include="Content\Images\Rings.jpeg" />
     <Content Include="Content\Images\School Prom.jpeg" />
     <Content Include="Content\Images\ReleasingOfDoves.jpg" />
@@ -381,6 +398,9 @@
     <Content Include="Views\SpeechWriting\Index.cshtml" />
     <Content Include="Views\Favours\Index.cshtml" />
     <Content Include="Views\CorporateEvents\Index.cshtml" />
+    <Content Include="Views\Baby\Naming.cshtml" />
+    <Content Include="Views\Baby\Funeral.cshtml" />
+    <Content Include="Views\Funerals\Photography.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

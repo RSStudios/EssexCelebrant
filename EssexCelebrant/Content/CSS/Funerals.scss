@@ -1,0 +1,25 @@
+﻿.funerals {
+    margin-bottom: 40px;
+
+    div {
+        line-height: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        .floated-image {
+            float: right;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.photography-header {
+    background-image: url('../../Content/Images/Photography.jpg');
+    background-color: #f6f6f6;
+    background-size: cover;
+    background-position: 50% 91%;
+    height: 350px;
+    margin-bottom: 50px;
+}

@@ -58,5 +58,13 @@
   {
     "outputFile": "Content/CSS/Celebrant.css",
     "inputFile": "Content/CSS/Celebrant.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Baby.css",
+    "inputFile": "Content/CSS/Baby.scss"
+  },
+  {
+    "outputFile": "Content/CSS/Funerals.css",
+    "inputFile": "Content/CSS/Funerals.scss"
   }
 ]

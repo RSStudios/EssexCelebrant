@@ -28,7 +28,8 @@
             <nav>
                 <ul class="nav">
                     <li class="submenu">
-                        <a class="dropbtn" href="@Url.Action("Index", "Toastmaster")">Professional Toastmaster</a>
+                        @*<a class="dropbtn" href="@Url.Action("Index", "Toastmaster")">Professional Toastmaster</a>*@
+                        <span class="dropbtn">Professional Toastmaster</span>
                         <div class="submenu-content">
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "OtherCelebrations")">Other celebrations</a>
@@ -43,6 +44,8 @@
                         <div class="submenu-content">
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "Funerals")">Funerals</a>
+                            <a href="@Url.Action("Photography", "Funerals")">Funeral photography</a>
+                            <a href="@Url.Action("Funeral", "Baby")">Baby funeral</a>
                             <a href="@Url.Action("Index", "OtherCelebrations")">Other celebrations</a>
                             <a href="@Url.Action("Index", "FAQ", new { faqType = "Celebrant" })">FAQs-Weddings</a>
                             <a href="@Url.Action("Index", "FAQ", new { faqType = "Funerals" })">FAQs-Funerals</a>
@@ -54,6 +57,7 @@
                         <div class="submenu-content">
                             <a href="@Url.Action("About", "Home")">About me</a>
                             <a href="@Url.Action("Index", "Blog")">Blog</a>
+                            <a href="@Url.Action("Naming", "Baby")">Baby naming</a>
                             <a href="@Url.Action("Index", "Testimonials")">Testimonials</a>
                             <a href="@Url.Action("Index", "SpeechWriting")">Speech writing</a>
                             <a href="@Url.Action("Index", "Favours")">Favours</a>

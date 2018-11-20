@@ -9,5 +9,15 @@ namespace EssexCelebrant.Controllers
         {
             return View();
         }
+
+        public ActionResult Baby()
+        {
+            return View("~/Views/baby/Funeral.cshtml");
+        }
+
+        public ActionResult Photography()
+        {
+            return View();
+        }
     }
 }
