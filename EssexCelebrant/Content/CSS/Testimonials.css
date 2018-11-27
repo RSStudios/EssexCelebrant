@@ -70,4 +70,10 @@
 
 @media screen and (max-width: 736px) {
   .testimonial-header--text {
-    top: 2%; } }
+    top: 2%; }
+  .testimonials .testimonials-content .testimonial.small {
+    width: 100%; }
+  .testimonials .testimonials-content .testimonial.medium {
+    width: 100%; }
+  .testimonials .testimonials-content .testimonial.large {
+    width: 100%; } }

@@ -2820,7 +2820,7 @@ body {
 #header {
     color: #d5d5d5;
     cursor: default;
-    height: 5.5em;
+    height: 5em;
     left: 0;
     line-height: 3em;
     position: fixed;
@@ -2903,11 +2903,11 @@ body {
     }
 }*/
 /* Menu */
-#nav {
+/*#nav {
     display: inline-block;
-}
+}*/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
 
     #nav {
         display: none;
@@ -2944,7 +2944,7 @@ body {
     width: 3.5em;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
 
     .navPanelToggle {
         display: block;
@@ -2991,7 +2991,7 @@ body {
     height: 100%;
     max-width: 80%;
     width: 20em;
-    padding: 1.5em;
+    padding: 1.75em 1em;
     text-transform: uppercase;
     z-index: 10003;
     display: none;
@@ -3013,10 +3013,13 @@ body {
     display: block;
     padding: 0.75em 0;
     text-decoration: none;
+    font-size: 0.7em;
 }
 
-#navPanel a:not(.close):first-child {
+#navPanel a.dropbtn:not(.close):first-child {
     border: none;
+    color: #e5474b;
+    font-size: 1em;
 }
 
 #navPanel .close {
@@ -3062,10 +3065,15 @@ body {
     color: inherit;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
 
     #navPanel {
         display: block;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
     }
 }
 /* Banner */

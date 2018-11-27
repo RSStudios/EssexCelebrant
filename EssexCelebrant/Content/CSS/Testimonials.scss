@@ -109,4 +109,23 @@
     .testimonial-header--text {
         top: 2%;
     }
-}
+
+    .testimonials {
+        .testimonials-content {
+            .testimonial {
+
+                &.small {
+                    width: 100%;
+                }
+
+                &.medium {
+                    width: 100%;
+                }
+
+                &.large {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    }

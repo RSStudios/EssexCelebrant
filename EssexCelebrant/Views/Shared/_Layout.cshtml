@@ -13,8 +13,7 @@
     @Styles.Render("~/Content/minified-css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/home")
-    <script src="~/Content/Scripts/App/Home.js"></script>
+
     <link href="~/Content/CSS/Menu.css" rel="stylesheet" />
 </head>
 <body>
@@ -22,14 +21,12 @@
     <header id="header">
         <div class="container">
             <a class="menu-trigger" id="menu-button" aria-controls="main-nav" role="button" aria-expanded="false">
-            Menu
+                Menu
             </a>
-
-            <nav>
+            <nav id="nav">
                 <ul class="nav">
                     <li class="submenu">
-                        @*<a class="dropbtn" href="@Url.Action("Index", "Toastmaster")">Professional Toastmaster</a>*@
-                        <span onclick="" class="dropbtn">Professional Toastmaster</span>
+                        <a class="dropbtn" href="@Url.Action("Index", "Toastmaster")">Professional Toastmaster</a>
                         <div class="submenu-content">
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "OtherCelebrations")">Other celebrations</a>
@@ -53,9 +50,9 @@
                         </div>
                     </li>
                     <li class="submenu">
-                        <span onclick="" class="dropbtn">More</span>
+                        <a class="dropbtn" href="">More</a>
                         <div class="submenu-content">
-                            <a href="@Url.Action("About", "Home")">About me</a>
+                            <a class="small-text" href="@Url.Action("About", "Home")">About me</a>
                             <a href="@Url.Action("Index", "Blog")">Blog</a>
                             <a href="@Url.Action("Naming", "Baby")">Baby naming</a>
                             <a href="@Url.Action("Index", "Testimonials")">Testimonials</a>
@@ -70,9 +67,6 @@
             </nav>
         </div>
         <div class="glenn-title"><a class="dropbtn" href="@Url.Action("Index", "Home")">Glenn Mayes</a></div>
-        <div class="toastmaster-logo">
-            Professional Toastmaster and Independent Celebrant
-        </div>
     </header>
 
     <div class="container">
@@ -104,11 +98,7 @@
     </footer>
 
     @Scripts.Render("~/bundles/Introspect")
-
+    <script src="~/Content/Scripts/3rdParty/Introspect/main.js"></script>
     @RenderSection("scripts", required: false)
-
-    <script>
-        window.EssexCelebrant.Home.init();
-    </script>
 </body>
 </html>
