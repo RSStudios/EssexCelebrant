@@ -12,22 +12,4 @@
         line-height: 1.6em;
         margin-bottom: 20px;
     }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 20px 0;
-    }
-
-    li {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    li::before {
-        content: "\2756";
-        padding-right: 8px;
-        color: #7b2715;
-    }
 }

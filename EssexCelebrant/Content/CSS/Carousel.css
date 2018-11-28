@@ -1,13 +1,11 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+﻿@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:400,700");
 .main-carousel {
   background-color: #8d5144;
   line-height: normal;
   margin-bottom: 50px; }
   .main-carousel .carousel-cell {
     width: 100%;
-    /* full width */
     height: 400px;
-    /* height of carousel */
     margin-right: 10px; }
     .main-carousel .carousel-cell .image {
       float: left;
@@ -17,39 +15,53 @@
       height: 100%; }
     .main-carousel .carousel-cell .text {
       color: #fff;
-      width: 25%;
-      padding: 0 20px;
       line-height: 35px;
       font-family: 'Arima Madurai', cursive;
       font-size: 1.3em;
-      margin: 0;
-      position: absolute;
-      top: 40%;
-      right: 10px;
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      margin: 0; }
+      .main-carousel .carousel-cell .text.for-web {
+        position: absolute;
+        top: 40%;
+        right: 10px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 20px;
+        width: 25%; }
+      .main-carousel .carousel-cell .text.for-mobile {
+        display: none; }
       .main-carousel .carousel-cell .text a {
         color: #fff; }
       .main-carousel .carousel-cell .text div {
         margin-top: 5px; }
       .main-carousel .carousel-cell .text div:first-child {
         margin-top: 0; }
+    .main-carousel .carousel-cell .responsive {
+      display: none; }
 
-@media screen and (min-width: 300px) and (max-width: 591px) {
-  /* half-width cells for larger devices */
+@media screen and (max-width: 736px) {
   .main-carousel .carousel-cell {
-    height: 150px;
-    /* height of carousel */ }
+    height: 150px; }
+    .main-carousel .carousel-cell .image {
+      width: 100%; }
     .main-carousel .carousel-cell .text {
-      padding: 6px 19px 0 14px;
-      font-size: 0.75em;
-      width: 15%; } }
+      font-size: 1.2em;
+      line-height: 25px; }
+      .main-carousel .carousel-cell .text.for-web {
+        display: none; }
+      .main-carousel .carousel-cell .text.for-mobile {
+        display: block;
+        padding: 2px;
+        font-size: 0.9em;
+        margin-left: 10px; } }
 
-@media screen and (min-width: 592px) and (max-width: 903px) {
-  /* half-width cells for larger devices */
+@media screen and (max-width: 1024px) {
   .main-carousel .carousel-cell {
-    height: 300px;
-    /* height of carousel */ }
+    height: 300px; }
+    .main-carousel .carousel-cell .text {
+      font-size: 1.3em;
+      line-height: 30px; }
+      .main-carousel .carousel-cell .text.for-web {
+        top: 45%; }
     .main-carousel .carousel-cell .dinners {
       background-image: url("../Images/LargeChampagneGlasses.png");
       height: 100%; } }

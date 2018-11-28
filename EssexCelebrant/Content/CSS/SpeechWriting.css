@@ -9,18 +9,3 @@
 .speech-writing div {
   line-height: 1.6em;
   margin-bottom: 20px; }
-
-.speech-writing ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0; }
-
-.speech-writing li {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.speech-writing li::before {
-  content: "\2756";
-  padding-right: 8px;
-  color: #7b2715; }

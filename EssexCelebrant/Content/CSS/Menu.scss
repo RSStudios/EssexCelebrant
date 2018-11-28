@@ -109,6 +109,13 @@ nav {
         display: none;
     }
 
+    li {
+        &.submenu, &.dot::before {
+            content: none;
+            padding-right: 0;
+        }
+    }
+
     .menu-trigger {
         display: inline-block;
         position: absolute;
@@ -181,5 +188,17 @@ nav {
         border-radius: 8px;
         padding: 1px 10px 1px 10px;
         text-decoration: none;
+    }
+
+    li {
+        &.submenu::before {
+            content: none;
+            padding-right: 0;
+        }
+
+        &.dot::before {
+            content: none;
+            padding-right: 0;
+        }
     }
 }

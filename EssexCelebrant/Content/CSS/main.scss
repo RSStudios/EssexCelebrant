@@ -2077,10 +2077,29 @@ ol li {
 }
 
 ul {
-    list-style: disc;
+    list-style: none;
     margin: 0 0 2em 0;
     padding-left: 1em;
     margin-left: 1em;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li::before {
+    content: "\2756";
+    padding-right: 8px;
+    color: #7b2715;
+}
+
+li {
+    &.submenu::before, &.dot::before {
+        content: none;
+        padding-right: 0;
+    }
 }
 
 ul li {

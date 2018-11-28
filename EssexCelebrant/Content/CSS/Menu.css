@@ -75,6 +75,9 @@ nav {
 @media screen and (max-width: 1024px) {
   nav {
     display: none; }
+  li.submenu, li.dot::before {
+    content: none;
+    padding-right: 0; }
   .menu-trigger {
     display: inline-block;
     position: absolute;
@@ -130,4 +133,10 @@ nav {
     cursor: pointer;
     border-radius: 8px;
     padding: 1px 10px 1px 10px;
-    text-decoration: none; } }
+    text-decoration: none; }
+  li.submenu::before {
+    content: none;
+    padding-right: 0; }
+  li.dot::before {
+    content: none;
+    padding-right: 0; } }

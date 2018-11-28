@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+﻿@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,700');
 
 .main-carousel {
     background-color: hsl(11, 35%, 41%);
@@ -6,8 +6,8 @@
     margin-bottom: 50px;
 
     .carousel-cell {
-        width: 100%; /* full width */
-        height: 400px; /* height of carousel */
+        width: 100%;
+        height: 400px;
         margin-right: 10px;
 
         .image {
@@ -22,17 +22,24 @@
 
         .text {
             color: #fff;
-            width: 25%;
-            padding: 0 20px;
             line-height: 35px;
             font-family: 'Arima Madurai', cursive;
             font-size: 1.3em;
             margin: 0;
-            position: absolute;
-            top: 40%;
-            right: 10px;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+
+            &.for-web {
+                position: absolute;
+                top: 40%;
+                right: 10px;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                padding: 0 20px;
+                width: 25%;
+            }
+
+            &.for-mobile {
+               display: none;
+            }
 
             a {
                 color: #fff;
@@ -46,32 +53,54 @@
                 margin-top: 0;
             }
         }
+
+        .responsive {
+            display: none;
+        }
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 591px) {
-    /* half-width cells for larger devices */
+@media screen and (max-width: 736px) {
     .main-carousel {
         .carousel-cell {
-            height: 150px; /* height of carousel */
-            .text {
-                padding: 6px 19px 0 14px;
-                font-size: 0.75em;
-                width: 15%;
+            height: 150px;
+
+            .image {
+                width: 100%;
             }
 
-            &.dinners {
+            .text {
+                font-size: 1.2em;
+                line-height: 25px;
 
+                &.for-web {
+                    display: none;
+                }
+
+                &.for-mobile {
+                    display: block;
+                    padding: 2px;
+                    font-size: 0.9em;
+                    margin-left: 10px;
+                }
             }
         }
     }
 }
 
-@media screen and (min-width: 592px) and (max-width: 903px) {
-    /* half-width cells for larger devices */
+@media screen and (max-width: 1024px) {
     .main-carousel {
         .carousel-cell {
-            height: 300px; /* height of carousel */
+            height: 300px;
+
+            .text {
+                font-size: 1.3em;
+                line-height: 30px;
+
+                &.for-web {
+                    top: 45%;
+                }
+            }
 
             .dinners {
                 background-image: url('../Images/LargeChampagneGlasses.png');
@@ -80,5 +109,3 @@
         }
     }
 }
-
-
