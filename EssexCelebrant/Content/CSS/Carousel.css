@@ -1,4 +1,5 @@
-﻿.main-carousel {
+﻿@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+.main-carousel {
   background-color: #8d5144;
   line-height: normal;
   margin-bottom: 50px; }
@@ -15,10 +16,24 @@
       background-image: url("../Images/ChampagneGlasses.png");
       height: 100%; }
     .main-carousel .carousel-cell .text {
-      float: left;
       color: #fff;
       width: 25%;
-      padding: 50px 20px 0 20px; }
+      padding: 0 20px;
+      line-height: 35px;
+      font-family: 'Arima Madurai', cursive;
+      font-size: 1.3em;
+      margin: 0;
+      position: absolute;
+      top: 40%;
+      right: 10px;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .main-carousel .carousel-cell .text a {
+        color: #fff; }
+      .main-carousel .carousel-cell .text div {
+        margin-top: 5px; }
+      .main-carousel .carousel-cell .text div:first-child {
+        margin-top: 0; }
 
 @media screen and (min-width: 300px) and (max-width: 591px) {
   /* half-width cells for larger devices */
