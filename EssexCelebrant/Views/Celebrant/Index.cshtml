@@ -1,14 +1,40 @@
 ﻿
+@using EssexCelebrant.Models.Carousel;
+
 @{
     ViewBag.Title = "Independent Celebrant";
-}
 
+    var carousel = new List<Carousel>
+    {
+        new Carousel
+        {
+        Image = "Content/Images/Wedding.jpeg",
+        Line1 = "Call the wedding celebrant <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+        Line1ContainsHtml = true
+        },
+        new Carousel
+        {
+            Image = "Content/Images/BabyFeet.jpeg",
+            Line1 = "Baby naming ceremonies - call now on <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+            Line1ContainsHtml = true
+        },
+        new Carousel
+        {
+            Image = "Content/Images/Funeralphotography.jpeg",
+            Line1 = "Thought about photographing your loved one's funeral?",
+            Line2 = "Contact us on <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+            Line2ContainsHtml = true
+        }
+    };
+}
 <link href="~/Content/CSS/Celebrant.min.css" rel="stylesheet" />
+
+@Html.Partial("_Carousel", carousel)
 
 <section>
     <article class="inner-6em celebrant">
         <article class="container clearfix">
-            <div class="floated-image right"><img src="~/Content/Images/Photography - small.jpg" /></div>
+            <div class="floated-image right"><img src="~/Content/Images/Quill.png" /></div>
             Couples who do not want, or cannot have, a traditional religious ‘wedding’ ceremony, frequently feel their only option is the standard civil ceremony conducted by a local authority registrar. Yet, once you have fulfilled the legal requirements, there is nothing to prevent you having a individually personalised ceremony written specifically for you. Written and delivered for you to celebrate your love and public commitment to each other.
         </article>
         <article class="container clearfix">
@@ -21,7 +47,7 @@
             Perhaps you each come from different religious roots and a specific religious venue is proving difficult. Why not have a special ceremony that combines both back-grounds.  Include songs, prayer, poems or texts that express and bring together your different, individual spiritual beliefs.
         </article>
         <article class="container clearfix">
-            <div class="floated-image left"><img src="~/Content/Images/Quill.png" /></div>
+            <div class="floated-image left"><img src="~/Content/Images/Photography - small.jpg" /></div>
             If you are already married and would like to celebrate a special anniversary, or a new stage in your marriage or relationship, by renewing their vows, I can create a bespoke ceremony to meet your needs.
         </article>
     </article>
@@ -35,3 +61,12 @@
         </article>
     </article>
 </section>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>

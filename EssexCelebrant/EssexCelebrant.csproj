@@ -314,6 +314,7 @@
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\21st Birthday.jpg" />
     <Content Include="Content\Images\Anniversary.jpeg" />
+    <Content Include="Content\Images\BabyFeet.jpeg" />
     <Content Include="Content\Images\BabyFeet.png" />
     <Content Include="Content\Images\BabyNaming.jpg" />
     <Content Include="Content\Images\Bar Mitzvah.jpeg" />
@@ -322,6 +323,7 @@
     <Content Include="Content\Images\CorporateEvent.jpeg" />
     <Content Include="Content\Images\FormalDinner.jpeg" />
     <Content Include="Content\Images\FuneralDirector.png" />
+    <Content Include="Content\Images\FuneralPhotography.jpeg" />
     <Content Include="Content\Images\Glenn-Headshot1.jpg" />
     <Content Include="Content\Images\GreenBurial.png" />
     <Content Include="Content\Images\Lily.jpeg" />
@@ -353,6 +355,7 @@
     <Content Include="Content\Images\ReleasingOfDoves.jpg" />
     <Content Include="Content\Images\SpeechWriting.jpeg" />
     <Content Include="Content\Images\Testimonial.jpeg" />
+    <Content Include="Content\Images\Wedding.jpeg" />
     <Content Include="Content\Scripts\3rdParty\Flickity\flickity.pkgd.min.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\main.js" />
     <Content Include="Content\Scripts\3rdParty\Introspect\skel.min.js" />

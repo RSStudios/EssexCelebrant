@@ -4,6 +4,8 @@
 @model List<Carousel>
 
 <link href="~/Content/CSS/Carousel.min.css" rel="stylesheet" />
+<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
+<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
 
 @if (!Model.Any())
 {
@@ -38,16 +40,20 @@
                         @m.Line1
                     }
                 </div>
-                <div>
-                    @if (m.Line2ContainsHtml)
-                    {
-                        @Html.Raw(m.Line2)
-                    }
-                    else
-                    {
-                        @m.Line2
-                    }
-                </div>
+
+                @if (!string.IsNullOrEmpty(m.Line2))
+                {
+                    <div>
+                        @if (m.Line2ContainsHtml)
+                        {
+                            @Html.Raw(m.Line2)
+                        }
+                        else
+                        {
+                            @m.Line2
+                        }
+                    </div>
+                }
             </div>
             <div style="clear: left;"></div>
         </div>
