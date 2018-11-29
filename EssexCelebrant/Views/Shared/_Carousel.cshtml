@@ -1,0 +1,55 @@
+﻿
+@using EssexCelebrant.Models.Carousel;
+
+@model List<Carousel>
+
+<link href="~/Content/CSS/Carousel.min.css" rel="stylesheet" />
+
+@if (!Model.Any())
+{
+    return;
+}
+
+<div class="main-carousel">
+    @foreach (var m in Model)
+    {
+        <div class="carousel-cell">
+            <div class="text for-mobile">
+                @if (m.Line1ContainsHtml)
+                {
+                    @Html.Raw(m.Line1)
+                }
+                else
+                {
+                    @m.Line1
+                }
+            </div>
+            <div class="image">
+                <img src="@m.Image" style="width: 100%;" />
+            </div>
+            <div class="text for-web">
+                <div>
+                    @if (m.Line1ContainsHtml)
+                    {
+                        @Html.Raw(m.Line1)
+                    }
+                    else
+                    {
+                        @m.Line1
+                    }
+                </div>
+                <div>
+                    @if (m.Line2ContainsHtml)
+                    {
+                        @Html.Raw(m.Line2)
+                    }
+                    else
+                    {
+                        @m.Line2
+                    }
+                </div>
+            </div>
+            <div style="clear: left;"></div>
+        </div>
+    }
+</div>

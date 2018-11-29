@@ -163,6 +163,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Blog\BlogPost.cs" />
+    <Compile Include="Models\Carousel\Carousel.cs" />
     <Compile Include="Models\GetInTouch\GetInTouch.cs" />
     <Compile Include="Models\Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -411,6 +412,7 @@
     <Content Include="Views\Baby\Naming.cshtml" />
     <Content Include="Views\Baby\Funeral.cshtml" />
     <Content Include="Views\Funerals\Photography.cshtml" />
+    <Content Include="Views\Shared\_Carousel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

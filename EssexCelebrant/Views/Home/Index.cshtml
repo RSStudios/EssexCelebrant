@@ -1,86 +1,54 @@
-﻿@{
-    ViewBag.Title = "Home"; 
+﻿
+@using EssexCelebrant.Models.Carousel;
+
+@{
+    ViewBag.Title = "Home";
+
+    var carousel = new List<Carousel>
+    {
+        new Carousel
+        {
+            Image = "Content/Images/Testimonial.jpeg",
+            Line1 = "Father of the Bride speech causing you problems?",
+            Line2 = "Contact me for help with writing, editing and delivering <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+            Line2ContainsHtml = true
+        },
+        new Carousel
+        {
+            Image = "Content/Images/ManWithButtonHole.jpeg",
+            Line1 = " From traditional to modern, etiquette assured"
+        },
+        new Carousel
+        {
+            Image = "Content/Images/Rings.jpeg",
+            Line1 = "Renewal of vows.",
+            Line2 = "Contact me on <a href='tel:07826339498' target='_blank'>07826 339498</a>, for a unique and bespoke celebration.",
+            Line2ContainsHtml = true
+        },
+        new Carousel
+        {
+            Image = "Content/Images/FormalDinner.jpeg",
+            Line1 = "Formal dinner or masonic occasion - contact me to discuss your requirements."
+        },
+        new Carousel
+        {
+            Image = "Content/Images/MilitaryWedding.jpeg",
+            Line1 = "Military weddings, Independant Celebrancy ceremonies - Your ceremony. Your way."
+        },
+        new Carousel
+        {
+            Image = "Content/Images/CorporateEvent.jpeg",
+            Line1 = "Running a high society event and need a Toastmaster that you can rely on? <a href='tel:07826339498' target='_blank'>07826 339498</a>,",
+            Line1ContainsHtml = true
+        }
+    };
 }
 
 <link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
 <script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
-<link href="~/Content/CSS/Carousel.min.css" rel="stylesheet" />
 <link href="~/Content/CSS/Home.min.css" rel="stylesheet" />
 
-
-<!-- Banner -->
-<div class="main-carousel">
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/Testimonial.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                Father of the Bride speech causing you problems?
-            </div>
-            <div>Contact me for help with writing, editing and delivering <a href="tel:07826339498" target="_blank">07826 339498</a></div>
-        </div>
-        <div style="clear: left;"></div>
-    </div>
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/ManWithButtonHole.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                From traditional to modern, etiquette assured
-            </div>
-        </div>
-        <div class="clear: left;"></div>
-    </div>
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/Rings.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                Renewal of vows.
-            </div>
-            <div>
-                Contact me on <a href="tel:07826339498" target="_blank">07826 339498</a>, for a unique and bespoke celebration. 
-            </div>
-        </div>
-        <div class="clear: left;"></div>
-    </div>
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/FormalDinner.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                Formal dinner or masonic occasion - contact me to discuss your requirements.
-            </div>
-        </div>
-        <div class="clear: left;"></div>
-    </div>
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/MilitaryWedding.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                Military weddings, Independant Celebrancy ceremonies - Your ceremony. Your way.
-            </div>
-        </div>
-        <div style="clear: left;"></div>
-    </div>
-    <div class="carousel-cell">
-        <div class="image">
-            <img src="~/Content/Images/CorporateEvent.jpeg" style="width: 100%;" />
-        </div>
-        <div class="text for-web">
-            <div>
-                Running a high society event and need a Toastmaster that you can rely on? Call me to discuss your requirements. 07826 339498
-            </div>
-        </div>
-        <div style="clear: left;"></div>
-    </div>
-</div>
+@Html.Partial("_Carousel", carousel)
 
 <!-- One -->
 <section id="one">
@@ -132,42 +100,42 @@
 
 <!-- Three -->
 @*<section id="three">
-    <div class="inner">
-        <article>
-            <div class="content">
-                <header>
-                    <h3>Weddings</h3>
-                </header>
-                <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
-                <ul class="actions">
-                    <li><a href="Weddings" class="button alt">Learn More</a></li>
-                </ul>
-            </div>
-        </article>
-        <article>
-            <div class="content">
-                <header>
-                    <h3>Independent Celebrant</h3>
-                </header>
-                <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
-                <ul class="actions">
-                    <li><a href="Celebrant" class="button alt">Learn More</a></li>
-                </ul>
-            </div>
-        </article>
-        <article>
-            <div class="content">
-                <header>
-                    <h3>Funerals</h3>
-                </header>
-                <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
-                <ul class="actions">
-                    <li><a href="Weddings" class="button alt">Learn More</a></li>
-                </ul>
-            </div>
-        </article>
-    </div>
-</section>*@
+        <div class="inner">
+            <article>
+                <div class="content">
+                    <header>
+                        <h3>Weddings</h3>
+                    </header>
+                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+                    <ul class="actions">
+                        <li><a href="Weddings" class="button alt">Learn More</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <div class="content">
+                    <header>
+                        <h3>Independent Celebrant</h3>
+                    </header>
+                    <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed.</p>
+                    <ul class="actions">
+                        <li><a href="Celebrant" class="button alt">Learn More</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <div class="content">
+                    <header>
+                        <h3>Funerals</h3>
+                    </header>
+                    <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
+                    <ul class="actions">
+                        <li><a href="Weddings" class="button alt">Learn More</a></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>*@
 
 <script>
     var elem = document.querySelector('.main-carousel');

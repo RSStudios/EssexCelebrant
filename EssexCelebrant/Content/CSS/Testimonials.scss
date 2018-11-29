@@ -1,4 +1,7 @@
-﻿.testimonials-header {
+﻿
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,700');
+
+.testimonials-header {
     background-image: url('../../Content/Images/Testimonial.jpeg');
     background-color: #f6f6f6;
     background-size: cover;
@@ -14,6 +17,7 @@
     left: 38%;
     font-size: 265%;
     letter-spacing: 8px;
+    font-family: 'Arima Madurai', cursive;
 }
 
 .testimonials {
