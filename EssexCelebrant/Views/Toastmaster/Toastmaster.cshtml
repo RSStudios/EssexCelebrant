@@ -1,18 +1,54 @@
 ﻿
+@using EssexCelebrant.Models.Carousel;
+
 @{
     ViewBag.Title = "Toastmaster";
+
+    var carousel = new List<Carousel>
+    {
+        new Carousel
+        {
+            Image = "Content/Images/Cufflinks.png",
+            Line1 = "Etiquette and tradition adhered to at a Ladies Festival"
+        },
+        new Carousel
+        {
+            Image = "Content/Images/Gavel.png",
+            Line1 = "Ensure that the Charity event goes smoothly, a Professional Toastmaster watches the timing and compares with flair"
+        },
+        new Carousel
+        {
+            Image = "Content/Images/Collerette.jpeg",
+            Line1 = "Passing the port is just one of many rituals the Professional Toastmaster can oversee."
+        }
+    };
 }
-<link href="~/Content/CSS/Testimonials.min.css" rel="stylesheet" />
 
-<h2>Toastmaster</h2>
-<h3>Celebratory parties</h3>
+<link href="~/Content/CSS/Toastmaster.min.css" rel="stylesheet" />
 
-<h3>formal and informal dinners</h3>
+@Html.Partial("_Carousel", carousel)
 
-<h3>Masonic functions</h3>
+<article class="toastmaster inner-6em">
+    <h2>Toastmaster</h2>
+    <h3>Celebratory parties</h3>
 
-<h3>Military functions</h3>
+    <h3>formal and informal dinners</h3>
 
-<h3>Civic functions</h3>
+    <h3>Masonic functions</h3>
 
-<h3>Proms</h3>
+    <h3>Military functions</h3>
+
+    <h3>Civic functions</h3>
+
+    <h3>Proms</h3>
+</article>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
+
