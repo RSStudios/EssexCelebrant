@@ -17,7 +17,8 @@
   font-family: 'Arima Madurai', cursive; }
 
 .testimonials {
-  margin: 0 10% 40px 10%; }
+  margin: 0 10% 40px 10%;
+  font-size: 1.2em; }
   .testimonials .testimonials-content .testimonial {
     position: relative;
     float: left; }
@@ -35,7 +36,6 @@
       border: none;
       font-size: 95%;
       background-color: #f6f6f6;
-      font-style: italic;
       padding: 20px; }
       .testimonials .testimonials-content .testimonial blockquote q {
         background-color: #f6f6f6; }
