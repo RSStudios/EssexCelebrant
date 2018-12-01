@@ -2077,10 +2077,7 @@ ol li {
 }
 
 ul {
-    list-style: none;
-    margin: 0 0 2em 0;
-    padding-left: 1em;
-    margin-left: 1em;
+    margin: 0 0 2em 0.5em;
 }
 
 li {
@@ -2091,7 +2088,7 @@ li {
 
 li::before {
     content: "\2756";
-    padding-right: 8px;
+    padding-right: 5px;
     color: #7b2715;
 }
 
@@ -2100,10 +2097,6 @@ li {
         content: none;
         padding-right: 0;
     }
-}
-
-ul li {
-    padding-left: 0.5em;
 }
 
 ul.alt {
@@ -3307,10 +3300,6 @@ body.is-loading #banner:after {
     padding: 4em 0 2em 0;
 }
 
-#one {
-    padding: 0 0 2em 0;
-}
-
 @media screen and (max-width: 980px) {
 
     #one {
@@ -3321,13 +3310,13 @@ body.is-loading #banner:after {
 @media screen and (max-width: 736px) {
 
     #one {
-        padding: 2em 0 0.1em 0;
+        padding: 0em 0 0.1em 0;
     }
 }
 
 #two {
     padding: 20px 0 4em 0;
-    margin: 20px auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 75%;
     width: calc(100% - 6em);
     background: #f3f3f3;
@@ -3465,6 +3454,7 @@ body.is-loading #banner:after {
 }
 /* Footer */
 footer {
+    margin-top: 20px;
     background-color: #e5474b;
     color: #83220c;
     padding: 20px 0 20px 0;

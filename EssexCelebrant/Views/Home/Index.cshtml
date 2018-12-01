@@ -5,43 +5,43 @@
     ViewBag.Title = "Home";
 
     var carousel = new List<Carousel>
-    {
-        new Carousel
-        {
-            Image = "Content/Images/Testimonial.jpeg",
-            Line1 = "Father of the Bride speech causing you problems?",
-            Line2 = "Contact me for help with writing, editing and delivering <a href='tel:07826339498' target='_blank'>07826 339498</a>",
-            Line2ContainsHtml = true
-        },
-        new Carousel
-        {
-            Image = "Content/Images/ManWithButtonHole.jpeg",
-            Line1 = " From traditional to modern, etiquette assured"
-        },
-        new Carousel
-        {
-            Image = "Content/Images/Rings.jpeg",
-            Line1 = "Renewal of vows.",
-            Line2 = "Contact me on <a href='tel:07826339498' target='_blank'>07826 339498</a>, for a unique and bespoke celebration.",
-            Line2ContainsHtml = true
-        },
-        new Carousel
-        {
-            Image = "Content/Images/FormalDinner.jpeg",
-            Line1 = "Formal dinner or masonic occasion - contact me to discuss your requirements."
-        },
-        new Carousel
-        {
-            Image = "Content/Images/MilitaryWedding.jpeg",
-            Line1 = "Military weddings, Independant Celebrancy ceremonies - Your ceremony. Your way."
-        },
-        new Carousel
-        {
-            Image = "Content/Images/CorporateEvent.jpeg",
-            Line1 = "Running a high society event and need a Toastmaster that you can rely on? <a href='tel:07826339498' target='_blank'>07826 339498</a>,",
-            Line1ContainsHtml = true
-        }
-    };
+{
+new Carousel
+{
+Image = "Content/Images/Testimonial.jpeg",
+Line1 = "Father of the Bride speech causing you problems?",
+Line2 = "Contact me for help with writing, editing and delivering <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+Line2ContainsHtml = true
+},
+new Carousel
+{
+Image = "Content/Images/ManWithButtonHole.jpeg",
+Line1 = " From traditional to modern, etiquette assured"
+},
+new Carousel
+{
+Image = "Content/Images/Rings.jpeg",
+Line1 = "Renewal of vows.",
+Line2 = "Contact me on <a href='tel:07826339498' target='_blank'>07826 339498</a>, for a unique and bespoke celebration.",
+Line2ContainsHtml = true
+},
+new Carousel
+{
+Image = "Content/Images/FormalDinner.jpeg",
+Line1 = "Formal dinner or masonic occasion - contact me to discuss your requirements."
+},
+new Carousel
+{
+Image = "Content/Images/MilitaryWedding.jpeg",
+Line1 = "Military weddings, Independant Celebrancy ceremonies - Your ceremony. Your way."
+},
+new Carousel
+{
+Image = "Content/Images/CorporateEvent.jpeg",
+Line1 = "Running a high society event and need a Toastmaster that you can rely on? <a href='tel:07826339498' target='_blank'>07826 339498</a>,",
+Line1ContainsHtml = true
+}
+};
 }
 
 <link href="~/Content/CSS/Home.min.css" rel="stylesheet" />
@@ -49,7 +49,7 @@
 @Html.Partial("_Carousel", carousel)
 
 <!-- One -->
-<section id="one">
+<section class="home" id="one">
     <div class="inner-6em">
         <header>
             <h2>Glenn's Services Here</h2>
@@ -59,12 +59,33 @@
                 Based near Maldon, Essex, Glenn is able to guide you through your event from writing speeches to ensuring correct protocol and etiquette is considered.
             </article>
         </section>
-        <ul class="call-to-actions actions">
-            <li><a href="@Url.Action("Index", "SpeechWriting")" class="button alt">Speech writing</a></li>
-            <li><a href="@Url.Action("Index", "Favours")" class="button alt">Favours</a></li>
-            <li><a href="@Url.Action("Index", "Celebrant")" class="button alt">Celebrant</a></li>
-            <li><a href="Home" class="button alt">Toastmaster</a></li>
-        </ul>
+
+        <section class="grid">
+            <article class="item">
+                <a href="@Url.Action("Index", "Toastmaster")">
+                    <label class="heading">Toastmaster</label>
+                    <img src="~/Content/Images/Headshot.jpeg" />
+                </a>
+            </article>
+            <article class="item">
+                <a href="@Url.Action("Index", "Favours")">
+                    <label class="heading">Favours</label>
+                    <img src="~/Content/Images/HoneyJar.jpg" />
+                </a>
+            </article>
+            <article class="item">
+                <a href="@Url.Action("Index", "Celebrant")">
+                    <label class="heading">Celebrant</label>
+                    <img src="~/Content/Images/MilitaryWeddingGroupPhoto.jpeg" />
+                </a>
+            </article>
+            <article class="item">
+                <a href="@Url.Action("Index", "SpeechWriting")">
+                    <label class="heading">Speech Writing</label>
+                    <img src="~/Content/Images/QuillWriting.jpeg" />
+                </a>
+            </article>
+        </section>
     </div>
 </section>
 
