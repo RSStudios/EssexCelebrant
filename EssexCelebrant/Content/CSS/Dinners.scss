@@ -1,3 +1,14 @@
-﻿h3 {
-    margin-top: 20px;
+﻿.dinners {
+    h3 {
+        margin-top: 20px;
+    }
+
+    ul {
+        list-style-position: outside;
+        text-indent: -23px;
+    }
+
+    li {
+        margin-top: 15px;
+    }
 }
