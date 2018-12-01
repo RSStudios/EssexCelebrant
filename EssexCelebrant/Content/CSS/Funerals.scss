@@ -7,7 +7,13 @@
     }
 
     .container {
-        .floated-image {
+        .floated-image--left {
+            float: left;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+
+        .floated-image--right {
             float: right;
             margin-left: 50px;
             margin-top: 20px;

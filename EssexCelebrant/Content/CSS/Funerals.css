@@ -3,7 +3,11 @@
   .funerals div {
     line-height: 1.6em;
     margin-bottom: 20px; }
-  .funerals .container .floated-image {
+  .funerals .container .floated-image--left {
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px; }
+  .funerals .container .floated-image--right {
     float: right;
     margin-left: 50px;
     margin-top: 20px; }
