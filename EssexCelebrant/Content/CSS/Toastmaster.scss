@@ -1,5 +1,14 @@
 ﻿.toastmaster {
-    h3 {
-        margin-top: 20px;
+    div {
+        line-height: 1.6em;
+        margin-bottom: 0.9em;
+    }
+
+    ul {
+        margin: 0 0 0.6em 0;
+    }
+
+    &.main-carousel .carousel-cell .text.for-web {
+        top: 50%;
     }
 }
