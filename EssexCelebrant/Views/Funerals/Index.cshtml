@@ -8,29 +8,62 @@
     {
        new Carousel
        {
-           Image = "Content/Images/FuneralDirector.png",
-           Line1 = "Text for Glenn's service goes here"
+           Image = "../Content/Images/FuneralDirector.png",
+           Line1 = "Funeral photography",
+           Line2 = "Call for details: <a href='tel07979869252' target='_blank'>07979 869252</a>",
+           Line2ContainsHtml = true,
+           Line3 = "Discrete, professional and affordable"
        },
        new Carousel
        {
-           Image = "Content/Images/GreenBurial.png",
-           Line1 = "Promote one of Glenn's services here"
+           Image = "../Content/Images/GreenBurial.png",
+           Line1 = "Have a pre-payment plan?",
+           Line2 = "Why not organise your entire funeral celebration and call us to discuss what you would like.",
+           Line3 = "No obligation chat: <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+           Line3ContainsHtml = true
        },
        new Carousel
        {
-           Image = "Content/Images/Casket.png",
-           Line1 = "Any promotional text can go here"
+           Image = "../Content/Images/Casket.png",
+           Line1 = "Memorial service or pagen ceremony",
+           Line2 = "We can help you organise your funeral how you want it.",
+           Line3 = "No obligation chat: <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+           Line3ContainsHtml = true
        }
     };
 }
 
+<link href="~/Content/CSS/Funerals.min.css" rel="stylesheet" />
+
 @Html.Partial("_Carousel", carousel)
 
-<section class="inner-6em">
-    Link to <a href="~/Assets/Files/Celebrancy Funeral information sheet back page.pdf" target="_blank">Celebrancy Funeral information sheet</a>
+<section class="inner-6em funerals">
+    <div>Funerals are the one sure thing in life. </div>
+    <div>Yet it is something that many of us rarely speak about - let alone plan for.</div>
+    <ul>
+        <li>
+            Do you know what your options are?
+        </li>
+        <li>Who makes the decisions?</li>
+    </ul>
+    <div>What ever your choice, make sure it is one that you have made and not someone else.</div>
+    <div>We often believe that our only choice is to have a minister and that it has to be in a church or crematorium.</div>
+    <div>Today, there are many options.  Celebrations can be held at home or in a green burial ground.  There is no rush.  Your loved one is not going anywhere and for those left behind the decision made is important.</div>
+    <div>Who can you talk to?</div>
+    <div>A funeral director is a very good place to start.</div>
+    <div>However, other options are a minister, independent celebrant or humanist.</div>
+    <div>A funeral director will guide you as to what each is able to offer.  If you and your family want a non religious ceremony, maybe a minister is not the best option for your.  However, do you want the other end of the spectrum where no religion is allowed.</div>
+    <div>Many of our clients say that they or their loved one never went to church, yet they would like “The lords Prayer”.  This is your celebration of life - not anyone else’s.  You need to do what you are comfortable with.</div>
+    <div>Funeral directors often only use selected ministers, celebrants or humanists.  Ask Mr Google and make your own choice.  Ask for recommendations from friends.</div>
+    <div>Even ask to speak to a couple of celebrants before choosing.  Like many important events in your life, you only get one chance.</div>
+    <div>We are happy to talk to you without obligation - at the funeral directors or your home.</div>
+    <div>Call us for an initial chat. </div>
+    <div>We are here to help.</div>
+    <div><a href='tel:07826339498' target='_blank'>07826 339498</a> - Glenn Mayes, Independent Celebrant</div>
 </section>
+
 <section class="inner-6em">
-    Lorem ipsum dolor sit amet, vel putent dolorem dissentiunt te. Est vitae affert ei, sed id ornatus civibus, eripuit posidonium ad vim. Enim illum graecis cum et, maluisset cotidieque vel ea. Nominati delicata nec cu, et sit iusto eripuit appetere. Detracto efficiendi scriptorem ut eos, at option qualisque deterruisset duo.
+    Click here for the <a href="~/Assets/Files/Celebrancy Funeral information sheet back page.pdf" target="_blank">Celebrancy Funeral information sheet</a>
 </section>
 
 <script>

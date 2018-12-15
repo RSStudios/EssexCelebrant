@@ -3,7 +3,11 @@
 
     div {
         line-height: 1.6em;
-        margin-bottom: 20px;
+        margin-bottom: 0.9em;
+    }
+
+    ul {
+        margin: 0 0 0.6em 0;
     }
 
     .container {
@@ -19,13 +23,13 @@
             margin-top: 20px;
         }
     }
-}
 
-.photography-header {
-    background-image: url('../../Content/Images/Photography.jpg');
-    background-color: #f6f6f6;
-    background-size: cover;
-    background-position: 50% 91%;
-    height: 350px;
-    margin-bottom: 50px;
+    .photography-header {
+        background-image: url('../../Content/Images/Photography.jpg');
+        background-color: #f6f6f6;
+        background-size: cover;
+        background-position: 50% 91%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
 }

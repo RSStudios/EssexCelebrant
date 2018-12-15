@@ -8,8 +8,12 @@
 
         public string Line2 { get; set; }
 
+        public string Line3 { get; set; }
+
         public bool Line1ContainsHtml { get; set; }
 
         public bool Line2ContainsHtml { get; set; }
+
+        public bool Line3ContainsHtml { get; set; }
     }
 }

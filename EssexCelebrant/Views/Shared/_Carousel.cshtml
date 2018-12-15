@@ -54,6 +54,20 @@
                         }
                     </div>
                 }
+
+                @if (!string.IsNullOrEmpty(m.Line3))
+                {
+                    <div>
+                        @if (m.Line3ContainsHtml)
+                        {
+                            @Html.Raw(m.Line3)
+                        }
+                        else
+                        {
+                            @m.Line3
+                        }
+                    </div>
+                }
             </div>
             <div style="clear: left;"></div>
         </div>

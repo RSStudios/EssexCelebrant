@@ -2,7 +2,9 @@
   margin-bottom: 40px; }
   .funerals div {
     line-height: 1.6em;
-    margin-bottom: 20px; }
+    margin-bottom: 0.9em; }
+  .funerals ul {
+    margin: 0 0 0.6em 0; }
   .funerals .container .floated-image--left {
     float: left;
     margin-right: 50px;
@@ -11,11 +13,10 @@
     float: right;
     margin-left: 50px;
     margin-top: 20px; }
-
-.photography-header {
-  background-image: url("../Images/Photography.jpg");
-  background-color: #f6f6f6;
-  background-size: cover;
-  background-position: 50% 91%;
-  height: 350px;
-  margin-bottom: 50px; }
+  .funerals .photography-header {
+    background-image: url("../Images/Photography.jpg");
+    background-color: #f6f6f6;
+    background-size: cover;
+    background-position: 50% 91%;
+    height: 350px;
+    margin-bottom: 50px; }
