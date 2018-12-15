@@ -367,6 +367,7 @@
     <Content Include="Content\Scripts\3rdParty\modernizr-2.8.3.js" />
     <Content Include="Content\Scripts\App\Home.js" />
     <Content Include="Content\Scripts\App\vm.venue.js" />
+    <Content Include="Content\SVG\external-link-alt-solid.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">

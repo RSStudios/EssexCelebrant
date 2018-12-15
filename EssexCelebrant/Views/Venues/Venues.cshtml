@@ -24,8 +24,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
 <script src="~/Content/Scripts/App/vm.venue.js"></script>
 <link href="~/Content/CSS/Venues.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
-<article class="inner-50em">
+<article class="inner-50em venues">
     <h2>Venues</h2>
 
     <input id="search-text" type="text" placeholder="Search for a venue" class="venues--search" />
@@ -37,11 +38,19 @@
             <p data-bind='text: venue'> </p>
             <!-- /ko -->
             <!-- ko if: link !== '' -->
-            <a data-bind="attr: { href: link }" target="_blank">
-                <label data-bind="text: venue"></label>
-            </a>
+            <p>
+                <a class="external-link" data-bind="attr: { href: link }" target="_blank">
+                    <label data-bind="text: venue"></label>
+                    <img style="width: 1em; fill: #e5474b" src="~/Content/SVG/external-link-alt-solid.svg" />
+                </a>
+            </p>
             <!-- /ko -->
         </section>
+    </section>
+
+    <section class="fa-license-link">
+        FontAwesome License: 
+        <a href="https://fontawesome.com/license/free" target="_blank">https://fontawesome.com/license/free</a>
     </section>
 </article>
 
