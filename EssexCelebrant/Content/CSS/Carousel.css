@@ -52,7 +52,9 @@
         display: block;
         padding: 2px;
         font-size: 0.9em;
-        margin-left: 10px; } }
+        margin-left: 10px; }
+      .main-carousel .carousel-cell .text a {
+        text-decoration: underline; } }
 
 @media screen and (max-width: 1024px) {
   .main-carousel .carousel-cell {
@@ -62,6 +64,8 @@
       line-height: 30px; }
       .main-carousel .carousel-cell .text.for-web {
         top: 45%; }
+      .main-carousel .carousel-cell .text a {
+        text-decoration: underline; }
     .main-carousel .carousel-cell .dinners {
       background-image: url("../Images/LargeChampagneGlasses.png");
       height: 100%; } }

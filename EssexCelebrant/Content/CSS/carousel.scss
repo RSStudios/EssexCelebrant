@@ -38,7 +38,7 @@
             }
 
             &.for-mobile {
-               display: none;
+                display: none;
             }
 
             a {
@@ -83,6 +83,10 @@
                     font-size: 0.9em;
                     margin-left: 10px;
                 }
+
+                a {
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -99,6 +103,10 @@
 
                 &.for-web {
                     top: 45%;
+                }
+
+                a {
+                    text-decoration: underline;
                 }
             }
 
