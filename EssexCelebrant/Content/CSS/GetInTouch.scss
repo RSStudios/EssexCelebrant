@@ -1,4 +1,12 @@
 ﻿.get-in-touch {
+    padding-top: 20px;
+    background-color: #e5474b;
+    padding-bottom: 20px;
+    /* The margin below counteracts the margin-top for the footer.  Without the 
+        value below we have white space between the red and the grey footer.
+    */
+    margin-bottom: -20px;
+
     .toast-message {
         line-height: 1.5em
     }
@@ -8,39 +16,96 @@
     }
 
     h2 {
-
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 40px;
     }
 
-    .wrapper {
-        background-color: whitesmoke;
-        list-style-type: none;
-        padding: 0;
-        border-radius: 3px;
+    @media (max-width: 768px) {
+        .main-content {
+            padding: 20px 8px;
+        }
     }
-
-    .form-row {
+    /* form specific formatting */
+    .form-group {
         display: flex;
-        justify-content: flex-end;
-        padding: .5em;
+        flex-direction: row;
+        color: #fff;
+        margin-bottom: 20px;
+
+
+        label {
+            flex: none;
+            display: block;
+            width: 125px;
+            font-weight: bold;
+            font-size: 1em;
+
+            &.right-inline {
+                text-align: right;
+                padding-right: 8px;
+                padding-left: 10px;
+                width: auto;
+            }
+        }
+
+        .input-control {
+            flex: 1 1 auto;
+            display: block;
+            margin-bottom: 10px;
+            margin-right: 8px;
+            padding: 4px;
+            margin-top: -4px;
+            color: #fff;
+            background: none;
+            border-radius: 0;
+            border: solid 3px #ffffff40;
+            color: inherit;
+            display: block;
+            outline: 0;
+            padding: 0 1em;
+        }
+
+        .send-message {
+            display: block;
+            color: #fff;
+            background: none;
+            border-radius: 0;
+            border: solid 3px #ffffff40;
+            outline: 0;
+            padding: 0 1em;
+        }
+
+        .input-control:focus, .send-message:hover {
+            border-color: #ffffff;
+            box-shadow: 0 0 0 1px #ffffff;
+        }
+
+
+        button {
+            padding: 5px 15px;
+            margin: 5px;
+            min-width: 100px
+        }
     }
 
-    .form-row > label {
-        padding: .5em 1em .5em 0;
-        flex: 1;
-    }
+    @media (max-width: 768px) {
+        h2 {
+            margin-bottom: 20px;
+        }
 
-    .form-row > input {
-        flex: 2;
-    }
+        .form-group {
+            flex-direction: column;
+        }
 
-    .form-row > input,
-    .form-row > button {
-        padding: .5em;
-    }
+        .form-group .input-control {
+            margin-top: 2px;
+        }
 
-    .form-row > button {
-        background: gray;
-        color: white;
-        border: 0;
+        .form-group label.right-inline {
+            text-align: left;
+            padding-right: 0;
+            padding-left: 0;
+        }
     }
 }
