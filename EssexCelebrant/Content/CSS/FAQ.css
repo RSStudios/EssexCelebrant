@@ -1,6 +1,8 @@
 ﻿.faq a {
   border-bottom: 1px solid #dbdbdb;
   text-decoration: none; }
+  .faq a img {
+    width: 0.8em; }
 
 .modal {
   /* This way it could be display flex or grid or whatever also. */
