@@ -1,4 +1,10 @@
-﻿
+﻿.faq {
+    a {
+        border-bottom: 1px solid #dbdbdb;
+        text-decoration: none;
+    }
+}
+
 .modal {
     /* This way it could be display flex or grid or whatever also. */
     display: block;
