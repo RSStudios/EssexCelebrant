@@ -10,47 +10,29 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
-<form class="get-in-touch">
-    <ul class="wrapper">
-        <li class="form-row">
-            <label for="name">Name</label>
-            <input type="text" id="name">
-        </li>
-        <li class="form-row">
-            <label for="townborn">Town you were born in</label>
-            <input type="text" id="townborn">
-        </li>
-        <li class="form-row">
-            <label for="email">Email Address</label>
-            <input type="email" id="email">
-        </li>
-        <li class="form-row">
-            <button type="submit">Submit</button>
-        </li>
-    </ul>
-</form>
+<article class="get-in-touch">
+    <form class="inner-6em">
+        <h2>Get in touch</h2>
 
-        @*<div class="form">
-                    <div class="field half first">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="field half">
-                        <label for="email">Email</label>
+        <div class="form-group">
+            <label for="name">NAME</label>
+            <input id="name" type="text" name="name"class="input-control" />
 
-                        <input type="email" name="email" id="email" />
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul class="actions">
-                        <li><input id="send-the-message" type="submit" value="Send Message" class="alt" /></li>
-                    </ul>
-                </div>
-            </section>*@
+            <label for="email" class="right-inline">EMAIL</label>
+            <input id="email" name="email" type="email" class="input-control" />
+        </div>
 
+        <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" rows="6" class="input-control"></textarea>
+        </div>
 
-@*<script>
+        <div class="form-group">
+            <input id="send-the-message" type="submit" value="Send Message"  class="send-message">
+        </div>
+    </form>
+</article>
+
+<script>
     window.EssexCelebrant.GetInTouch.init();
-</script>*@
+</script>
