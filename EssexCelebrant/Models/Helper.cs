@@ -41,7 +41,8 @@ namespace EssexCelebrant.Models
                 {
                     string[] ccMailAddresses = ccEmail.Split(';');
                     foreach (string c in ccMailAddresses)
-                        msgDetails.CC.Add(c);
+                        if (!string.IsNullOrEmpty(c))
+                            msgDetails.CC.Add(c);
                 }
                 else if (string.Empty != ccEmail)
                     msgDetails.CC.Add(ccEmail);
@@ -53,7 +54,10 @@ namespace EssexCelebrant.Models
                 {
                     string[] bccMailAddresses = bccEmail.Split(';');
                     foreach (string b in bccMailAddresses)
-                        msgDetails.Bcc.Add(b);
+                    {
+                        if (!string.IsNullOrEmpty(b))
+                            msgDetails.Bcc.Add(b);
+                    }
                 }
                 else if (string.Empty != bccEmail)
                     msgDetails.Bcc.Add(bccEmail);
@@ -67,7 +71,7 @@ namespace EssexCelebrant.Models
                 client = new SmtpClient(emailServer, portNumber)
                 {
                     EnableSsl = Convert.ToBoolean(AppSetting("Email.Encryption")),
-                    Credentials = new System.Net.NetworkCredential("test@essexcelebrant.co.uk", "Thaine12*")
+                    Credentials = new System.Net.NetworkCredential("hello@rsstudios.co.uk", "}k>+FBvsQTvJs6xx.y&qVq,+?nEFaa0f1Ss!Qs}_Hg3+=VZp]L21*b&G}AZB@IY4")
                 };
                 client.Send(msgDetails);
             }
