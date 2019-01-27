@@ -2683,7 +2683,7 @@ footer {
     footer .copyright a {
       color: #83220c; }
     footer .copyright section {
-      flex: 50%;
+      flex: 33%;
       text-align: center;
       padding: 10px 0 0 0; }
 

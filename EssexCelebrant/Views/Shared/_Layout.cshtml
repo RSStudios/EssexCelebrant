@@ -42,6 +42,7 @@
                             <a href="@Url.Action("Index", "Weddings")">Weddings</a>
                             <a href="@Url.Action("Index", "Funerals")">Funerals</a>
                             <a href="@Url.Action("Photography", "Funerals")">Funeral photography</a>
+                            <a href="@Url.Action("Naming", "Baby")">Baby naming</a>
                             @*<a href="@Url.Action("Funeral", "Baby")">Baby funeral</a>*@
                             <a href="@Url.Action("Index", "OtherCelebrations")">Other celebrations</a>
                             <a href="@Url.Action("Index", "FAQ", new { faqType = "Celebrant" })">FAQs-Weddings</a>
@@ -54,7 +55,6 @@
                         <div class="submenu-content">
                             <a class="small-text" href="@Url.Action("About", "Home")">About me</a>
                             <a href="@Url.Action("Index", "Blog")">Blog</a>
-                            <a href="@Url.Action("Naming", "Baby")">Baby naming</a>
                             <a href="@Url.Action("Index", "Testimonials")">Testimonials</a>
                             <a href="@Url.Action("Index", "SpeechWriting")">Speech writing</a>
                             <a href="@Url.Action("Index", "Favours")">Favours</a>
@@ -92,6 +92,9 @@
                 &copy;@DateTime.Now.Year
                 Web site design by <a href="http://www.rsstudios.co.uk">RS Studios</a> |
                 Tel: <a href="tel:07956487703">07956-487703</a>
+            </section>
+            <section>
+                <a href="@Url.Action("Index", "GDPR")">Privacy notice</a>
             </section>
             <section>
                 Based on a template from &copy; Untitled Design: <a href="https://templated.co" target="_blank">TEMPLATED</a>
