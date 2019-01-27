@@ -150,6 +150,7 @@
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\FavoursController.cs" />
     <Compile Include="Controllers\FuneralsController.cs" />
+    <Compile Include="Controllers\GDPRController.cs" />
     <Compile Include="Controllers\GetInTouchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LinksController.cs" />
@@ -417,6 +418,7 @@
     <Content Include="Views\Baby\Funeral.cshtml" />
     <Content Include="Views\Funerals\Photography.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
+    <Content Include="Views\GDPR\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
