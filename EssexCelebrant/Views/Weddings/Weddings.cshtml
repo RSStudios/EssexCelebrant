@@ -1,13 +1,39 @@
 ﻿
-<link href="~/Content/CSS/Weddings.css" rel="stylesheet" />
+@using EssexCelebrant.Models.Carousel;
 
 @{
-    ViewBag.Title = "Weddings";
+    ViewBag.Title = "Weddings & Civil ceremonies";
+
+    var carousel = new List<Carousel>
+{
+new Carousel
+{
+Image = "Content/Images/Stock images/WeddingCivilCeremony/AdobeStock_59468352_Preview.jpeg",
+Line1 = "",
+Line2 = "",
+Line2ContainsHtml = true
+},
+new Carousel
+{
+Image = "Content/Images/Stock images/WeddingCivilCeremony/AdobeStock_96761259_Preview.jpeg",
+Line1 = ""
+},
+new Carousel
+{
+Image = "Content/Images/Stock images/WeddingCivilCeremony/AdobeStock_95408152_Preview.jpeg",
+Line1 = "",
+Line1ContainsHtml = true
+}
+};
 }
 
+@Html.Partial("_Carousel", carousel)
+
+<link href="~/Content/CSS/Weddings.css" rel="stylesheet" />
+
 <section class="inner-6em">
-    <article>
-        <h3>
+    <article class="margin-bottom-2em">
+        <h3 class="margin-bottom-2em">
             Weddings and Civil Partnership Celebrations
         </h3>
         <div>
@@ -19,10 +45,12 @@
         <div>
             He lives by his motto “Honoured to Serve”
         </div>
+    </article>
+
+    <article>
         <div>
             Package includes:
         </div>
-
         <ul>
             <li>
                 Free, without obligation, initial wedding day consultation.
@@ -66,3 +94,12 @@
         </div>
     </article>
 </section>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>

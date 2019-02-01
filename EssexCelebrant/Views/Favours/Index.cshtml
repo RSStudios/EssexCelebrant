@@ -1,9 +1,32 @@
 ﻿
+@using EssexCelebrant.Models.Carousel;
+
 @{
     ViewBag.Title = "Favours";
+
+    var carousel = new List<Carousel>
+{
+new Carousel
+{
+   Image = "../Content/Images/",
+   Line1 = "Favour 1",
+},
+new Carousel
+{
+   Image = "../Content/Images/",
+   Line1 = "Favour 2",
+},
+new Carousel
+{
+   Image = "../Content/Images/",
+   Line1 = "Favour 3",
+}
+};
 }
 
 <link href="~/Content/CSS/Favours.min.css" rel="stylesheet" />
+
+@Html.Partial("_Carousel", carousel)
 
 <section class="inner-6em">
     <article class="favours">
@@ -32,3 +55,13 @@
         </div>
     </article>
 </section>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
+

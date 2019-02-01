@@ -1,9 +1,43 @@
 ﻿
+@using EssexCelebrant.Models.Carousel;
+
 @{
     ViewBag.Title = "Corporate Events";
 }
 
+@{
+    var carousel = new List<Carousel>
+{
+new Carousel
+{
+Image = "Content/Images/Stock images/Corporate events/AdobeStock_121930665_Preview.jpeg",
+Line1 = "Formal dinners conducted with the finery they deserve - contact Glenn to chat about what you’re looking for",
+Line2 = "Contact me for help with writing, editing and delivering <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+Line2ContainsHtml = true
+},
+new Carousel
+{
+Image = "Content/Images/Stock images/Corporate events/AdobeStock_101417139_Preview.jpeg",
+Line1 = "Familiar with all aspects of The City of London events working with Beadles across the City"
+},
+new Carousel
+{
+Image = "Content/Images/Stock images/Corporate events/AdobeStock_208989243_Preview.jpeg",
+Line1 = "Facilitates and guides organisers of conferences in any venue - call to discuss your requirements on <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+Line1ContainsHtml = true
+},
+new Carousel
+{
+Image = "Content/Images/Stock images/Corporate events/AdobeStock_138528755_Preview.jpeg",
+Line1 = "Experienced with both national and international guests lists - call <a href='tel:07826339498' target='_blank'>07826 339498</a>",
+Line1ContainsHtml = true
+}
+};
+}
+
 <link href="~/Content/CSS/CorporateEvents.min.css" rel="stylesheet" />
+
+@Html.Partial("_Carousel", carousel)
 
 <section class="inner-6em">
     <article class="corporate-events">
@@ -31,3 +65,11 @@
     </article>
 </section>
 
+<script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true
+    });
+</script>
