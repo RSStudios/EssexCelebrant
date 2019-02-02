@@ -27,6 +27,8 @@ Line1ContainsHtml = true
 };
 }
 
+
+
 @Html.Partial("_Carousel", carousel)
 
 <link href="~/Content/CSS/Weddings.css" rel="stylesheet" />
@@ -96,10 +98,41 @@ Line1ContainsHtml = true
 </section>
 
 <script>
-    var elem = document.querySelector('.main-carousel');
-    var flkty = new Flickity(elem, {
-        // options
-        cellAlign: 'left',
-        contain: true
+    //var elem = document.querySelector('.main-carousel');
+    //var flkty = new Flickity(elem, {
+    //    // options
+    //    cellAlign: 'left',
+    //    contain: true
+    //});
+    $('.main-carouselx').slick({
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 </script>

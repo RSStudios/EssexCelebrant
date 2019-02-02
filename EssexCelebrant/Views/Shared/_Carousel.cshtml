@@ -4,8 +4,10 @@
 @model List<Carousel>
 
 <link href="~/Content/CSS/Carousel.min.css" rel="stylesheet" />
-<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
-<script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>
+@*<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
+    <script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>*@
+
+<script src="~/Content/Scripts/3rdParty/Slick/slick.min.js"></script>
 
 @if (!Model.Any())
 {
@@ -13,63 +15,13 @@
 }
 
 <div class="main-carousel">
-    @foreach (var m in Model)
-    {
-        <div class="carousel-cell">
-            <div class="text for-mobile">
-                @if (m.Line1ContainsHtml)
-                {
-                    @Html.Raw(m.Line1)
-                }
-                else
-                {
-                    @m.Line1
-                }
-            </div>
-            <div class="image">
-                <img src="@m.Image" style="width: 100%;" />
-            </div>
-            <div class="text for-web">
-                <div>
-                    @if (m.Line1ContainsHtml)
-                    {
-                        @Html.Raw(m.Line1)
-                    }
-                    else
-                    {
-                        @m.Line1
-                    }
-                </div>
-
-                @if (!string.IsNullOrEmpty(m.Line2))
-                {
-                    <div>
-                        @if (m.Line2ContainsHtml)
-                        {
-                            @Html.Raw(m.Line2)
-                        }
-                        else
-                        {
-                            @m.Line2
-                        }
-                    </div>
-                }
-
-                @if (!string.IsNullOrEmpty(m.Line3))
-                {
-                    <div>
-                        @if (m.Line3ContainsHtml)
-                        {
-                            @Html.Raw(m.Line3)
-                        }
-                        else
-                        {
-                            @m.Line3
-                        }
-                    </div>
-                }
-            </div>
-            <div style="clear: left;"></div>
+    <div class="main-carouselx" style="margin: auto 50px; width: 90%;">
+        @foreach (var m in Model)
+        {
+        <div>
+            <img src="@m.Image" style="float: left; width: 50%;" />
+            <div style="float: right; width: 49%;">test</div>
         </div>
-    }
+        }
+    </div>
 </div>
