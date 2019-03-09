@@ -1,9 +1,26 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,700');
 
-.main-carousel {
+.carousel-container {
     background-color: hsl(11, 35%, 41%);
     line-height: normal;
     margin-bottom: 50px;
+
+    .next, .prev {
+        position: absolute;
+        z-index: 10;
+        top: 20%;
+        font-size: 300%;
+        cursor: pointer;
+        color: #ff922b;
+    }
+
+    .next {
+        right: 1%;
+    }
+
+    .prev {
+        left: 1%;
+    }
 
     .carousel-cell {
         width: 100%;
@@ -26,19 +43,12 @@
             font-family: 'Arima Madurai', cursive;
             font-size: 1.3em;
             margin: 0;
+            width: 25%;
+            float: right;
 
             &.for-web {
-                position: absolute;
-                top: 40%;
-                right: 10px;
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
                 padding: 0 20px;
-                width: 25%;
-            }
-
-            &.for-mobile {
-                display: none;
+                margin-top: 40px;
             }
 
             a {
@@ -51,68 +61,6 @@
 
             div:first-child {
                 margin-top: 0;
-            }
-        }
-
-        .responsive {
-            display: none;
-        }
-    }
-}
-
-@media screen and (max-width: 736px) {
-    .main-carousel {
-        .carousel-cell {
-            height: 150px;
-
-            .image {
-                width: 100%;
-            }
-
-            .text {
-                font-size: 1.2em;
-                line-height: 25px;
-
-                &.for-web {
-                    display: none;
-                }
-
-                &.for-mobile {
-                    display: block;
-                    padding: 2px;
-                    font-size: 0.9em;
-                    margin-left: 10px;
-                }
-
-                a {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .main-carousel {
-        .carousel-cell {
-            height: 300px;
-
-            .text {
-                font-size: 1.3em;
-                line-height: 30px;
-
-                &.for-web {
-                    top: 45%;
-                }
-
-                a {
-                    text-decoration: underline;
-                }
-            }
-
-            .dinners {
-                background-image: url('../Images/LargeChampagneGlasses.png');
-                height: 100%;
             }
         }
     }

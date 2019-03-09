@@ -6,6 +6,7 @@
 <link href="~/Content/CSS/Carousel.min.css" rel="stylesheet" />
 @*<link href="~/Content/CSS/3rd Party/flickity.css" rel="stylesheet" />
     <script src="~/Content/Scripts/3rdParty/Flickity/flickity.pkgd.min.js"></script>*@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 <script src="~/Content/Scripts/3rdParty/Slick/slick.min.js"></script>
 
@@ -14,14 +15,97 @@
     return;
 }
 
-<div class="main-carousel">
-    <div class="main-carouselx" style="margin: auto 50px; width: 90%;">
+
+
+<div class="carousel-container">
+    <i class="fas fa-arrow-circle-left prev"></i>
+    <i class="fas fa-arrow-circle-right next"></i>
+
+    <div class="carousel" style="width: 100%; height: 400px;">
         @foreach (var m in Model)
         {
-        <div>
-            <img src="@m.Image" style="float: left; width: 50%;" />
-            <div style="float: right; width: 49%;">test</div>
-        </div>
+            <div class="carousel-cell">
+                <div style="float: left; width: 75%;">
+                    <img src="@m.Image" style="width: 100%" />
+                </div>
+                <div class="text for-web">
+                    @if (m.Line1ContainsHtml)
+                    {
+                        @Html.Raw(m.Line1)
+                    }
+                    else
+                    {
+                        @m.Line1
+                    }
+
+                    @if (!string.IsNullOrEmpty(m.Line2))
+                    {
+                        <div>
+                            @if (m.Line2ContainsHtml)
+                            {
+                                @Html.Raw(m.Line2)
+                            }
+                            else
+                            {
+                                @m.Line2
+                            }
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrEmpty(m.Line3))
+                    {
+                        <div>
+                            @if (m.Line3ContainsHtml)
+                            {
+                                @Html.Raw(m.Line3)
+                            }
+                            else
+                            {
+                                @m.Line3
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
         }
     </div>
 </div>
+
+
+<script>
+    $('.carousel').slick({
+        infinite: true,
+        arrows: true,
+        dots: true,
+        //autoplay: true,
+        nextArrow: $('.next'),
+        prevArrow: $('.prev'),
+        speed: 1000,
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+</script>

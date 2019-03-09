@@ -1,0 +1,3 @@
+AdobeStock_59468352_Preview.jpeg = did not resize.
+AdobeStock_96761259_Preview.jpeg = did not resize.
+AdobeStock_95408152_Preview.jpeg = 999 x 410 and start cropping near the top of the text.

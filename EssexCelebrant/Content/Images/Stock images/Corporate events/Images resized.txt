@@ -1,0 +1,8 @@
+AdobeStock_12888754_Preview.jpeg = 995 x 432
+AdobeStock_101417139_Preview.jpeg = did not resize.
+AdobeStock_138528751_Preview.jpeg = did not resize.
+
+AdobeStock_121930665_Preview.jpeg = 999 x 394
+
+999
+431
