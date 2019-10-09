@@ -320,6 +320,14 @@
     <Content Include="Content\CSS\Home.scss" />
     <None Include="Content\Scripts\3rdParty\jQuery\jquery-3.3.1.intellisense.js" />
     <Content Include="Content\Images\21st Birthday.jpg" />
+    <Content Include="Content\Images\AdobeStock_101417139.jpeg" />
+    <Content Include="Content\Images\AdobeStock_121930665.jpeg" />
+    <Content Include="Content\Images\AdobeStock_138528751.jpeg" />
+    <Content Include="Content\Images\AdobeStock_142504679.jpeg" />
+    <Content Include="Content\Images\AdobeStock_208989243.jpeg" />
+    <Content Include="Content\Images\AdobeStock_59468352.jpeg" />
+    <Content Include="Content\Images\AdobeStock_95408152.jpeg" />
+    <Content Include="Content\Images\AdobeStock_96761259.jpeg" />
     <Content Include="Content\Images\Anniversary.jpeg" />
     <Content Include="Content\Images\BabyFeet.jpeg" />
     <Content Include="Content\Images\BabyFeet.png" />
